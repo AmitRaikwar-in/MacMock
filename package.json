@@ -1,7 +1,7 @@
 {
-  "name": "ARMacPortfolio",
+  "name": "MacMock",
   "version": "0.5.0",
-  "description": "This is a mac simulator portfolio website for Amit Raikwar",
+  "description": "Mac OS Simulator",
   "main": "index.tsx",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
@@ -51,6 +51,10 @@
     "cy:open": "cypress open",
     "run-staged-tests": "./scripts/run-staged-tests.sh",
     "run-pushed-files-tests": "./scripts/run-staged-tests.sh --pushed"
+  },
+  "resolutions": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1"
   },
   "eslintConfig": {
     "extends": [
@@ -104,7 +108,7 @@
     "react-test-renderer": "^18.3.0",
     "ts-jest": "^29.1.2"
   },
-  "repository": "git@github.com:onemanfighter/ARMacPortfolio.git",
+  "repository": "git@github.com:AmitRaikwar-in/MacMock.git",
   "author": "Amit Raikwar",
   "license": "MIT"
 }
