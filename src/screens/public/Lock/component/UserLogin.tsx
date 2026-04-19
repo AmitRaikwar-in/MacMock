@@ -244,14 +244,10 @@ const UserLoginComponent = () => {
     if (isLoading) return;
 
     toggleIsLoading.on();
-    console.log('[UserLogin] Login attempt started');
 
     setTimeout(() => {
       if (password === userPasswordData) {
-        console.log('[UserLogin] Password matched — logging in');
         login();
-      } else {
-        console.warn('[UserLogin] Incorrect password');
       }
       toggleIsLoading.off();
     }, LOGIN_DELAY_MS);

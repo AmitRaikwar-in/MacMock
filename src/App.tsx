@@ -15,10 +15,10 @@ function App() {
         try {
           const promise = handle.enter();
           if (promise && promise.catch) {
-            promise.catch((err: any) => console.warn('Fullscreen error:', err));
+            promise.catch(() => {});
           }
         } catch (err) {
-          console.warn('Fullscreen error:', err);
+          // ignore
         }
       } else if (event.key === 'Escape') {
         handle.exit();
@@ -33,10 +33,10 @@ function App() {
         try {
           const promise = handle.enter();
           if (promise && promise.catch) {
-            promise.catch((err: any) => console.warn('Fullscreen error:', err));
+            promise.catch(() => {});
           }
         } catch (err) {
-          console.warn('Fullscreen error:', err);
+          // ignore
         }
       }
     };
