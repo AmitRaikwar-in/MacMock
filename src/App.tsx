@@ -3,30 +3,47 @@ import {
   ModalProvider,
   RouterProviderComponent,
 } from '@providers';
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 import { FullScreen, useFullScreenHandle } from 'react-full-screen';
 
 function App() {
   const handle = useFullScreenHandle();
 
-  const handleKeyPress = (event: any) => {
-    switch (event.key) {
-      case 'F10':
+  const handleKeyPress = useCallback(
+    (event: any) => {
+      if (event.key === 'F10') {
         handle.enter();
-        break;
-      case 'Escape':
+      } else if (event.key === 'Escape') {
         handle.exit();
-        break;
-      default:
-        break;
-    }
-  };
+      }
+    },
+    [handle],
+  );
 
   useEffect(() => {
+    const enterFullScreen = () => {
+      if (!handle.active) {
+        handle.enter();
+      }
+    };
+
+    const handleFirstInteraction = () => {
+      enterFullScreen();
+      window.removeEventListener('click', handleFirstInteraction);
+      window.removeEventListener('keydown', handleFirstInteraction);
+    };
+
+    window.addEventListener('click', handleFirstInteraction);
+    window.addEventListener('keydown', handleFirstInteraction);
     window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+
+    return () => {
+      window.removeEventListener('click', handleFirstInteraction);
+      window.removeEventListener('keydown', handleFirstInteraction);
+      window.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [handle, handleKeyPress]);
+
   return (
     <ChakraUIProvider>
       <FullScreen handle={handle}>
