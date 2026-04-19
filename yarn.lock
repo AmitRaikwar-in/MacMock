@@ -5094,12 +5094,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-resizable@npm:^3.0.7":
-  version: 3.0.7
-  resolution: "@types/react-resizable@npm:3.0.7"
+"@types/react-resizable@npm:^3.0.8":
+  version: 3.0.8
+  resolution: "@types/react-resizable@npm:3.0.8"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10c0/1f9ca7f83c85344a53bb456fee8b09ce8fb12582df67b7ed55c0b9d5e8e912ccce191e8651b49141add948e0da096a26d8065f27df80975c7da16d535df9eb57
+  checksum: 10c0/77d7896703531a32e8efdf0c7208c0f6af8eadf3d8dc5fd2b5e6032ed834f4d8ea52f14ebee8b39af6fb63642bbaacf785dd9962b1f284f070a63143251315fb
   languageName: node
   linkType: hard
 
@@ -5638,7 +5638,7 @@ __metadata:
     "@types/react-beautiful-dnd": "npm:^13.1.8"
     "@types/react-big-calendar": "npm:^1.8.9"
     "@types/react-dom": "npm:^18.2.22"
-    "@types/react-resizable": "npm:^3.0.7"
+    "@types/react-resizable": "npm:^3.0.8"
     "@types/react-test-renderer": "npm:^18.3.0"
     babel-jest: "npm:^29.7.0"
     cypress: "npm:^13.8.1"

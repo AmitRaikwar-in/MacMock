@@ -86,7 +86,7 @@
     "@types/jest": "^29.5.12",
     "@types/react-beautiful-dnd": "^13.1.8",
     "@types/react-big-calendar": "^1.8.9",
-    "@types/react-resizable": "^3.0.7",
+    "@types/react-resizable": "^3.0.8",
     "@types/react-test-renderer": "^18.3.0",
     "babel-jest": "^29.7.0",
     "cypress": "^13.8.1",
