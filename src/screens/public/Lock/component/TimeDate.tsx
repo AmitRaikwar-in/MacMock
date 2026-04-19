@@ -23,7 +23,14 @@ const MemoisedTimeComponent = React.memo(TimeComponent);
 const MemoisedDateComponent = React.memo(DateComponent);
 
 const TimeDateComponent = () => {
-  const { date, time } = uiStore(useShallow(dateTimeSelector));
+  const { dateObject } = uiStore(useShallow(dateTimeSelector));
+
+  const formattedDate = dateObject?.toDateString().slice(0, 10) ?? '';
+  const formattedTime = dateObject?.toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }) ?? '';
 
   return (
     <Box
@@ -36,8 +43,8 @@ const TimeDateComponent = () => {
       zIndex={0}
       aria-label="time-date-component"
     >
-      <MemoisedDateComponent date={date?.slice(0, 10) ?? ''} />
-      <MemoisedTimeComponent time={time?.slice(0, 5) ?? ''} />
+      <MemoisedDateComponent date={formattedDate} />
+      <MemoisedTimeComponent time={formattedTime} />
     </Box>
   );
 };

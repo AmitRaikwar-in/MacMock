@@ -20,6 +20,8 @@
     "loginPasswordText1": "Touch ID or Enter password",
     "loginPasswordText2": "Your password is required to enable Touch ID",
     "inputPlaceholder": "Enter Password",
+    "passwordHintLabel": "Password Hint",
+    "passwordHint": "Your password is the same as your macOS user account password. If you've forgotten it, try entering your Apple ID password or use the Reset Password assistant. Please use - 'Amit'",
     "keyboard": {
       "type": "ABC - India",
       "option": {
