@@ -12,7 +12,14 @@ function App() {
   const handleKeyPress = useCallback(
     (event: any) => {
       if (event.key === 'F10') {
-        handle.enter();
+        try {
+          const promise = handle.enter();
+          if (promise && promise.catch) {
+            promise.catch((err: any) => console.warn('Fullscreen error:', err));
+          }
+        } catch (err) {
+          console.warn('Fullscreen error:', err);
+        }
       } else if (event.key === 'Escape') {
         handle.exit();
       }
@@ -23,7 +30,14 @@ function App() {
   useEffect(() => {
     const enterFullScreen = () => {
       if (!handle.active) {
-        handle.enter();
+        try {
+          const promise = handle.enter();
+          if (promise && promise.catch) {
+            promise.catch((err: any) => console.warn('Fullscreen error:', err));
+          }
+        } catch (err) {
+          console.warn('Fullscreen error:', err);
+        }
       }
     };
 
