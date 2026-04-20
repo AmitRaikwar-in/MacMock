@@ -1,17 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Draggable provider should render correctly 1`] = `
-<div>
-  <div
-    class="react-draggable css-1bvz7hg"
-    style="transform: translate(0px, 28px)translate(0px,0px);"
-  >
-    test
-  </div>
-</div>
-`;
-
-exports[`Draggable provider should render correctly on dragging 1`] = `
+exports[`Draggable provider should render correctly to match snapshot 1`] = `
 <div>
   <div
     class="react-draggable css-1bvz7hg"

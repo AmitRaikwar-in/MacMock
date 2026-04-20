@@ -22,6 +22,7 @@ describe('Notes', () => {
         title: 'Teaching Holistic Health 🧘‍♀️',
         description: 'Brainstorm for first in-class session...',
         content: '',
+        date: '2025-04-20T10:00:00Z',
         updatedAt: '2025-04-20T10:00:00Z',
         pinned: false,
       });
@@ -30,6 +31,7 @@ describe('Notes', () => {
         title: 'Grocery List 🛒',
         description: 'Milk, Eggs, Bread...',
         content: '<div>Grocery List 🛒</div>',
+        date: '2025-04-19T15:30:00Z',
         updatedAt: '2025-04-19T15:30:00Z',
         pinned: true,
       });
