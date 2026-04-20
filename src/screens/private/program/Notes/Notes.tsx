@@ -1,160 +1,138 @@
-import { ContentState, Editor, EditorState } from 'draft-js';
-// import 'draft-js/dist/Draft.css';
-import { Box, Card, IconButton, Text } from '@chakra-ui/react';
-
-import { NotesProps } from './type';
+import { Box } from '@chakra-ui/react';
 import { appStore, notesSelector, useShallow } from '@appStore';
-import { useEffect, useRef, useState } from 'react';
-import { getAllStringExceptFirstLine, getFirstLineFromString } from './utils';
+import { useCallback, useEffect, useState } from 'react';
+import { Note } from '@appStore';
+import { darkModeColorSelector, settingsStore } from '@settingsStore';
+import { generateNoteId } from './utils';
+import { NotesProps } from './type';
+import { motion, AnimatePresence } from 'framer-motion';
 
-const color = '#cc99009f';
-const Notes = (props: NotesProps) => {
-  const editorRef = useRef<Editor>(null);
-  const [editorState, setEditorState] = useState(() =>
-    EditorState.createEmpty(),
+import NoteToolbar from './component/NoteToolbar';
+import NoteList from './component/NoteList';
+import NoteEditor from './component/NoteEditor';
+
+// ─── Component ───────────────────────────────────────────────────────────────
+
+const Notes = (_props: NotesProps) => {
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true);
+
+  const { notes, notesList, addNote, deleteNote, editNote, pinNote } = appStore(
+    useShallow(notesSelector),
   );
-  const [selectedNoteId, setSelectedNoteId] = useState<string>('0');
+  const { mainColor } = settingsStore(useShallow(darkModeColorSelector));
 
-  const { notes, addNote, selectedNote, getCurrentId, deleteNote, editNote } =
-    appStore(useShallow(notesSelector));
-  const currentNote = selectedNote(selectedNoteId);
+  const selectedNote = selectedId ? notes[selectedId] : undefined;
 
+  // Auto-select first note on initial load if none selected
   useEffect(() => {
-    if (selectedNoteId !== '0') {
-      setEditorState(
-        EditorState.createWithContent(
-          ContentState.createFromText(
-            selectedNoteId
-              ? currentNote.title + '\n' + currentNote.description
-              : '',
-          ),
-        ),
-      );
+    if (!selectedId && notesList.length > 0) {
+      setSelectedId(notesList[0].id);
     }
+  }, [notesList, selectedId]);
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedNoteId]);
+  // ─── Handlers ──────────────────────────────────────────────────────────────
+
+  const handleNewNote = useCallback(() => {
+    const id = generateNoteId();
+    const now = new Date().toISOString();
+    const newNote: Note = {
+      id,
+      title: 'New Note',
+      description: '',
+      date: now,
+      updatedAt: now,
+      content: '<div>New Note</div><div></div>',
+      pinned: false,
+    };
+    addNote(newNote);
+    setSelectedId(id);
+  }, [addNote]);
+
+  const handleDelete = useCallback(() => {
+    if (!selectedId) return;
+    deleteNote(selectedId);
+    // Select the next available note
+    const remaining = notesList.filter((n) => n.id !== selectedId);
+    setSelectedId(remaining.length > 0 ? remaining[0].id : null);
+  }, [deleteNote, notesList, selectedId]);
+
+  const handlePin = useCallback(() => {
+    if (!selectedId) return;
+    pinNote(selectedId);
+  }, [pinNote, selectedId]);
+
+  const handleUpdate = useCallback(
+    (updatedNote: Note) => {
+      editNote(updatedNote);
+    },
+    [editNote],
+  );
+
+  const toggleSidebar = useCallback(() => {
+    setIsSidebarVisible((prev) => !prev);
+  }, []);
+
+  // Keyboard shortcut: ⌘N for new note
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'n') {
+        e.preventDefault();
+        handleNewNote();
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [handleNewNote]);
+
+  // ─── Render ────────────────────────────────────────────────────────────────
 
   return (
     <Box
-      width={'100%'}
-      height={'100%'}
-      display={'flex'}
-      flexDir={'column'}
+      width="100%"
+      height="100%"
+      display="flex"
+      flexDirection="column"
+      bg={mainColor}
       aria-label="notes-app"
+      overflow="hidden"
     >
-      <Box
-        width={'100%'}
-        height={'6%'}
-        bg={'neutral.600'}
-        borderBottom={'1px solid #000000'}
-        display={'flex'}
-        flexDir={'row'}
-        gap={2}
-      >
-        <IconButton
-          aria-label="add-note"
-          size={'sm'}
-          icon={<Text fontSize={20}>+</Text>}
-          onClick={() =>
-            addNote({
-              id: (getCurrentId() + 1).toString(),
-              title: 'Title',
-              description: 'Description',
-              date: new Date().toLocaleDateString('en-GB'),
-            })
-          }
-        />
-        <IconButton
-          aria-label="delete-note"
-          size={'sm'}
-          icon={<Text fontSize={20}>-</Text>}
-          onClick={() => {
-            if (selectedNoteId !== '0') {
-              deleteNote(selectedNoteId);
-              setSelectedNoteId('0');
-            }
-          }}
-        />
-      </Box>
-      <Box
-        width={'100%'}
-        height={'94%'}
-        borderBottom={'1px solid #000000'}
-        display={'flex'}
-        flexDir={'row'}
-      >
-        <Box
-          width={'240px'}
-          height={'100%'}
-          bg={'neutral.600'}
-          borderRight={'1px solid #000000'}
-          gap={0}
-          overflowY={'auto'}
-          scrollPadding={0}
-        >
-          {Object.values(notes).map((note) => (
-            <>
-              <Card
-                key={note.id}
-                aria-label={`note-card-${note.id}`}
-                bg={selectedNoteId === note.id ? color : '#1a13009f'}
-                margin={2}
-                padding={2}
-                px={3}
-                onClick={() => {
-                  if (selectedNoteId !== '0') {
-                    editNote({
-                      id: selectedNoteId,
-                      title: getFirstLineFromString(
-                        editorState.getCurrentContent().getPlainText(),
-                      ),
-                      description: getAllStringExceptFirstLine(
-                        editorState.getCurrentContent().getPlainText(),
-                      ),
-                      date: selectedNoteId ? currentNote?.date : '',
-                    });
-                  }
-                  setSelectedNoteId(note.id);
-                }}
-                _hover={{
-                  cursor: 'pointer',
-                }}
-                color={'#ffffff'}
-                borderBottom={'1px solid #000000'}
-              >
-                <Text fontSize={15} noOfLines={1} fontWeight={'600'}>
-                  {note.title}
-                </Text>
-                <Text fontSize={12} flexDir={'row'} display={'flex'}>
-                  {note.date}
-                  <Text noOfLines={1} color={'neutral.400'}>
-                    {' -> '}
-                    {note.description}
-                  </Text>
-                </Text>
-              </Card>
-            </>
-          ))}
-        </Box>
-        <Box
-          width={'80%'}
-          aria-label="note-editor-box"
-          height={'100%'}
-          padding={5}
-          bg={'#1a1a1a'}
-          overflowY={'auto'}
-          color={'white'}
-          onClick={() => {
-            editorRef.current?.focus();
-          }}
-          border={'1px solid #000000'}
-        >
-          <Editor
-            ref={editorRef}
-            editorState={editorState}
-            onChange={setEditorState}
-          />
+      {/* Top toolbar */}
+      <NoteToolbar
+        hasSelection={!!selectedId}
+        isPinned={!!selectedNote?.pinned}
+        onNew={handleNewNote}
+        onDelete={handleDelete}
+        onPin={handlePin}
+        searchQuery={searchQuery}
+        onSearchChange={setSearchQuery}
+        onToggleSidebar={toggleSidebar}
+        notesCount={notesList.length}
+      />
+
+      {/* Body: sidebar + editor */}
+      <Box flex={1} display="flex" flexDirection="row" overflow="hidden">
+        <AnimatePresence initial={false}>
+          {isSidebarVisible && (
+            <motion.div
+              initial={{ width: 0, opacity: 0 }}
+              animate={{ width: 260, opacity: 1 }}
+              exit={{ width: 0, opacity: 0 }}
+              transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+              style={{ overflow: 'hidden', height: '100%' }}
+            >
+              <NoteList
+                notesList={notesList}
+                selectedId={selectedId ?? ''}
+                searchQuery={searchQuery}
+                onSelect={setSelectedId}
+              />
+            </motion.div>
+          )}
+        </AnimatePresence>
+        <Box flex={1} height="100%">
+          <NoteEditor note={selectedNote} onUpdate={handleUpdate} />
         </Box>
       </Box>
     </Box>
