@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import ModalProvider from '../ModalProvider';
 import { act, renderHook } from '@testing-library/react-hooks';
-import { uiStore } from '@uiStore';
+import { uiStore, ModalOpenState } from '@uiStore';
 import { ModalID } from '@uiStore';
+import React from 'react';
 
 describe('ModalProvider', () => {
   it('should render correctly', () => {
@@ -43,7 +44,61 @@ describe('ModalProvider', () => {
     });
 
     // The effect should trigger onOpen()
-    // We can verify by matching snapshot when modal is open
     expect(screen.getByText('App')).toBeDefined();
+  });
+
+  describe('Branch Coverage', () => {
+    it('should call onModalClose when closing modal', () => {
+      const { result } = renderHook(() => uiStore());
+      const mockOnClose = jest.fn();
+
+      render(<ModalProvider>App</ModalProvider>);
+
+      // 1. Open modal
+      act(() => {
+        result.current.Modal.openModal(ModalID.SEARCH, mockOnClose);
+      });
+
+      // 2. Close modal (transition from OPEN to CLOSE)
+      act(() => {
+        uiStore.setState((state) => {
+          state.Modal.modalOpenState = ModalOpenState.CLOSE;
+        });
+      });
+
+      // Verify callback was called
+      expect(mockOnClose).toHaveBeenCalled();
+    });
+
+    it('should handle transition to CLOSE when onModalClose is not provided', () => {
+      act(() => {
+        uiStore.setState((state) => {
+          state.Modal.modalOpenState = ModalOpenState.CLOSE;
+          state.Modal.modalID = ModalID.NONE;
+          state.Modal.modalData = undefined;
+        });
+      });
+
+      render(<ModalProvider>App</ModalProvider>);
+
+      // 1. Open modal without callback
+      act(() => {
+        uiStore.setState((state) => {
+          state.Modal.modalOpenState = ModalOpenState.OPEN;
+          state.Modal.modalID = ModalID.SEARCH;
+          state.Modal.modalData = undefined;
+        });
+      });
+
+      // 2. Close modal
+      act(() => {
+        uiStore.setState((state) => {
+          state.Modal.modalOpenState = ModalOpenState.CLOSE;
+        });
+      });
+
+      // Should not throw
+      expect(screen.getByText('App')).toBeDefined();
+    });
   });
 });
