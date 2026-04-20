@@ -5,13 +5,17 @@ jest.useFakeTimers();
 jest.mock('zustand');
 
 // Mocking Date
-class MockDate extends Date {
-  constructor() {
-    super('2020-05-14T11:01:58.135'); // add whatever date you'll expect to get
+const RealDate = Date;
+class MockDate extends RealDate {
+  constructor(date) {
+    if (date) return new RealDate(date);
+    return new RealDate('2020-05-14T11:01:58.135Z');
   }
 }
 
+// @ts-ignore
 global.Date = MockDate;
+Date.now = () => new RealDate('2020-05-14T11:01:58.135Z').getTime();
 
 // Mocking Draft.js
 jest.mock('draft-js', () => ({
