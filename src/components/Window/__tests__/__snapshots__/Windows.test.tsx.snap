@@ -77,7 +77,7 @@ exports[`Windows should render maximized window 1`] = `
         class="css-fjdgft"
       >
         <div
-          class="handle css-1q7gku6"
+          class="css-1q7gku6"
         >
           <div
             aria-label="close"
@@ -138,7 +138,7 @@ exports[`Windows should toggle maximize on double click on title bar 1`] = `
         class="css-fjdgft"
       >
         <div
-          class="handle css-1q7gku6"
+          class="css-1q7gku6"
         >
           <div
             aria-label="close"
@@ -260,7 +260,7 @@ exports[`Windows should trigger maximize on maximize button press 1`] = `
         class="css-fjdgft"
       >
         <div
-          class="handle css-1q7gku6"
+          class="css-1q7gku6"
         >
           <div
             aria-label="close"
