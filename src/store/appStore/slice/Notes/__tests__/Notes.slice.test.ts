@@ -5,21 +5,21 @@ describe('Notes slice', () => {
   it('should return default notes state', () => {
     const { result } = renderHook(() => appStore());
 
-    expect(result.current.Notes.notes).toEqual({});
+    expect(Object.keys(result.current.Notes.notes).length).toBe(6);
   });
 
   it('should add note', () => {
     const { result } = renderHook(() => appStore());
 
     result.current.Notes.addNote({
-      id: '1',
+      id: 'test-1',
       title: 'Title',
       description: 'Description',
       date: '2021-09-01',
-    });
+    } as any);
 
-    expect(result.current.Notes.notes['1']).toEqual({
-      id: '1',
+    expect(result.current.Notes.notes['test-1']).toEqual({
+      id: 'test-1',
       title: 'Title',
       description: 'Description',
       date: '2021-09-01',
@@ -30,36 +30,36 @@ describe('Notes slice', () => {
     const { result } = renderHook(() => appStore());
 
     result.current.Notes.addNote({
-      id: '1',
+      id: 'test-1',
       title: 'Title',
       description: 'Description',
       date: '2021-09-01',
-    });
+    } as any);
 
-    result.current.Notes.deleteNote('1');
+    result.current.Notes.deleteNote('test-1');
 
-    expect(result.current.Notes.notes['1']).toBeUndefined();
+    expect(result.current.Notes.notes['test-1']).toBeUndefined();
   });
 
   it('should edit note', () => {
     const { result } = renderHook(() => appStore());
 
     result.current.Notes.addNote({
-      id: '1',
+      id: 'test-1',
       title: 'Title',
       description: 'Description',
       date: '2021-09-01',
-    });
+    } as any);
 
     result.current.Notes.editNote({
-      id: '1',
+      id: 'test-1',
       title: 'New Title',
       description: 'New Description',
       date: '2021-09-02',
-    });
+    } as any);
 
-    expect(result.current.Notes.notes['1']).toEqual({
-      id: '1',
+    expect(result.current.Notes.notes['test-1']).toEqual({
+      id: 'test-1',
       title: 'New Title',
       description: 'New Description',
       date: '2021-09-02',
