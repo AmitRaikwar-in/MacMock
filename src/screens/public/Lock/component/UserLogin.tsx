@@ -68,12 +68,7 @@ const UserAvatarButton = ({
       transition="transform 0.25s ease, box-shadow 0.25s ease"
       flexShrink={0}
     >
-      <Image
-        src={src}
-        alt="Profile"
-        boxSize="56px"
-        objectFit="cover"
-      />
+      <Image src={src} alt="Profile" boxSize="56px" objectFit="cover" />
     </Box>
 
     {/* Username — always rendered, fades in on expanded */}
@@ -237,8 +232,11 @@ const UserLoginComponent = () => {
   const [isLoading, toggleIsLoading] = useBoolean();
 
   const { login, isUserLocked } = processStore(useShallow(loginSelector));
-  const { name, password: userPasswordData, profilePicture } =
-    settingsStore(useShallow(usersSelector)).userData;
+  const {
+    name,
+    password: userPasswordData,
+    profilePicture,
+  } = settingsStore(useShallow(usersSelector)).userData;
 
   const handleLogin = useCallback(() => {
     if (isLoading) return;
@@ -290,9 +288,9 @@ const UserLoginComponent = () => {
           onClick={togglePasswordVisibility.toggle}
         />
 
-        <Box 
-          display={isPasswordVisible ? 'flex' : 'none'} 
-          transition="all 0.5s" 
+        <Box
+          display={isPasswordVisible ? 'flex' : 'none'}
+          transition="all 0.5s"
           alignItems="center"
           position="relative"
         >

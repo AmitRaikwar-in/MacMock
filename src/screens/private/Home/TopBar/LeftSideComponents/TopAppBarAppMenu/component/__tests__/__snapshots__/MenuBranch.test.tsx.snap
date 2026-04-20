@@ -33,7 +33,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r9:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -126,7 +126,7 @@ exports[`MenuBranch should render with list open with main type 1`] = `
           class="chakra-menu__menu-list css-f6jf1x"
           id="menu-list-:rd:"
           role="menu"
-          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
           tabindex="-1"
         >
           <button
@@ -193,7 +193,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rp:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -286,7 +286,7 @@ exports[`MenuBranch should render with list open with normal type 1`] = `
           class="chakra-menu__menu-list css-f6jf1x"
           id="menu-list-:rt:"
           role="menu"
-          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
           tabindex="-1"
         >
           <button
@@ -349,7 +349,7 @@ exports[`MenuBranch should render with main type 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -442,7 +442,7 @@ exports[`MenuBranch should render with main type 1`] = `
           class="chakra-menu__menu-list css-f6jf1x"
           id="menu-list-:r5:"
           role="menu"
-          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
           tabindex="-1"
         >
           <button
@@ -505,7 +505,7 @@ exports[`MenuBranch should render with normal type 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rh:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -598,7 +598,7 @@ exports[`MenuBranch should render with normal type 1`] = `
           class="chakra-menu__menu-list css-f6jf1x"
           id="menu-list-:rl:"
           role="menu"
-          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
           tabindex="-1"
         >
           <button

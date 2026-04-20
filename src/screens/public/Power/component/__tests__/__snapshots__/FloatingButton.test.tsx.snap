@@ -3,7 +3,7 @@
 exports[`Floating button should open drawer when button is clicked 1`] = `
 <button
   aria-label="landing-page-top-bar-button"
-  class="chakra-button css-m1nxyu"
+  class="chakra-button css-zsvi3d"
   type="button"
 >
   <svg
@@ -28,7 +28,7 @@ exports[`Floating button should render correctly 1`] = `
 <div>
   <button
     aria-label="landing-page-top-bar-button"
-    class="chakra-button css-m1nxyu"
+    class="chakra-button css-zsvi3d"
     type="button"
   >
     <svg

@@ -24,3 +24,6 @@ jest.mock('react-clock', () => {
     return <div aria-label="mock-clock"></div>;
   };
 });
+
+window.HTMLElement.prototype.scrollTo = jest.fn();
+window.Element.prototype.scrollTo = jest.fn();

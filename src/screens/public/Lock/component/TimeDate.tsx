@@ -26,11 +26,12 @@ const TimeDateComponent = () => {
   const { dateObject } = uiStore(useShallow(dateTimeSelector));
 
   const formattedDate = dateObject?.toDateString().slice(0, 10) ?? '';
-  const formattedTime = dateObject?.toLocaleTimeString([], {
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false,
-  }) ?? '';
+  const formattedTime =
+    dateObject?.toLocaleTimeString([], {
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false,
+    }) ?? '';
 
   return (
     <Box

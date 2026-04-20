@@ -27,7 +27,7 @@ exports[`SearchModal should not render component if isOpen is false 1`] = `
       </div>
       <input
         aria-label="search-input"
-        class="chakra-input css-139ybwu"
+        class="chakra-input css-o5p52h"
         placeholder="Search..."
         type="text"
         value="the"
@@ -139,7 +139,7 @@ exports[`SearchModal should render correctly 1`] = `
       </div>
       <input
         aria-label="search-input"
-        class="chakra-input css-139ybwu"
+        class="chakra-input css-o5p52h"
         placeholder="Search..."
         type="text"
         value=""

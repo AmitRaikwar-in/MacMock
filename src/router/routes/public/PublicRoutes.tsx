@@ -19,10 +19,7 @@ const createPublicRouter = (Component: React.ElementType) =>
         path="/"
         element={<LazyProvider children={<LazyStaticHostScreen />} />}
       >
-        <Route
-          path=""
-          element={<LazyProvider children={<Component />} />}
-        />
+        <Route path="" element={<LazyProvider children={<Component />} />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>,
     ),

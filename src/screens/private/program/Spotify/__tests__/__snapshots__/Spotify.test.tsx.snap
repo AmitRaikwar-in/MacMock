@@ -11,7 +11,7 @@ exports[`Spotify should invoke back button callback on back-button press. 1`] = 
     >
       <button
         aria-label="back-button"
-        class="chakra-button css-1kxr5pj"
+        class="chakra-button css-kf5bnb"
         type="button"
       >
         <svg
@@ -59,7 +59,7 @@ exports[`Spotify should render correctly to match snapshot 1`] = `
     >
       <button
         aria-label="back-button"
-        class="chakra-button css-1kxr5pj"
+        class="chakra-button css-kf5bnb"
         type="button"
       >
         <svg

@@ -60,7 +60,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r1:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -261,7 +261,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rd:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -336,7 +336,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:rh:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -451,7 +451,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rr:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -700,7 +700,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r1c:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -952,7 +952,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:r1o:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -1048,7 +1048,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r1v:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -1374,7 +1374,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r2g:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -1693,7 +1693,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r30:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2111,7 +2111,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r3l:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2400,7 +2400,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r46:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2592,7 +2592,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r4j:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2827,7 +2827,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r54:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -2840,7 +2840,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -2873,7 +2873,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:r55:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -2890,7 +2890,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -2928,7 +2928,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -2966,7 +2966,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -3037,7 +3037,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r58:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3123,7 +3123,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r5c:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3190,7 +3190,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r5f:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3205,6 +3205,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -3328,7 +3329,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -3379,7 +3380,7 @@ exports[`Home should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r5k:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3725,7 +3726,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r6c:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -3926,7 +3927,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r6o:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -4001,7 +4002,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:r6s:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -4116,7 +4117,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r76:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -4365,7 +4366,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r7n:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -4617,7 +4618,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:r83:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -4713,7 +4714,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r8a:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -5039,7 +5040,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r8r:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -5358,7 +5359,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r9b:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -5776,7 +5777,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:ra0:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -6065,7 +6066,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rah:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -6257,7 +6258,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rau:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -6492,7 +6493,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rbf:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -6505,7 +6506,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -6538,7 +6539,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rbg:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -6555,7 +6556,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -6593,7 +6594,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -6631,7 +6632,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -6702,7 +6703,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rbj:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -6788,7 +6789,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rbn:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -6855,7 +6856,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rbq:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -6870,6 +6871,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -6993,7 +6995,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -7044,7 +7046,7 @@ exports[`Home should render correctly with apps to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rbv:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -7390,7 +7392,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rue:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -7603,7 +7605,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:ruq:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -7616,7 +7618,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -7649,7 +7651,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rur:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -7666,7 +7668,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -7704,7 +7706,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -7742,7 +7744,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -7813,7 +7815,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:ruu:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -7899,7 +7901,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rv2:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -7966,7 +7968,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rv5:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -7981,6 +7983,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -8104,7 +8107,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -8155,7 +8158,7 @@ exports[`Home should render correctly with bin app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rva:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -8554,7 +8557,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:reb:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -8767,7 +8770,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:ren:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -8780,7 +8783,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -8813,7 +8816,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:reo:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -8830,7 +8833,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -8868,7 +8871,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -8906,7 +8909,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -8977,7 +8980,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rer:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -9063,7 +9066,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rev:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -9130,7 +9133,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rf2:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -9145,6 +9148,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -9268,7 +9272,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -9319,7 +9323,7 @@ exports[`Home should render correctly with calendar app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rf7:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -9718,7 +9722,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rfv:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -9931,7 +9935,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rgb:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -9944,7 +9948,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -9977,7 +9981,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rgc:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -9994,7 +9998,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -10032,7 +10036,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -10070,7 +10074,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -10141,7 +10145,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rgf:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -10227,7 +10231,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rgj:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -10294,7 +10298,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rgm:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -10309,6 +10313,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -10432,7 +10437,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -10483,7 +10488,7 @@ exports[`Home should render correctly with chrome app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rgr:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -10885,7 +10890,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rcn:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -11098,7 +11103,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rd3:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -11111,7 +11116,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -11144,7 +11149,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rd4:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -11161,7 +11166,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -11199,7 +11204,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -11237,7 +11242,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -11308,7 +11313,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rd7:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -11394,7 +11399,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rdb:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -11461,7 +11466,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rde:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -11476,6 +11481,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -11599,7 +11605,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -11650,7 +11656,7 @@ exports[`Home should render correctly with finder app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rdj:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -12055,7 +12061,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rr6:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -12268,7 +12274,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rri:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -12281,7 +12287,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -12314,7 +12320,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rrj:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -12331,7 +12337,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -12369,7 +12375,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -12407,7 +12413,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -12478,7 +12484,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rrm:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -12564,7 +12570,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rrq:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -12631,7 +12637,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rrt:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -12646,6 +12652,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -12769,7 +12776,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -12820,7 +12827,7 @@ exports[`Home should render correctly with github app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rs2:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -13222,7 +13229,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rsq:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -13435,7 +13442,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rt6:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -13448,7 +13455,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -13481,7 +13488,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rt7:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -13498,7 +13505,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -13536,7 +13543,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -13574,7 +13581,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -13645,7 +13652,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rta:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -13731,7 +13738,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rte:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -13798,7 +13805,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rth:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -13813,6 +13820,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -13936,7 +13944,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -13987,7 +13995,7 @@ exports[`Home should render correctly with settings app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rtm:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -14389,7 +14397,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rpi:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -14602,7 +14610,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rpu:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -14615,7 +14623,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -14648,7 +14656,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rpv:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -14665,7 +14673,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -14703,7 +14711,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -14741,7 +14749,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -14812,7 +14820,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rq2:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -14898,7 +14906,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rq6:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -14965,7 +14973,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rq9:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -14980,6 +14988,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -15103,7 +15112,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -15154,7 +15163,7 @@ exports[`Home should render correctly with spotify app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rqe:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -15556,7 +15565,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rnu:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -15769,7 +15778,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:roa:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -15782,7 +15791,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -15815,7 +15824,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rob:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -15832,7 +15841,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -15870,7 +15879,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -15908,7 +15917,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -15979,7 +15988,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:roe:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -16065,7 +16074,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:roi:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -16132,7 +16141,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rol:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -16147,6 +16156,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -16270,7 +16280,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -16321,7 +16331,7 @@ exports[`Home should render correctly with terminal app to match snapshot 1`] = 
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:roq:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -16723,7 +16733,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rhj:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -16924,7 +16934,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rhv:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -16999,7 +17009,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:ri3:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -17114,7 +17124,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rid:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -17363,7 +17373,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:riu:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -17615,7 +17625,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:rja:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -17711,7 +17721,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rjh:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -18037,7 +18047,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rk2:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -18356,7 +18366,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rki:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -18774,7 +18784,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rl7:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -19063,7 +19073,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rlo:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -19255,7 +19265,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rm5:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -19490,7 +19500,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rmm:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -19503,7 +19513,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -19536,7 +19546,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:rmn:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -19553,7 +19563,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -19591,7 +19601,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -19629,7 +19639,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -19700,7 +19710,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rmq:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -19786,7 +19796,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rmu:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -19853,7 +19863,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rn1:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -19868,6 +19878,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -19991,7 +20002,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -20042,7 +20053,7 @@ exports[`Home should render correctly with vscode app to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:rn6:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div

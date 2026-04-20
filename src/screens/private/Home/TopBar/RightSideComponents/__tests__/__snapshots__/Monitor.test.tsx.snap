@@ -39,7 +39,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r5:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -52,7 +52,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
         </p>
         <div
           class="chakra-slider css-1j9oeic"
-          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          style="position: relative; user-select: none; outline: 0;"
           tabindex="-1"
         >
           <div
@@ -85,7 +85,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
             class="chakra-slider__thumb css-1om1vhp"
             id="slider-thumb-:r6:"
             role="slider"
-            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
             tabindex="0"
           />
           <input
@@ -102,7 +102,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
         >
           <button
             aria-label="dark-mode-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -140,7 +140,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
         >
           <button
             aria-label="night-shift-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -178,7 +178,7 @@ exports[`monitor should open pop-up when monitor icon is tapped 1`] = `
         >
           <button
             aria-label="true-tone-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -260,7 +260,7 @@ exports[`monitor should open setting on monitor settings click 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rl:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -273,7 +273,7 @@ exports[`monitor should open setting on monitor settings click 1`] = `
         </p>
         <div
           class="chakra-slider css-1j9oeic"
-          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          style="position: relative; user-select: none; outline: 0;"
           tabindex="-1"
         >
           <div
@@ -306,7 +306,7 @@ exports[`monitor should open setting on monitor settings click 1`] = `
             class="chakra-slider__thumb css-1om1vhp"
             id="slider-thumb-:rm:"
             role="slider"
-            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
             tabindex="0"
           />
           <input
@@ -323,7 +323,7 @@ exports[`monitor should open setting on monitor settings click 1`] = `
         >
           <button
             aria-label="dark-mode-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -361,7 +361,7 @@ exports[`monitor should open setting on monitor settings click 1`] = `
         >
           <button
             aria-label="night-shift-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -399,7 +399,7 @@ exports[`monitor should open setting on monitor settings click 1`] = `
         >
           <button
             aria-label="true-tone-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -481,7 +481,7 @@ exports[`monitor should render 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -494,7 +494,7 @@ exports[`monitor should render 1`] = `
         </p>
         <div
           class="chakra-slider css-1j9oeic"
-          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          style="position: relative; user-select: none; outline: 0;"
           tabindex="-1"
         >
           <div
@@ -527,7 +527,7 @@ exports[`monitor should render 1`] = `
             class="chakra-slider__thumb css-1om1vhp"
             id="slider-thumb-:r2:"
             role="slider"
-            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
             tabindex="0"
           />
           <input
@@ -544,7 +544,7 @@ exports[`monitor should render 1`] = `
         >
           <button
             aria-label="dark-mode-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -582,7 +582,7 @@ exports[`monitor should render 1`] = `
         >
           <button
             aria-label="night-shift-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -620,7 +620,7 @@ exports[`monitor should render 1`] = `
         >
           <button
             aria-label="true-tone-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -702,7 +702,7 @@ exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
       class="chakra-menu__menu-list css-1qxkg1a"
       id="menu-list-:r9:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -715,7 +715,7 @@ exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
         </p>
         <div
           class="chakra-slider css-1j9oeic"
-          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          style="position: relative; user-select: none; outline: 0;"
           tabindex="-1"
         >
           <div
@@ -748,7 +748,7 @@ exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
             class="chakra-slider__thumb css-1om1vhp"
             id="slider-thumb-:ra:"
             role="slider"
-            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
             tabindex="0"
           />
           <input
@@ -765,7 +765,7 @@ exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
         >
           <button
             aria-label="dark-mode-button"
-            class="chakra-button css-b5gkex"
+            class="chakra-button css-qcg70s"
             type="button"
           >
             <svg
@@ -803,7 +803,7 @@ exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
         >
           <button
             aria-label="night-shift-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -841,7 +841,7 @@ exports[`monitor should toggle dark mode when dark mode icon is tapped 1`] = `
         >
           <button
             aria-label="true-tone-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -923,7 +923,7 @@ exports[`monitor should toggle night shift when night shift icon is tapped 1`] =
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rh:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -936,7 +936,7 @@ exports[`monitor should toggle night shift when night shift icon is tapped 1`] =
         </p>
         <div
           class="chakra-slider css-1j9oeic"
-          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          style="position: relative; user-select: none; outline: 0;"
           tabindex="-1"
         >
           <div
@@ -969,7 +969,7 @@ exports[`monitor should toggle night shift when night shift icon is tapped 1`] =
             class="chakra-slider__thumb css-1om1vhp"
             id="slider-thumb-:ri:"
             role="slider"
-            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
             tabindex="0"
           />
           <input
@@ -986,7 +986,7 @@ exports[`monitor should toggle night shift when night shift icon is tapped 1`] =
         >
           <button
             aria-label="dark-mode-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -1024,7 +1024,7 @@ exports[`monitor should toggle night shift when night shift icon is tapped 1`] =
         >
           <button
             aria-label="night-shift-button"
-            class="chakra-button css-14xm3gp"
+            class="chakra-button css-d07svs"
             type="button"
           >
             <svg
@@ -1062,7 +1062,7 @@ exports[`monitor should toggle night shift when night shift icon is tapped 1`] =
         >
           <button
             aria-label="true-tone-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -1144,7 +1144,7 @@ exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rd:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -1157,7 +1157,7 @@ exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
         </p>
         <div
           class="chakra-slider css-1j9oeic"
-          style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+          style="position: relative; user-select: none; outline: 0;"
           tabindex="-1"
         >
           <div
@@ -1190,7 +1190,7 @@ exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
             class="chakra-slider__thumb css-1om1vhp"
             id="slider-thumb-:re:"
             role="slider"
-            style="position: absolute; user-select: none; left: calc(100% - 0px);"
+            style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
             tabindex="0"
           />
           <input
@@ -1207,7 +1207,7 @@ exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
         >
           <button
             aria-label="dark-mode-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -1245,7 +1245,7 @@ exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
         >
           <button
             aria-label="night-shift-button"
-            class="chakra-button css-85gq3l"
+            class="chakra-button css-1o2fio4"
             type="button"
           >
             <svg
@@ -1283,7 +1283,7 @@ exports[`monitor should toggle true tone when true tone icon is tapped 1`] = `
         >
           <button
             aria-label="true-tone-button"
-            class="chakra-button css-1wewfci"
+            class="chakra-button css-1ikam9b"
             type="button"
           >
             <svg

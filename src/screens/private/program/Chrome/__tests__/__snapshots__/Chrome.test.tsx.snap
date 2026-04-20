@@ -14,7 +14,7 @@ exports[`Chrome should invoke click handler  1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -33,7 +33,7 @@ exports[`Chrome should invoke click handler  1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -52,7 +52,7 @@ exports[`Chrome should invoke click handler  1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -85,7 +85,7 @@ exports[`Chrome should invoke click handler  1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg
@@ -138,7 +138,7 @@ exports[`Chrome should invoke click handler on back press 1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -157,7 +157,7 @@ exports[`Chrome should invoke click handler on back press 1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -176,7 +176,7 @@ exports[`Chrome should invoke click handler on back press 1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -209,7 +209,7 @@ exports[`Chrome should invoke click handler on back press 1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg
@@ -262,7 +262,7 @@ exports[`Chrome should invoke click handler on forward press 1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -281,7 +281,7 @@ exports[`Chrome should invoke click handler on forward press 1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -300,7 +300,7 @@ exports[`Chrome should invoke click handler on forward press 1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -333,7 +333,7 @@ exports[`Chrome should invoke click handler on forward press 1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg
@@ -386,7 +386,7 @@ exports[`Chrome should invoke click handler on menu press 1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -405,7 +405,7 @@ exports[`Chrome should invoke click handler on menu press 1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -424,7 +424,7 @@ exports[`Chrome should invoke click handler on menu press 1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -457,7 +457,7 @@ exports[`Chrome should invoke click handler on menu press 1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg
@@ -510,7 +510,7 @@ exports[`Chrome should invoke click handler on refresh press 1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -529,7 +529,7 @@ exports[`Chrome should invoke click handler on refresh press 1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -548,7 +548,7 @@ exports[`Chrome should invoke click handler on refresh press 1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -581,7 +581,7 @@ exports[`Chrome should invoke click handler on refresh press 1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg
@@ -634,7 +634,7 @@ exports[`Chrome should render correctly to match snapshot 1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -653,7 +653,7 @@ exports[`Chrome should render correctly to match snapshot 1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -672,7 +672,7 @@ exports[`Chrome should render correctly to match snapshot 1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -705,7 +705,7 @@ exports[`Chrome should render correctly to match snapshot 1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg
