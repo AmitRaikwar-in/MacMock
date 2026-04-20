@@ -60,7 +60,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r1:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <button
@@ -261,7 +261,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rd:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -336,7 +336,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:rh:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -451,7 +451,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:rr:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -700,7 +700,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r1c:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -952,7 +952,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     class="chakra-menu__menu-list css-f6jf1x"
                     id="menu-list-:r1o:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
@@ -1048,7 +1048,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r1v:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -1374,7 +1374,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r2g:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -1693,7 +1693,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r30:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2111,7 +2111,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r3l:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2400,7 +2400,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r46:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2592,7 +2592,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__menu-list css-f6jf1x"
                 id="menu-list-:r4j:"
                 role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
@@ -2827,7 +2827,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r54:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -2840,7 +2840,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 </p>
                 <div
                   class="chakra-slider css-1j9oeic"
-                  style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                  style="position: relative; user-select: none; outline: 0;"
                   tabindex="-1"
                 >
                   <div
@@ -2873,7 +2873,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     class="chakra-slider__thumb css-1om1vhp"
                     id="slider-thumb-:r55:"
                     role="slider"
-                    style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                    style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
                   />
                   <input
@@ -2890,7 +2890,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 >
                   <button
                     aria-label="dark-mode-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -2928,7 +2928,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 >
                   <button
                     aria-label="night-shift-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -2966,7 +2966,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 >
                   <button
                     aria-label="true-tone-button"
-                    class="chakra-button css-17ugn9q"
+                    class="chakra-button css-126y4du"
                     type="button"
                   >
                     <svg
@@ -3037,7 +3037,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r58:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3123,7 +3123,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r5c:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3190,7 +3190,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r5f:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
@@ -3205,6 +3205,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   class="chakra-switch css-16pgy8f"
                 >
                   <input
+                    aria-checked="false"
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -3328,7 +3329,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           </div>
           <button
             aria-label="search-top-bar-button"
-            class="chakra-button css-ueoxlt"
+            class="chakra-button css-dy3rr5"
             type="button"
           >
             <svg
@@ -3379,7 +3380,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               class="chakra-menu__menu-list css-f6jf1x"
               id="menu-list-:r5k:"
               role="menu"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div

@@ -14,7 +14,7 @@ exports[`LazyChromeComponent should render correctly to match snapshot 1`] = `
       >
         <button
           aria-label="chrome-back"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -33,7 +33,7 @@ exports[`LazyChromeComponent should render correctly to match snapshot 1`] = `
         </button>
         <button
           aria-label="chrome-forward"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -52,7 +52,7 @@ exports[`LazyChromeComponent should render correctly to match snapshot 1`] = `
         </button>
         <button
           aria-label="chrome-refresh"
-          class="chakra-button css-tvciyu"
+          class="chakra-button css-h1tycn"
           type="button"
         >
           <svg
@@ -85,7 +85,7 @@ exports[`LazyChromeComponent should render correctly to match snapshot 1`] = `
       />
       <button
         aria-label="chrome-menu"
-        class="chakra-button css-tvciyu"
+        class="chakra-button css-h1tycn"
         type="button"
       >
         <svg

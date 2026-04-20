@@ -3,7 +3,7 @@
 exports[`Draggable provider should render correctly 1`] = `
 <div>
   <div
-    class="react-draggable css-0"
+    class="react-draggable css-1bvz7hg"
     style="transform: translate(0px, 28px)translate(0px,0px);"
   >
     test
@@ -14,7 +14,7 @@ exports[`Draggable provider should render correctly 1`] = `
 exports[`Draggable provider should render correctly on dragging 1`] = `
 <div>
   <div
-    class="react-draggable css-0"
+    class="react-draggable css-1bvz7hg"
     style="transform: translate(0px, 28px)translate(0px,0px);"
   >
     test
@@ -25,7 +25,7 @@ exports[`Draggable provider should render correctly on dragging 1`] = `
 exports[`Draggable provider should render correctly with custom position 1`] = `
 <div>
   <div
-    class="react-draggable css-0"
+    class="react-draggable css-1bvz7hg"
     style="transform: translate(0px, 28px)translate(10px,10px);"
   >
     test
@@ -36,7 +36,7 @@ exports[`Draggable provider should render correctly with custom position 1`] = `
 exports[`Draggable provider should render correctly with custom position for maximized 1`] = `
 <div>
   <div
-    class="react-draggable css-0"
+    class="react-draggable css-1bvz7hg"
     style="transform: translate(0px, 28px)translate(0px,0px);"
   >
     test

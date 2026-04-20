@@ -35,7 +35,7 @@ exports[`Wifi should open other network on other network item clicked is tapped 
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rq:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -50,6 +50,7 @@ exports[`Wifi should open other network on other network item clicked is tapped 
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"
@@ -213,7 +214,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r6:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -228,6 +229,7 @@ exports[`Wifi should open pop-up when Wifi icon is tapped 1`] = `
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"
@@ -387,7 +389,7 @@ exports[`Wifi should open wifi settings on wifi settings item clicked is tapped 
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rv:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -402,6 +404,7 @@ exports[`Wifi should open wifi settings on wifi settings item clicked is tapped 
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"
@@ -561,7 +564,7 @@ exports[`Wifi should open wifi weak security on wifi weak security item clicked 
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rl:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -576,6 +579,7 @@ exports[`Wifi should open wifi weak security on wifi weak security item clicked 
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"
@@ -735,7 +739,7 @@ exports[`Wifi should render 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -750,6 +754,7 @@ exports[`Wifi should render 1`] = `
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"
@@ -909,7 +914,7 @@ exports[`Wifi should toggle wifi when wifi 1 is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rb:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -924,6 +929,7 @@ exports[`Wifi should toggle wifi when wifi 1 is tapped 1`] = `
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"
@@ -1083,7 +1089,7 @@ exports[`Wifi should toggle wifi when wifi 2 is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rg:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -1098,6 +1104,7 @@ exports[`Wifi should toggle wifi when wifi 2 is tapped 1`] = `
           class="chakra-switch css-16pgy8f"
         >
           <input
+            aria-checked="false"
             class="chakra-switch__input"
             style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
             type="checkbox"

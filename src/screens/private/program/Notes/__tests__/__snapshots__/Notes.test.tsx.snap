@@ -11,7 +11,7 @@ exports[`Notes should invoke add note on clicking add note button 1`] = `
     >
       <button
         aria-label="add-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -24,7 +24,7 @@ exports[`Notes should invoke add note on clicking add note button 1`] = `
       </button>
       <button
         aria-label="delete-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -54,7 +54,7 @@ exports[`Notes should invoke add note on clicking add note button 1`] = `
           <p
             class="chakra-text css-d050u0"
           >
-            5/14/2020
+            14/05/2020
             <p
               class="chakra-text css-116pnhr"
             >
@@ -88,7 +88,7 @@ exports[`Notes should invoke delete note on clicking delete note button 1`] = `
     >
       <button
         aria-label="add-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -101,7 +101,7 @@ exports[`Notes should invoke delete note on clicking delete note button 1`] = `
       </button>
       <button
         aria-label="delete-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -143,7 +143,7 @@ exports[`Notes should render correctly to match snapshot 1`] = `
     >
       <button
         aria-label="add-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -156,7 +156,7 @@ exports[`Notes should render correctly to match snapshot 1`] = `
       </button>
       <button
         aria-label="delete-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -198,7 +198,7 @@ exports[`Notes should select all on clicking select all 1`] = `
     >
       <button
         aria-label="add-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -211,7 +211,7 @@ exports[`Notes should select all on clicking select all 1`] = `
       </button>
       <button
         aria-label="delete-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -241,7 +241,7 @@ exports[`Notes should select all on clicking select all 1`] = `
           <p
             class="chakra-text css-d050u0"
           >
-            5/14/2020
+            14/05/2020
             <p
               class="chakra-text css-116pnhr"
             >
@@ -275,7 +275,7 @@ exports[`Notes should select and deselect on clicking on card 1`] = `
     >
       <button
         aria-label="add-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -288,7 +288,7 @@ exports[`Notes should select and deselect on clicking on card 1`] = `
       </button>
       <button
         aria-label="delete-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -318,7 +318,7 @@ exports[`Notes should select and deselect on clicking on card 1`] = `
           <p
             class="chakra-text css-d050u0"
           >
-            5/14/2020
+            14/05/2020
             <p
               class="chakra-text css-116pnhr"
             >
@@ -339,7 +339,7 @@ exports[`Notes should select and deselect on clicking on card 1`] = `
           <p
             class="chakra-text css-d050u0"
           >
-            5/14/2020
+            14/05/2020
             <p
               class="chakra-text css-116pnhr"
             >

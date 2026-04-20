@@ -29,7 +29,7 @@ exports[`User should open login window on login window item clicked 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rd:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -115,7 +115,7 @@ exports[`User should open pop-up when User icon is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r5:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -197,7 +197,7 @@ exports[`User should open user settings on user setting item clicked 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r9:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -279,7 +279,7 @@ exports[`User should render 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div

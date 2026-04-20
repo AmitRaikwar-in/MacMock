@@ -38,7 +38,7 @@ exports[`Battery should open battery settings when battery settings is tapped 1`
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r7:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -117,7 +117,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r4:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -192,7 +192,7 @@ exports[`Battery should render 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div

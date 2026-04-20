@@ -4,7 +4,7 @@ exports[`Search should open pop-up when Search icon is tapped 1`] = `
 <div>
   <button
     aria-label="search-top-bar-button"
-    class="chakra-button css-jmqcxj"
+    class="chakra-button css-1rseq93"
     type="button"
   >
     <svg
@@ -28,7 +28,7 @@ exports[`Search should render 1`] = `
 <div>
   <button
     aria-label="search-top-bar-button"
-    class="chakra-button css-jmqcxj"
+    class="chakra-button css-1rseq93"
     type="button"
   >
     <svg

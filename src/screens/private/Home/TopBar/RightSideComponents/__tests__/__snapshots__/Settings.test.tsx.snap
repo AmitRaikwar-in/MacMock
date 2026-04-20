@@ -40,7 +40,7 @@ exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r3:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
@@ -99,7 +99,7 @@ exports[`Settings should render 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div

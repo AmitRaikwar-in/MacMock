@@ -61,7 +61,7 @@ const Notes = (props: NotesProps) => {
               id: (getCurrentId() + 1).toString(),
               title: 'Title',
               description: 'Description',
-              date: new Date().toLocaleDateString(),
+              date: new Date().toLocaleDateString('en-GB'),
             })
           }
         />

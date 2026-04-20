@@ -11,7 +11,7 @@ exports[`LazyNotesComponent should render correctly to match snapshot 1`] = `
     >
       <button
         aria-label="add-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p
@@ -24,7 +24,7 @@ exports[`LazyNotesComponent should render correctly to match snapshot 1`] = `
       </button>
       <button
         aria-label="delete-note"
-        class="chakra-button css-p7mkev"
+        class="chakra-button css-50f1ws"
         type="button"
       >
         <p

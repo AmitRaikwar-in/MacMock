@@ -1,16 +1,14 @@
 {
-  "name": "ARMacPortfolio",
+  "name": "MacMock",
   "version": "0.5.0",
-  "description": "This is a mac simulator portfolio website for Amit Raikwar",
+  "description": "Mac OS Simulator",
   "main": "index.tsx",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
-    "@types/node": "^16.18.91",
-    "@types/react": "^18.2.69",
-    "@types/react-dom": "^18.2.22",
+    "@types/node": "^18.19.0",
     "draft-js": "^0.11.7",
     "framer-motion": "^11.2.6",
     "fuse.js": "^7.0.0",
@@ -30,7 +28,7 @@
     "react-resizable": "^3.0.5",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "typescript": "^5.4.5",
     "web-vitals": "^2.1.4",
     "zustand": "^4.5.2"
   },
@@ -51,6 +49,10 @@
     "cy:open": "cypress open",
     "run-staged-tests": "./scripts/run-staged-tests.sh",
     "run-pushed-files-tests": "./scripts/run-staged-tests.sh --pushed"
+  },
+  "resolutions": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.3"
   },
   "eslintConfig": {
     "extends": [
@@ -102,9 +104,11 @@
     "jest-transform-stub": "^2.0.0",
     "prettier": "3.2.5",
     "react-test-renderer": "^18.3.0",
-    "ts-jest": "^29.1.2"
+    "ts-jest": "^29.1.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.3"
   },
-  "repository": "git@github.com:onemanfighter/ARMacPortfolio.git",
+  "repository": "git@github.com:AmitRaikwar-in/MacMock.git",
   "author": "Amit Raikwar",
   "license": "MIT"
 }

@@ -99,63 +99,99 @@ exports[`RouterProvider should render for lock when power is on but user logged 
         </p>
       </div>
       <div
+        aria-hidden="true"
+        class="css-hiebdk"
+      />
+      <div
         aria-label="user-login-component"
-        class="css-1dvrt7t"
+        class="css-x01k5a"
       >
-        <button
+        <div
           aria-label="user-button"
-          class="chakra-button css-y5bm5g"
-          type="button"
+          class="css-19huoph"
+          role="button"
+          tabindex="0"
         >
-          <img
-            alt="Profile"
-            class="chakra-image css-13wtmhl"
-            src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
-          />
+          <div
+            class="avatar-ring css-feb6y1"
+          >
+            <img
+              alt="Profile"
+              class="chakra-image css-uq6vjf"
+              src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+            />
+          </div>
           <p
-            class="chakra-text css-af64t0"
+            class="chakra-text avatar-name css-y52plh"
           >
             Amit Raikwar
           </p>
-        </button>
+        </div>
         <div
-          class="chakra-input__group css-139cpa4"
-          data-group="true"
+          class="css-xl42ag"
         >
-          <input
-            aria-label="password-text-input"
-            class="chakra-input css-1362yyb"
-            maxlength="20"
-            placeholder="Enter Password"
-            type="password"
-            value=""
-          />
           <div
-            class="chakra-input__right-element css-13xlvjg"
+            class="chakra-input__group css-5l6ydk"
+            data-group="true"
+          >
+            <input
+              aria-label="password-text-input"
+              class="chakra-input css-1362yyb"
+              maxlength="20"
+              placeholder="Enter Password"
+              type="password"
+              value=""
+            />
+            <div
+              class="chakra-input__right-element css-1dn8c1k"
+            >
+              <button
+                aria-label="login-button"
+                class="css-df5inp"
+              >
+                <svg
+                  fill="currentColor"
+                  height="18px"
+                  viewBox="0 0 16 16"
+                  width="18px"
+                >
+                  <path
+                    d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="css-6xeous"
           >
             <button
-              aria-label="login-button"
-              class="chakra-button css-15p997s"
-              type="button"
+              aria-controls="popover-content-:r7:"
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              aria-label="password-hint-button"
+              class="css-1w9lxxx"
+              id="popover-trigger-:r7:"
             >
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                focusable="false"
-                height="1em"
-                viewBox="0 0 16 16"
-                width="1em"
-              >
-                <path
-                  d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
-                  fill-rule="evenodd"
-                />
-              </svg>
+              ?
             </button>
+            <div
+              class="chakra-popover__popper css-0"
+              style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+            >
+              <section
+                class="chakra-popover__content css-vqsmka"
+                id="popover-content-:r7:"
+                role="dialog"
+                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+                tabindex="-1"
+              />
+            </div>
           </div>
         </div>
         <p
-          class="chakra-text css-1ahyq4l"
+          class="chakra-text css-13onz60"
         >
           Your password is required to enable Touch ID
         </p>
@@ -173,7 +209,7 @@ exports[`RouterProvider should render for power off 1`] = `
   >
     <button
       aria-label="landing-page-top-bar-button"
-      class="chakra-button css-m1nxyu"
+      class="chakra-button css-zsvi3d"
       type="button"
     >
       <svg
@@ -220,7 +256,7 @@ exports[`RouterProvider should render for power off 1`] = `
       >
         <button
           aria-label="power-button"
-          class="chakra-button css-vryt08"
+          class="chakra-button css-1mo0xaa"
           type="button"
         >
           <svg
@@ -572,7 +608,7 @@ exports[`RouterProvider should render for power off 2`] = `
   >
     <button
       aria-label="landing-page-top-bar-button"
-      class="chakra-button css-m1nxyu"
+      class="chakra-button css-zsvi3d"
       type="button"
     >
       <svg
@@ -619,7 +655,7 @@ exports[`RouterProvider should render for power off 2`] = `
       >
         <button
           aria-label="power-button"
-          class="chakra-button css-vryt08"
+          class="chakra-button css-1mo0xaa"
           type="button"
         >
           <svg
@@ -1049,12 +1085,12 @@ exports[`RouterProvider should render mac for login 1`] = `
               role="group"
             >
               <button
-                aria-controls="menu-list-:r9:"
+                aria-controls="menu-list-:rb:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="apple-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r9:"
+                id="menu-button-:rb:"
               >
                 <span
                   class="css-xl71ch"
@@ -1079,16 +1115,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                 <div
                   aria-orientation="vertical"
                   class="chakra-menu__menu-list css-f6jf1x"
-                  id="menu-list-:r9:"
+                  id="menu-list-:rb:"
                   role="menu"
-                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                   tabindex="-1"
                 >
                   <button
                     aria-label="about-this-mac"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="0"
-                    id="menu-list-:r9:-menuitem-:ra:"
+                    id="menu-list-:rb:-menuitem-:rc:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1103,7 +1139,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="system-settings"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="1"
-                    id="menu-list-:r9:-menuitem-:rb:"
+                    id="menu-list-:rb:-menuitem-:rd:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1114,7 +1150,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="app-store"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="2"
-                    id="menu-list-:r9:-menuitem-:rc:"
+                    id="menu-list-:rb:-menuitem-:re:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1129,7 +1165,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="recent-items"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="3"
-                    id="menu-list-:r9:-menuitem-:rd:"
+                    id="menu-list-:rb:-menuitem-:rf:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1153,7 +1189,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="force-quit"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="4"
-                    id="menu-list-:r9:-menuitem-:re:"
+                    id="menu-list-:rb:-menuitem-:rg:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1177,7 +1213,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="sleep"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="5"
-                    id="menu-list-:r9:-menuitem-:rf:"
+                    id="menu-list-:rb:-menuitem-:rh:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1188,7 +1224,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="restart"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="6"
-                    id="menu-list-:r9:-menuitem-:rg:"
+                    id="menu-list-:rb:-menuitem-:ri:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1199,7 +1235,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="shutDown"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="7"
-                    id="menu-list-:r9:-menuitem-:rh:"
+                    id="menu-list-:rb:-menuitem-:rj:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1214,7 +1250,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="lock-screen"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="8"
-                    id="menu-list-:r9:-menuitem-:ri:"
+                    id="menu-list-:rb:-menuitem-:rk:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1234,7 +1270,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="logout"
                     class="chakra-menu__menuitem css-wuxpns"
                     data-index="9"
-                    id="menu-list-:r9:-menuitem-:rj:"
+                    id="menu-list-:rb:-menuitem-:rl:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -1256,12 +1292,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                 class="css-1yae3jf"
               >
                 <button
-                  aria-controls="menu-list-:rl:"
+                  aria-controls="menu-list-:rn:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="code-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:rl:"
+                  id="menu-button-:rn:"
                 >
                   <span
                     class="css-xl71ch"
@@ -1280,16 +1316,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:rl:"
+                    id="menu-list-:rn:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="about-visual-studio-code-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:rl:-menuitem-:rm:"
+                      id="menu-list-:rn:-menuitem-:ro:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1300,7 +1336,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="check-for-updates-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:rl:-menuitem-:rn:"
+                      id="menu-list-:rn:-menuitem-:rp:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1312,12 +1348,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                       class="chakra-divider css-15ckxw5"
                     />
                     <button
-                      aria-controls="menu-list-:rp:"
+                      aria-controls="menu-list-:rr:"
                       aria-expanded="false"
                       aria-haspopup="menu"
                       aria-label="settings-menu-button"
                       class="chakra-menu__menu-button css-p03ncx"
-                      id="menu-button-:rp:"
+                      id="menu-button-:rr:"
                     >
                       <span
                         class="css-xl71ch"
@@ -1326,7 +1362,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                           aria-label="settings-inner-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="0"
-                          id="menu-list-:rp:-menuitem-:rq:"
+                          id="menu-list-:rr:-menuitem-:rs:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -1355,16 +1391,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                       <div
                         aria-orientation="vertical"
                         class="chakra-menu__menu-list css-f6jf1x"
-                        id="menu-list-:rp:"
+                        id="menu-list-:rr:"
                         role="menu"
-                        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                         tabindex="-1"
                       >
                         <button
                           aria-label="settings-sub-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="1"
-                          id="menu-list-:rp:-menuitem-:rr:"
+                          id="menu-list-:rr:-menuitem-:rt:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -1375,7 +1411,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                           aria-label="profiles-sub-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="2"
-                          id="menu-list-:rp:-menuitem-:rs:"
+                          id="menu-list-:rr:-menuitem-:ru:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -1386,7 +1422,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                           aria-label="extensions-sub-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="3"
-                          id="menu-list-:rp:-menuitem-:rt:"
+                          id="menu-list-:rr:-menuitem-:rv:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -1399,7 +1435,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="hide-visual-studio-code-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:rl:-menuitem-:ru:"
+                      id="menu-list-:rn:-menuitem-:r10:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1410,7 +1446,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="hide-others-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:rl:-menuitem-:rv:"
+                      id="menu-list-:rn:-menuitem-:r11:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1421,7 +1457,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="show-all-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:rl:-menuitem-:r10:"
+                      id="menu-list-:rn:-menuitem-:r12:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1436,7 +1472,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="quit-visual-studio-code-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:rl:-menuitem-:r11:"
+                      id="menu-list-:rn:-menuitem-:r13:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1446,12 +1482,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r13:"
+                  aria-controls="menu-list-:r15:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="file-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r13:"
+                  id="menu-button-:r15:"
                 >
                   <span
                     class="css-xl71ch"
@@ -1470,16 +1506,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r13:"
+                    id="menu-list-:r15:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="new-file-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r13:-menuitem-:r14:"
+                      id="menu-list-:r15:-menuitem-:r16:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1499,7 +1535,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="new-window-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r13:-menuitem-:r15:"
+                      id="menu-list-:r15:-menuitem-:r17:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1523,7 +1559,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-file-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r13:-menuitem-:r16:"
+                      id="menu-list-:r15:-menuitem-:r18:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1543,7 +1579,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-folder-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r13:-menuitem-:r17:"
+                      id="menu-list-:r15:-menuitem-:r19:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1554,7 +1590,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-workspace-from-file-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r13:-menuitem-:r18:"
+                      id="menu-list-:r15:-menuitem-:r1a:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1565,7 +1601,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-recent-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r13:-menuitem-:r19:"
+                      id="menu-list-:r15:-menuitem-:r1b:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1580,7 +1616,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="save-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r13:-menuitem-:r1a:"
+                      id="menu-list-:r15:-menuitem-:r1c:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1600,7 +1636,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="save-as-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r13:-menuitem-:r1b:"
+                      id="menu-list-:r15:-menuitem-:r1d:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1611,7 +1647,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="save-all-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r13:-menuitem-:r1c:"
+                      id="menu-list-:r15:-menuitem-:r1e:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1622,7 +1658,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="auto-save-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r13:-menuitem-:r1d:"
+                      id="menu-list-:r15:-menuitem-:r1f:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1637,7 +1673,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="close-window-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r13:-menuitem-:r1e:"
+                      id="menu-list-:r15:-menuitem-:r1g:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1648,7 +1684,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="close-folder-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r13:-menuitem-:r1f:"
+                      id="menu-list-:r15:-menuitem-:r1h:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1659,7 +1695,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="close-workspace-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="12"
-                      id="menu-list-:r13:-menuitem-:r1g:"
+                      id="menu-list-:r15:-menuitem-:r1i:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1670,7 +1706,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="close-editor-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="13"
-                      id="menu-list-:r13:-menuitem-:r1h:"
+                      id="menu-list-:r15:-menuitem-:r1j:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1685,7 +1721,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="exit-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="14"
-                      id="menu-list-:r13:-menuitem-:r1i:"
+                      id="menu-list-:r15:-menuitem-:r1k:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1695,12 +1731,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r1k:"
+                  aria-controls="menu-list-:r1m:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="edit-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r1k:"
+                  id="menu-button-:r1m:"
                 >
                   <span
                     class="css-xl71ch"
@@ -1719,16 +1755,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r1k:"
+                    id="menu-list-:r1m:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="undo-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r1k:-menuitem-:r1l:"
+                      id="menu-list-:r1m:-menuitem-:r1n:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1748,7 +1784,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="redo-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r1k:-menuitem-:r1m:"
+                      id="menu-list-:r1m:-menuitem-:r1o:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1772,7 +1808,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="cut-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r1k:-menuitem-:r1n:"
+                      id="menu-list-:r1m:-menuitem-:r1p:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1792,7 +1828,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="copy-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r1k:-menuitem-:r1o:"
+                      id="menu-list-:r1m:-menuitem-:r1q:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1812,7 +1848,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="paste-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r1k:-menuitem-:r1p:"
+                      id="menu-list-:r1m:-menuitem-:r1r:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1836,7 +1872,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="find-in-files-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r1k:-menuitem-:r1q:"
+                      id="menu-list-:r1m:-menuitem-:r1s:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1856,7 +1892,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="replace-in-files-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r1k:-menuitem-:r1r:"
+                      id="menu-list-:r1m:-menuitem-:r1t:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1871,7 +1907,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="toggle-line-comment-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r1k:-menuitem-:r1s:"
+                      id="menu-list-:r1m:-menuitem-:r1u:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1891,7 +1927,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="toggle-block-comment-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r1k:-menuitem-:r1t:"
+                      id="menu-list-:r1m:-menuitem-:r1v:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1911,7 +1947,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="emmet-expand-abbreviation-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r1k:-menuitem-:r1u:"
+                      id="menu-list-:r1m:-menuitem-:r20:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -1932,12 +1968,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                       class="chakra-divider css-15ckxw5"
                     />
                     <button
-                      aria-controls="menu-list-:r20:"
+                      aria-controls="menu-list-:r22:"
                       aria-expanded="false"
                       aria-haspopup="menu"
                       aria-label="auto-fill-menu-button"
                       class="chakra-menu__menu-button css-p03ncx"
-                      id="menu-button-:r20:"
+                      id="menu-button-:r22:"
                     >
                       <span
                         class="css-xl71ch"
@@ -1946,7 +1982,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                           aria-label="auto-fill-inner-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="0"
-                          id="menu-list-:r20:-menuitem-:r21:"
+                          id="menu-list-:r22:-menuitem-:r23:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -1971,16 +2007,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                       <div
                         aria-orientation="vertical"
                         class="chakra-menu__menu-list css-f6jf1x"
-                        id="menu-list-:r20:"
+                        id="menu-list-:r22:"
                         role="menu"
-                        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                         tabindex="-1"
                       >
                         <button
                           aria-label="contact-sub-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="1"
-                          id="menu-list-:r20:-menuitem-:r22:"
+                          id="menu-list-:r22:-menuitem-:r24:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -1991,7 +2027,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                           aria-label="passwords-sub-menu-item"
                           class="chakra-menu__menuitem css-wuxpns"
                           data-index="2"
-                          id="menu-list-:r20:-menuitem-:r23:"
+                          id="menu-list-:r22:-menuitem-:r25:"
                           role="menuitem"
                           tabindex="-1"
                           type="button"
@@ -2004,7 +2040,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="start-dictation-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r1k:-menuitem-:r24:"
+                      id="menu-list-:r1m:-menuitem-:r26:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2024,7 +2060,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="emoji-symbols-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r1k:-menuitem-:r25:"
+                      id="menu-list-:r1m:-menuitem-:r27:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2043,12 +2079,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r27:"
+                  aria-controls="menu-list-:r29:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="selection-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r27:"
+                  id="menu-button-:r29:"
                 >
                   <span
                     class="css-xl71ch"
@@ -2067,16 +2103,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r27:"
+                    id="menu-list-:r29:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="select-all-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r27:-menuitem-:r28:"
+                      id="menu-list-:r29:-menuitem-:r2a:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2096,7 +2132,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="expand-selection-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r27:-menuitem-:r29:"
+                      id="menu-list-:r29:-menuitem-:r2b:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2116,7 +2152,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="shrink-selection-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r27:-menuitem-:r2a:"
+                      id="menu-list-:r29:-menuitem-:r2c:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2140,7 +2176,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="copy-line-up-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r27:-menuitem-:r2b:"
+                      id="menu-list-:r29:-menuitem-:r2d:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2160,7 +2196,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="copy-line-down-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r27:-menuitem-:r2c:"
+                      id="menu-list-:r29:-menuitem-:r2e:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2180,7 +2216,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="move-line-up-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r27:-menuitem-:r2d:"
+                      id="menu-list-:r29:-menuitem-:r2f:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2200,7 +2236,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="move-line-down-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r27:-menuitem-:r2e:"
+                      id="menu-list-:r29:-menuitem-:r2g:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2220,7 +2256,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="duplicate-selection-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r27:-menuitem-:r2f:"
+                      id="menu-list-:r29:-menuitem-:r2h:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2235,7 +2271,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-cursor-above-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r27:-menuitem-:r2g:"
+                      id="menu-list-:r29:-menuitem-:r2i:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2255,7 +2291,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-cursor-below-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r27:-menuitem-:r2h:"
+                      id="menu-list-:r29:-menuitem-:r2j:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2275,7 +2311,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-cursor-to-line-end-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r27:-menuitem-:r2i:"
+                      id="menu-list-:r29:-menuitem-:r2k:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2295,7 +2331,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-next-occurrence-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r27:-menuitem-:r2j:"
+                      id="menu-list-:r29:-menuitem-:r2l:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2315,7 +2351,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-previous-occurrence-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="12"
-                      id="menu-list-:r27:-menuitem-:r2k:"
+                      id="menu-list-:r29:-menuitem-:r2m:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2335,7 +2371,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="select-all-occurrences-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="13"
-                      id="menu-list-:r27:-menuitem-:r2l:"
+                      id="menu-list-:r29:-menuitem-:r2n:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2359,7 +2395,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="switch-to-cmd-click-for-multi-cursor-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="14"
-                      id="menu-list-:r27:-menuitem-:r2m:"
+                      id="menu-list-:r29:-menuitem-:r2o:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2369,12 +2405,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r2o:"
+                  aria-controls="menu-list-:r2q:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="view-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r2o:"
+                  id="menu-button-:r2q:"
                 >
                   <span
                     class="css-xl71ch"
@@ -2393,16 +2429,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r2o:"
+                    id="menu-list-:r2q:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="command-palette-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r2o:-menuitem-:r2p:"
+                      id="menu-list-:r2q:-menuitem-:r2r:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2422,7 +2458,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-view-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r2o:-menuitem-:r2q:"
+                      id="menu-list-:r2q:-menuitem-:r2s:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2437,7 +2473,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="appearance-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r2o:-menuitem-:r2r:"
+                      id="menu-list-:r2q:-menuitem-:r2t:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2457,7 +2493,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="editor-layout-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r2o:-menuitem-:r2s:"
+                      id="menu-list-:r2q:-menuitem-:r2u:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2481,7 +2517,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="explorer-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r2o:-menuitem-:r2t:"
+                      id="menu-list-:r2q:-menuitem-:r2v:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2501,7 +2537,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="search-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r2o:-menuitem-:r2u:"
+                      id="menu-list-:r2q:-menuitem-:r30:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2521,7 +2557,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="source-control-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r2o:-menuitem-:r2v:"
+                      id="menu-list-:r2q:-menuitem-:r31:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2541,7 +2577,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="run-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r2o:-menuitem-:r30:"
+                      id="menu-list-:r2q:-menuitem-:r32:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2561,7 +2597,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="extensions-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r2o:-menuitem-:r31:"
+                      id="menu-list-:r2q:-menuitem-:r33:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2585,7 +2621,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="problems-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r2o:-menuitem-:r32:"
+                      id="menu-list-:r2q:-menuitem-:r34:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2605,7 +2641,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="output-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r2o:-menuitem-:r33:"
+                      id="menu-list-:r2q:-menuitem-:r35:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2625,7 +2661,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="debug-console-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r2o:-menuitem-:r34:"
+                      id="menu-list-:r2q:-menuitem-:r36:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2645,7 +2681,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="terminal-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="12"
-                      id="menu-list-:r2o:-menuitem-:r35:"
+                      id="menu-list-:r2q:-menuitem-:r37:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2669,7 +2705,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="word-wrap-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="13"
-                      id="menu-list-:r2o:-menuitem-:r36:"
+                      id="menu-list-:r2q:-menuitem-:r38:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2688,12 +2724,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r38:"
+                  aria-controls="menu-list-:r3a:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="go-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r38:"
+                  id="menu-button-:r3a:"
                 >
                   <span
                     class="css-xl71ch"
@@ -2712,16 +2748,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r38:"
+                    id="menu-list-:r3a:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="back-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r38:-menuitem-:r39:"
+                      id="menu-list-:r3a:-menuitem-:r3b:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2741,7 +2777,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="forward-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r38:-menuitem-:r3a:"
+                      id="menu-list-:r3a:-menuitem-:r3c:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2761,7 +2797,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="last-edit-location-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r38:-menuitem-:r3b:"
+                      id="menu-list-:r3a:-menuitem-:r3d:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2785,7 +2821,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="switch-editor-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r38:-menuitem-:r3c:"
+                      id="menu-list-:r3a:-menuitem-:r3e:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2805,7 +2841,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="switch-group-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r38:-menuitem-:r3d:"
+                      id="menu-list-:r3a:-menuitem-:r3f:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2829,7 +2865,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-file-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r38:-menuitem-:r3e:"
+                      id="menu-list-:r3a:-menuitem-:r3g:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2849,7 +2885,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-symbol-in-workspace-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r38:-menuitem-:r3f:"
+                      id="menu-list-:r3a:-menuitem-:r3h:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2873,7 +2909,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-symbol-in-editor-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r38:-menuitem-:r3g:"
+                      id="menu-list-:r3a:-menuitem-:r3i:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2893,7 +2929,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-definition-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r38:-menuitem-:r3h:"
+                      id="menu-list-:r3a:-menuitem-:r3j:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2913,7 +2949,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-declaration-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r38:-menuitem-:r3i:"
+                      id="menu-list-:r3a:-menuitem-:r3k:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2924,7 +2960,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-type-definition-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r38:-menuitem-:r3j:"
+                      id="menu-list-:r3a:-menuitem-:r3l:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2935,7 +2971,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-implementation-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r38:-menuitem-:r3k:"
+                      id="menu-list-:r3a:-menuitem-:r3m:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2955,7 +2991,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-references-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="12"
-                      id="menu-list-:r38:-menuitem-:r3l:"
+                      id="menu-list-:r3a:-menuitem-:r3n:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2979,7 +3015,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-line-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="13"
-                      id="menu-list-:r38:-menuitem-:r3m:"
+                      id="menu-list-:r3a:-menuitem-:r3o:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -2999,7 +3035,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="go-to-bracket-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="14"
-                      id="menu-list-:r38:-menuitem-:r3n:"
+                      id="menu-list-:r3a:-menuitem-:r3p:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3023,7 +3059,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="next-problem-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="15"
-                      id="menu-list-:r38:-menuitem-:r3o:"
+                      id="menu-list-:r3a:-menuitem-:r3q:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3043,7 +3079,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="previous-problem-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="16"
-                      id="menu-list-:r38:-menuitem-:r3p:"
+                      id="menu-list-:r3a:-menuitem-:r3r:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3067,7 +3103,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="next-change-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="17"
-                      id="menu-list-:r38:-menuitem-:r3q:"
+                      id="menu-list-:r3a:-menuitem-:r3s:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3087,7 +3123,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="previous-change-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="18"
-                      id="menu-list-:r38:-menuitem-:r3r:"
+                      id="menu-list-:r3a:-menuitem-:r3t:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3106,12 +3142,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r3t:"
+                  aria-controls="menu-list-:r3v:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="run-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r3t:"
+                  id="menu-button-:r3v:"
                 >
                   <span
                     class="css-xl71ch"
@@ -3130,16 +3166,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r3t:"
+                    id="menu-list-:r3v:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="start-debugging-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r3t:-menuitem-:r3u:"
+                      id="menu-list-:r3v:-menuitem-:r40:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3159,7 +3195,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="run-without-debugging-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r3t:-menuitem-:r3v:"
+                      id="menu-list-:r3v:-menuitem-:r41:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3179,7 +3215,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="stop-debugging-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r3t:-menuitem-:r40:"
+                      id="menu-list-:r3v:-menuitem-:r42:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3199,7 +3235,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-configurations-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r3t:-menuitem-:r41:"
+                      id="menu-list-:r3v:-menuitem-:r43:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3214,7 +3250,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-configuration-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r3t:-menuitem-:r42:"
+                      id="menu-list-:r3v:-menuitem-:r44:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3229,7 +3265,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="step-over-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r3t:-menuitem-:r43:"
+                      id="menu-list-:r3v:-menuitem-:r45:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3249,7 +3285,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="step-into-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r3t:-menuitem-:r44:"
+                      id="menu-list-:r3v:-menuitem-:r46:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3269,7 +3305,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="step-out-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r3t:-menuitem-:r45:"
+                      id="menu-list-:r3v:-menuitem-:r47:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3289,7 +3325,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="continue-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r3t:-menuitem-:r46:"
+                      id="menu-list-:r3v:-menuitem-:r48:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3313,7 +3349,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="toggle-breakpoint-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r3t:-menuitem-:r47:"
+                      id="menu-list-:r3v:-menuitem-:r49:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3333,7 +3369,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="add-breakpoint-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r3t:-menuitem-:r48:"
+                      id="menu-list-:r3v:-menuitem-:r4a:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3348,7 +3384,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="enable-all-breakpoints-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r3t:-menuitem-:r49:"
+                      id="menu-list-:r3v:-menuitem-:r4b:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3359,7 +3395,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="disable-all-breakpoints-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="12"
-                      id="menu-list-:r3t:-menuitem-:r4a:"
+                      id="menu-list-:r3v:-menuitem-:r4c:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3370,7 +3406,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="remove-all-breakpoints-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="13"
-                      id="menu-list-:r3t:-menuitem-:r4b:"
+                      id="menu-list-:r3v:-menuitem-:r4d:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3385,7 +3421,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="install-additional-debuggers-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="14"
-                      id="menu-list-:r3t:-menuitem-:r4c:"
+                      id="menu-list-:r3v:-menuitem-:r4e:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3395,12 +3431,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r4e:"
+                  aria-controls="menu-list-:r4g:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="terminal-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r4e:"
+                  id="menu-button-:r4g:"
                 >
                   <span
                     class="css-xl71ch"
@@ -3419,16 +3455,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r4e:"
+                    id="menu-list-:r4g:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="new-terminal-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r4e:-menuitem-:r4f:"
+                      id="menu-list-:r4g:-menuitem-:r4h:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3448,7 +3484,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="split-terminal-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r4e:-menuitem-:r4g:"
+                      id="menu-list-:r4g:-menuitem-:r4i:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3472,7 +3508,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="run-task-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r4e:-menuitem-:r4h:"
+                      id="menu-list-:r4g:-menuitem-:r4j:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3492,7 +3528,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="run-build-task-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r4e:-menuitem-:r4i:"
+                      id="menu-list-:r4g:-menuitem-:r4k:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3503,7 +3539,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="run-active-file-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r4e:-menuitem-:r4j:"
+                      id="menu-list-:r4g:-menuitem-:r4l:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3514,7 +3550,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="run-selected-text-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r4e:-menuitem-:r4k:"
+                      id="menu-list-:r4g:-menuitem-:r4m:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3529,7 +3565,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="show-running-tasks-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r4e:-menuitem-:r4l:"
+                      id="menu-list-:r4g:-menuitem-:r4n:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3540,7 +3576,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="restart-running-task-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r4e:-menuitem-:r4m:"
+                      id="menu-list-:r4g:-menuitem-:r4o:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3551,7 +3587,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="terminate-task-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r4e:-menuitem-:r4n:"
+                      id="menu-list-:r4g:-menuitem-:r4p:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3566,7 +3602,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="configure-tasks-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r4e:-menuitem-:r4o:"
+                      id="menu-list-:r4g:-menuitem-:r4q:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3577,7 +3613,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="configure-default-build-task-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r4e:-menuitem-:r4p:"
+                      id="menu-list-:r4g:-menuitem-:r4r:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3587,12 +3623,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                   </div>
                 </div>
                 <button
-                  aria-controls="menu-list-:r4r:"
+                  aria-controls="menu-list-:r4t:"
                   aria-expanded="false"
                   aria-haspopup="menu"
                   aria-label="help-top-bar-button"
                   class="chakra-menu__menu-button css-a89oud"
-                  id="menu-button-:r4r:"
+                  id="menu-button-:r4t:"
                 >
                   <span
                     class="css-xl71ch"
@@ -3611,16 +3647,16 @@ exports[`RouterProvider should render mac for login 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r4r:"
+                    id="menu-list-:r4t:"
                     role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
                       aria-label="welcome-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:r4r:-menuitem-:r4s:"
+                      id="menu-list-:r4t:-menuitem-:r4u:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3631,7 +3667,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="show-all-commands-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:r4r:-menuitem-:r4t:"
+                      id="menu-list-:r4t:-menuitem-:r4v:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3642,7 +3678,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="documentation-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="2"
-                      id="menu-list-:r4r:-menuitem-:r4u:"
+                      id="menu-list-:r4t:-menuitem-:r50:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3653,7 +3689,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="editor-playground-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="3"
-                      id="menu-list-:r4r:-menuitem-:r4v:"
+                      id="menu-list-:r4t:-menuitem-:r51:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3664,7 +3700,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="show-release-notes-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="4"
-                      id="menu-list-:r4r:-menuitem-:r50:"
+                      id="menu-list-:r4t:-menuitem-:r52:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3679,7 +3715,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="keyboard-shortcuts-reference-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="5"
-                      id="menu-list-:r4r:-menuitem-:r51:"
+                      id="menu-list-:r4t:-menuitem-:r53:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3699,7 +3735,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="video-and-tutorials-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="6"
-                      id="menu-list-:r4r:-menuitem-:r52:"
+                      id="menu-list-:r4t:-menuitem-:r54:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3710,7 +3746,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="tips-and-tricks-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="7"
-                      id="menu-list-:r4r:-menuitem-:r53:"
+                      id="menu-list-:r4t:-menuitem-:r55:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3725,7 +3761,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="join-us-on-youtube-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="8"
-                      id="menu-list-:r4r:-menuitem-:r54:"
+                      id="menu-list-:r4t:-menuitem-:r56:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3736,7 +3772,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="search-feature-requests-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="9"
-                      id="menu-list-:r4r:-menuitem-:r55:"
+                      id="menu-list-:r4t:-menuitem-:r57:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3747,7 +3783,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="report-issue-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="10"
-                      id="menu-list-:r4r:-menuitem-:r56:"
+                      id="menu-list-:r4t:-menuitem-:r58:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3762,7 +3798,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="view-license-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="11"
-                      id="menu-list-:r4r:-menuitem-:r57:"
+                      id="menu-list-:r4t:-menuitem-:r59:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3773,7 +3809,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="privacy-statement-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="12"
-                      id="menu-list-:r4r:-menuitem-:r58:"
+                      id="menu-list-:r4t:-menuitem-:r5a:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3788,7 +3824,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="toggle-developer-tools-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="13"
-                      id="menu-list-:r4r:-menuitem-:r59:"
+                      id="menu-list-:r4t:-menuitem-:r5b:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3799,7 +3835,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       aria-label="open-process-explorer-menu-button"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="14"
-                      id="menu-list-:r4r:-menuitem-:r5a:"
+                      id="menu-list-:r4t:-menuitem-:r5c:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -3816,12 +3852,12 @@ exports[`RouterProvider should render mac for login 1`] = `
               role="group"
             >
               <button
-                aria-controls="menu-list-:r5c:"
+                aria-controls="menu-list-:r5e:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="monitor-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r5c:"
+                id="menu-button-:r5e:"
               >
                 <span
                   class="css-xl71ch"
@@ -3846,9 +3882,9 @@ exports[`RouterProvider should render mac for login 1`] = `
                 <div
                   aria-orientation="vertical"
                   class="chakra-menu__menu-list css-f6jf1x"
-                  id="menu-list-:r5c:"
+                  id="menu-list-:r5e:"
                   role="menu"
-                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                   tabindex="-1"
                 >
                   <div
@@ -3861,12 +3897,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                     </p>
                     <div
                       class="chakra-slider css-1j9oeic"
-                      style="position: relative; user-select: none; outline: 0; padding-top: 0px; padding-bottom: 0px;"
+                      style="position: relative; user-select: none; outline: 0;"
                       tabindex="-1"
                     >
                       <div
                         class="chakra-slider__track css-q9xlwy"
-                        id="slider-track-:r5d:"
+                        id="slider-track-:r5f:"
                         style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                       >
                         <div
@@ -3892,9 +3928,9 @@ exports[`RouterProvider should render mac for login 1`] = `
                         aria-valuemin="0"
                         aria-valuenow="100"
                         class="chakra-slider__thumb css-1om1vhp"
-                        id="slider-thumb-:r5d:"
+                        id="slider-thumb-:r5f:"
                         role="slider"
-                        style="position: absolute; user-select: none; left: calc(100% - 0px);"
+                        style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                         tabindex="0"
                       />
                       <input
@@ -3911,7 +3947,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     >
                       <button
                         aria-label="dark-mode-button"
-                        class="chakra-button css-17ugn9q"
+                        class="chakra-button css-126y4du"
                         type="button"
                       >
                         <svg
@@ -3949,7 +3985,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     >
                       <button
                         aria-label="night-shift-button"
-                        class="chakra-button css-17ugn9q"
+                        class="chakra-button css-126y4du"
                         type="button"
                       >
                         <svg
@@ -3987,7 +4023,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     >
                       <button
                         aria-label="true-tone-button"
-                        class="chakra-button css-17ugn9q"
+                        class="chakra-button css-126y4du"
                         type="button"
                       >
                         <svg
@@ -4022,7 +4058,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="monitor-settings"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="0"
-                    id="menu-list-:r5c:-menuitem-:r5e:"
+                    id="menu-list-:r5e:-menuitem-:r5g:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4032,12 +4068,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                 </div>
               </div>
               <button
-                aria-controls="menu-list-:r5g:"
+                aria-controls="menu-list-:r5i:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="user-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r5g:"
+                id="menu-button-:r5i:"
               >
                 <span
                   class="css-xl71ch"
@@ -4056,9 +4092,9 @@ exports[`RouterProvider should render mac for login 1`] = `
                 <div
                   aria-orientation="vertical"
                   class="chakra-menu__menu-list css-f6jf1x"
-                  id="menu-list-:r5g:"
+                  id="menu-list-:r5i:"
                   role="menu"
-                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                   tabindex="-1"
                 >
                   <div
@@ -4084,7 +4120,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="login-window"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="0"
-                    id="menu-list-:r5g:-menuitem-:r5h:"
+                    id="menu-list-:r5i:-menuitem-:r5j:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4099,7 +4135,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="user-setting"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="1"
-                    id="menu-list-:r5g:-menuitem-:r5i:"
+                    id="menu-list-:r5i:-menuitem-:r5k:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4109,12 +4145,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                 </div>
               </div>
               <button
-                aria-controls="menu-list-:r5k:"
+                aria-controls="menu-list-:r5m:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="battery-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r5k:"
+                id="menu-button-:r5m:"
               >
                 <span
                   class="css-xl71ch"
@@ -4142,9 +4178,9 @@ exports[`RouterProvider should render mac for login 1`] = `
                 <div
                   aria-orientation="vertical"
                   class="chakra-menu__menu-list css-f6jf1x"
-                  id="menu-list-:r5k:"
+                  id="menu-list-:r5m:"
                   role="menu"
-                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                   tabindex="-1"
                 >
                   <div
@@ -4169,7 +4205,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="battery-settings"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="0"
-                    id="menu-list-:r5k:-menuitem-:r5l:"
+                    id="menu-list-:r5m:-menuitem-:r5n:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4179,12 +4215,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                 </div>
               </div>
               <button
-                aria-controls="menu-list-:r5n:"
+                aria-controls="menu-list-:r5p:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="wifi-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r5n:"
+                id="menu-button-:r5p:"
               >
                 <span
                   class="css-xl71ch"
@@ -4209,9 +4245,9 @@ exports[`RouterProvider should render mac for login 1`] = `
                 <div
                   aria-orientation="vertical"
                   class="chakra-menu__menu-list css-f6jf1x"
-                  id="menu-list-:r5n:"
+                  id="menu-list-:r5p:"
                   role="menu"
-                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                   tabindex="-1"
                 >
                   <div
@@ -4226,6 +4262,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                       class="chakra-switch css-16pgy8f"
                     >
                       <input
+                        aria-checked="false"
                         class="chakra-switch__input"
                         style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                         type="checkbox"
@@ -4245,7 +4282,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="wifi-weak-security"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="0"
-                    id="menu-list-:r5n:-menuitem-:r5o:"
+                    id="menu-list-:r5p:-menuitem-:r5q:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4314,7 +4351,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="other-network"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="1"
-                    id="menu-list-:r5n:-menuitem-:r5p:"
+                    id="menu-list-:r5p:-menuitem-:r5r:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4338,7 +4375,7 @@ exports[`RouterProvider should render mac for login 1`] = `
                     aria-label="wifi-settings"
                     class="chakra-menu__menuitem css-cvp33l"
                     data-index="2"
-                    id="menu-list-:r5n:-menuitem-:r5q:"
+                    id="menu-list-:r5p:-menuitem-:r5s:"
                     role="menuitem"
                     tabindex="-1"
                     type="button"
@@ -4349,7 +4386,7 @@ exports[`RouterProvider should render mac for login 1`] = `
               </div>
               <button
                 aria-label="search-top-bar-button"
-                class="chakra-button css-ueoxlt"
+                class="chakra-button css-dy3rr5"
                 type="button"
               >
                 <svg
@@ -4367,12 +4404,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                 </svg>
               </button>
               <button
-                aria-controls="menu-list-:r5s:"
+                aria-controls="menu-list-:r5u:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="settings-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r5s:"
+                id="menu-button-:r5u:"
               >
                 <span
                   class="css-xl71ch"
@@ -4398,9 +4435,9 @@ exports[`RouterProvider should render mac for login 1`] = `
                 <div
                   aria-orientation="vertical"
                   class="chakra-menu__menu-list css-f6jf1x"
-                  id="menu-list-:r5s:"
+                  id="menu-list-:r5u:"
                   role="menu"
-                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+                  style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                   tabindex="-1"
                 >
                   <div
@@ -4421,12 +4458,12 @@ exports[`RouterProvider should render mac for login 1`] = `
                 </div>
               </div>
               <button
-                aria-controls="menu-list-:r5v:"
+                aria-controls="menu-list-:r61:"
                 aria-expanded="false"
                 aria-haspopup="menu"
                 aria-label="date-time-top-bar-button"
                 class="chakra-menu__menu-button css-10l0d22"
-                id="menu-button-:r5v:"
+                id="menu-button-:r61:"
               >
                 <span
                   class="css-xl71ch"

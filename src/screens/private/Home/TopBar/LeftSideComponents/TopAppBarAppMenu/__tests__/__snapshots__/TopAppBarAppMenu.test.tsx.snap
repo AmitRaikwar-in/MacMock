@@ -32,7 +32,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r1:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -107,7 +107,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:r5:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -222,7 +222,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rf:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -471,7 +471,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r10:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -723,7 +723,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:r1c:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -819,7 +819,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r1j:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -1145,7 +1145,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r24:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -1464,7 +1464,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r2k:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -1882,7 +1882,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r39:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -2171,7 +2171,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r3q:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -2363,7 +2363,7 @@ exports[`TopAppBarAppMenu should render with VsCode app 1`] = `
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r47:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -2594,7 +2594,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r4o:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -2673,7 +2673,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:r4s:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -2788,7 +2788,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r56:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -3037,7 +3037,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r5n:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -3293,7 +3293,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:r63:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -3389,7 +3389,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r6a:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -3715,7 +3715,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r6r:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -4034,7 +4034,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r7b:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -4452,7 +4452,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r80:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -4741,7 +4741,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r8h:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -4933,7 +4933,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 1`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r8u:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -5164,7 +5164,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r9f:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -5282,7 +5282,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:r9l:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -5397,7 +5397,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:r9t:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -5554,7 +5554,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:ra5:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -5717,7 +5717,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rah:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -6033,7 +6033,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rb2:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -6106,7 +6106,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rb7:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -6194,7 +6194,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rbd:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -6267,7 +6267,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rbi:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -6363,7 +6363,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rbp:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -6640,7 +6640,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rc6:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -6739,7 +6739,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rcd:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -6882,7 +6882,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rcm:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -7162,7 +7162,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rd5:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -7317,7 +7317,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rdd:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -7391,7 +7391,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rdi:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -7484,7 +7484,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rdm:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -7623,7 +7623,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:re1:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -7946,7 +7946,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:reo:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -8118,7 +8118,7 @@ exports[`TopAppBarAppMenu should test the click events for all menu items 2`] = 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rf4:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -8196,7 +8196,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rf9:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -8271,7 +8271,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rfd:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -8386,7 +8386,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rfn:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -8635,7 +8635,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rg8:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -8887,7 +8887,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rgk:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -8983,7 +8983,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rgr:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -9309,7 +9309,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rhc:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -9628,7 +9628,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rhs:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -10046,7 +10046,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rih:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -10335,7 +10335,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rj2:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -10527,7 +10527,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items 1`] 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rjf:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -10758,7 +10758,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rk0:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -10872,7 +10872,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rk6:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -10987,7 +10987,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rke:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -11140,7 +11140,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rkm:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -11303,7 +11303,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rl2:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -11615,7 +11615,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rlj:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -11684,7 +11684,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rlo:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -11768,7 +11768,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rlu:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -11837,7 +11837,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rm3:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -11933,7 +11933,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rma:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -12206,7 +12206,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rmn:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -12301,7 +12301,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rmu:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -12440,7 +12440,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rn7:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -12716,7 +12716,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rnm:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -12867,7 +12867,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:rnu:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -12941,7 +12941,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:ro3:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -13030,7 +13030,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:ro7:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -13165,7 +13165,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
             class="chakra-menu__menu-list css-f6jf1x"
             id="menu-list-:roi:"
             role="menu"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
             tabindex="-1"
           >
             <button
@@ -13488,7 +13488,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rp9:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button
@@ -13660,7 +13660,7 @@ exports[`TopAppBarAppMenu should test the click events for inner menu items for 
         class="chakra-menu__menu-list css-f6jf1x"
         id="menu-list-:rpl:"
         role="menu"
-        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
         tabindex="-1"
       >
         <button

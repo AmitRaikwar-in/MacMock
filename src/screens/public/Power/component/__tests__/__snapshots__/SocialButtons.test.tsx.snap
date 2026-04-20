@@ -12,7 +12,7 @@ exports[`SocialButtons should render correctly 1`] = `
   >
     <a
       aria-label="linkedin"
-      class="chakra-button css-1oe6ui6"
+      class="chakra-button css-1xiw42x"
       href="https://in.linkedin.com/in/amitrai1603"
       target="_blank"
     >
@@ -31,7 +31,7 @@ exports[`SocialButtons should render correctly 1`] = `
     </a>
     <a
       aria-label="github"
-      class="chakra-button css-ey8rer"
+      class="chakra-button css-1lqecrm"
       href="https://github.com/onemanfighter"
       target="_blank"
     >
@@ -50,7 +50,7 @@ exports[`SocialButtons should render correctly 1`] = `
     </a>
     <a
       aria-label="medium"
-      class="chakra-button css-ey8rer"
+      class="chakra-button css-1lqecrm"
       href="https://amitraikwar.medium.com/"
       target="_blank"
     >
@@ -69,7 +69,7 @@ exports[`SocialButtons should render correctly 1`] = `
     </a>
     <a
       aria-label="youtube"
-      class="chakra-button css-gtm1u"
+      class="chakra-button css-yy753z"
       href="https://www.youtube.com/"
       target="_blank"
     >
@@ -88,7 +88,7 @@ exports[`SocialButtons should render correctly 1`] = `
     </a>
     <button
       aria-label="instagram"
-      class="chakra-button css-1bjbnun"
+      class="chakra-button css-efuork"
       type="button"
     >
       <svg

@@ -32,22 +32,26 @@ This project is built using modern web development tools and best practices:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 Make sure you have Node.js (v18 or higher) and Yarn installed.
 
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone git@github.com:onemanfighter/ARMacPortfolio.git
    cd ARMacPortfolio
    ```
 
 2. Install dependencies:
+
    ```bash
    yarn install
    ```
 
 3. Start the development server:
+
    ```bash
    yarn start
    ```
@@ -57,14 +61,17 @@ Make sure you have Node.js (v18 or higher) and Yarn installed.
 ## 🧪 Testing
 
 Run unit tests and generate coverage reports:
+
 ```bash
 yarn test:cov
 ```
 
 Run Cypress end-to-end tests:
+
 ```bash
 yarn cy:open
 ```
 
 ## 📜 License
+
 This project is licensed under the MIT License.

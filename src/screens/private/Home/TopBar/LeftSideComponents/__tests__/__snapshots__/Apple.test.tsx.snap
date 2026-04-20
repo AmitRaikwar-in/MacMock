@@ -38,7 +38,7 @@ exports[`Apple Should render about this mac correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rp:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -250,7 +250,7 @@ exports[`Apple Should render app store correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1h:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -459,7 +459,7 @@ exports[`Apple Should render apple button correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -672,7 +672,7 @@ exports[`Apple Should render apple menu correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:rd:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -884,7 +884,7 @@ exports[`Apple Should render force quit correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r29:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -1096,7 +1096,7 @@ exports[`Apple Should render recent items correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r1t:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -1308,7 +1308,7 @@ exports[`Apple Should render restart correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r31:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -1520,7 +1520,7 @@ exports[`Apple Should render shut down correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r3d:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -1732,7 +1732,7 @@ exports[`Apple Should render sleep correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r2l:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button
@@ -1944,7 +1944,7 @@ exports[`Apple Should render system settings correctly 1`] = `
       class="chakra-menu__menu-list css-f6jf1x"
       id="menu-list-:r15:"
       role="menu"
-      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8) translateZ(0);"
+      style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <button

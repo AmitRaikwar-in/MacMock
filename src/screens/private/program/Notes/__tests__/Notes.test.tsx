@@ -21,7 +21,7 @@ describe('Notes', () => {
       id: '1',
       title: 'Title',
       description: 'Description',
-      date: new Date().toLocaleDateString(),
+      date: new Date().toLocaleDateString('en-GB'),
     });
   });
 
