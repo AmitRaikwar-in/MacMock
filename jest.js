@@ -1,5 +1,8 @@
 import '@localization/config';
 // import './__mocks__/zustand';
+if (typeof localStorage !== 'undefined') {
+  localStorage.clear();
+}
 
 jest.useFakeTimers();
 jest.mock('zustand');
