@@ -254,7 +254,7 @@ describe('Windows', () => {
 
       expect(capturedDraggableProps.maximized).toBe(true);
       expect(capturedResizableProps.resizeHandles).toEqual([]);
-      expect(capturedResizableProps.style.transition).toBe('all 0.2s');
+      expect(capturedResizableProps.style.transition).toBe('all 0.3s cubic-bezier(0.16, 1, 0.3, 1)');
 
       // Test toggle back to DEFAULT
       fireEvent.click(screen.getByLabelText('maximize'));

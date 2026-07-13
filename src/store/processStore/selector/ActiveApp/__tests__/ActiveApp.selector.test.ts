@@ -31,6 +31,7 @@ describe('Active app selector', () => {
     expect(result.current.getActiveApp(ProgramType.CHROME)).toEqual({
       position: { x: 600, y: 150 },
       size: WindowSize.DEFAULT,
+      zIndex: 1,
     });
   });
 
@@ -107,7 +108,7 @@ describe('Active app selector', () => {
     expect(result.current.activeAppRunning).toEqual(ProgramType.CHROME);
 
     result.current.makeDefaultAppActive(ProgramType.CHROME);
-    expect(result.current.activeAppRunning).toEqual(ProgramType.VSCODE);
+    expect(result.current.activeAppRunning).toEqual(ProgramType.FINDER);
   });
 
   it('should clear all active apps', () => {
@@ -119,8 +120,10 @@ describe('Active app selector', () => {
     );
 
     result.current.addApp(ProgramType.CHROME);
-    result.current.addApp(ProgramType.VSCODE);
+    expect(result.current.getActiveApp(ProgramType.CHROME)).toBeDefined();
 
+    result.current.addApp(ProgramType.VSCODE);
+    // Multi-instance: both apps remain open
     expect(result.current.getActiveApp(ProgramType.CHROME)).toBeDefined();
     expect(result.current.getActiveApp(ProgramType.VSCODE)).toBeDefined();
 

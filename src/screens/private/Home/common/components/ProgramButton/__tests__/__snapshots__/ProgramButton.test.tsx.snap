@@ -10,6 +10,7 @@ exports[`ProgramButton should render correctly 1`] = `
       alt="Finder"
       class="chakra-image css-mzgt0a"
       loading="lazy"
+      src=""
     />
     <p
       class="chakra-text css-1d0as8b"
@@ -30,6 +31,7 @@ exports[`ProgramButton should render correctly with active state 1`] = `
       alt="Finder"
       class="chakra-image css-mzgt0a"
       loading="lazy"
+      src=""
     />
     <p
       class="chakra-text css-1d0as8b"

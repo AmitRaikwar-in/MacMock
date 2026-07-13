@@ -20,6 +20,7 @@ export { BackIcon } from './Back';
 export { RefreshIcon } from './Refresh';
 export { MenuIcon } from './Menu';
 export { InfoIcon } from './InfoIcon';
+export { AirDropIcon } from './AirDrop';
 
 // Social icons
 export { LinkedInIcon } from './LinkedIn';

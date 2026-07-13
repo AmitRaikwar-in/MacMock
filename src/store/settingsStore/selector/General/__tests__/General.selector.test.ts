@@ -6,6 +6,11 @@ describe('General selector', () => {
   it('should return default general state', () => {
     const { result } = renderHook(() => settingsStore(generalSelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current).toEqual({
+      selectedTab: 'general',
+      subPage: null,
+      setSelectedTab: expect.any(Function),
+      setSubPage: expect.any(Function),
+    });
   });
 });

@@ -4,7 +4,7 @@ exports[`Users slice should return default terminal state 1`] = `
 {
   "amitraikwar": {
     "createdAt": "2024-05-13",
-    "email": "raikwar.amit.1603@gmail.com",
+    "email": "",
     "id": "amitraikwar",
     "name": "Amit Raikwar",
     "password": "1234",
@@ -12,5 +12,6 @@ exports[`Users slice should return default terminal state 1`] = `
     "role": "admin",
     "updatedAt": "2021-09-02",
   },
+  "updatePassword": [Function],
 }
 `;

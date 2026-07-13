@@ -3,46 +3,932 @@
 exports[`DateTime drawer should open pop-up when battery icon is tapped 1`] = `
 <div>
   <button
-    aria-controls="menu-list-:r6:"
-    aria-expanded="true"
-    aria-haspopup="menu"
     aria-label="date-time-top-bar-button"
-    class="chakra-menu__menu-button css-10l0d22"
-    data-active=""
-    id="menu-button-:r6:"
+    class="chakra-button css-ybifa1"
+    type="button"
   >
-    <span
-      class="css-xl71ch"
+    <p
+      class="chakra-text css-0"
     >
-      <p
-        class="chakra-text css-0"
-      >
-        Thu May 14 11:01 AM
-      </p>
-    </span>
+      Thu May 14 11:01 AM
+    </p>
   </button>
+  <div
+    class="css-nvkbv2"
+  />
+  <div
+    class="css-1byt1d0"
+  >
+    <div
+      class="chakra-stack css-1jbmm9k"
+    >
+      <div
+        class="css-1u450b"
+      >
+        <div
+          class="css-1rslm09"
+        >
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1isbnq6"
+            >
+              THURSDAY
+            </p>
+            <p
+              class="chakra-text css-ioibws"
+            >
+              14
+            </p>
+          </div>
+          <p
+            class="chakra-text css-7t1bt"
+          >
+            No Events Today
+          </p>
+        </div>
+        <div
+          class="css-1ipdxr0"
+        >
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1u8coqu"
+            >
+              Pune ↗
+            </p>
+            <p
+              class="chakra-text css-1kwkpe3"
+            >
+              23°
+            </p>
+          </div>
+          <div
+            class="css-0"
+          >
+            <div
+              class="chakra-stack css-1erbfv3"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.36 10.04a6 6 0 0 0-11.11-1.5 4.5 4.5 0 0 0-1.89 8.78h13.36a4.12 4.12 0 0 0-.36-7.28z"
+                />
+              </svg>
+              <p
+                class="chakra-text css-7qcwdg"
+              >
+                Mostly Cloudy
+              </p>
+            </div>
+            <p
+              class="chakra-text css-1tgtg8d"
+            >
+              H:29° L:22°
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1bbe7oy"
+      >
+        <div
+          class="chakra-stack css-1g23erx"
+        >
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Cupertino
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Yesterday
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              -12:30
+            </p>
+          </div>
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Tokyo
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Today
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              +3:30
+            </p>
+          </div>
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Sydney
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Today
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              +4:30
+            </p>
+          </div>
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Paris
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Yesterday
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              -3:30
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1u450b"
+      >
+        <div
+          class="css-mzt8m6"
+        >
+          <div
+            class="chakra-stack css-1a1f2hq"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+            >
+              <p
+                class="chakra-text css-qljqz"
+              >
+                ▼ DOW
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                52,499
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-1y3f6ad"
+            >
+              <p
+                class="chakra-text css-qljqz"
+              >
+                ▼ S&P 500
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                7,515
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-1y3f6ad"
+            >
+              <p
+                class="chakra-text css-6a54a0"
+              >
+                ▲ AAPL
+              </p>
+              <p
+                class="chakra-text css-6a54a0"
+              >
+                317.31
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1y8qa8j"
+            >
+              Economic Times
+            </p>
+            <p
+              class="chakra-text css-gz8ysp"
+            >
+              US stocks today: S&P 500 and Nasdaq open lo...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1bbe7oy"
+      >
+        <p
+          class="chakra-text css-1ydmulh"
+        >
+          1h 55m
+        </p>
+        <div
+          class="css-185ri42"
+        >
+          <div
+            class="css-p0spjt"
+          >
+            <div
+              class="css-1x8qcqd"
+            >
+              <p
+                class="chakra-text css-sc1k4m"
+              >
+                60m
+              </p>
+            </div>
+            <div
+              class="css-1x8qcqd"
+            >
+              <p
+                class="chakra-text css-sc1k4m"
+              >
+                30m
+              </p>
+            </div>
+            <div
+              class="css-bayyz5"
+            >
+              <p
+                class="chakra-text css-8gpzoc"
+              >
+                0
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-mkcnih"
+            >
+              <div
+                class="css-1tsylwj"
+              />
+              <div
+                class="css-1wdn5n6"
+              />
+              <div
+                class="css-16npksi"
+              />
+            </div>
+            <div
+              class="chakra-stack css-wqf380"
+            >
+              <p
+                class="chakra-text css-0"
+              >
+                12 AM
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                6 AM
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                12 PM
+              </p>
+            </div>
+          </div>
+          <div
+            class="chakra-stack css-7tz4zo"
+          >
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Xcode
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                1h 14m
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Chrome
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                38m
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Settings
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                1m
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Finder
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                18s
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-stack css-1aov9ha"
+      >
+        <button
+          class="chakra-button css-1pdmzci"
+          type="button"
+        >
+          Edit Widgets
+        </button>
+        <div
+          class="css-10bpbgx"
+        >
+          <p
+            class="chakra-text css-5w865n"
+          >
+            ✕
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`DateTime drawer should render correctly 1`] = `
 <div>
   <button
-    aria-controls="menu-list-:r2:"
-    aria-expanded="false"
-    aria-haspopup="menu"
     aria-label="date-time-top-bar-button"
-    class="chakra-menu__menu-button css-10l0d22"
-    id="menu-button-:r2:"
+    class="chakra-button css-ybifa1"
+    type="button"
   >
-    <span
-      class="css-xl71ch"
+    <p
+      class="chakra-text css-0"
     >
-      <p
-        class="chakra-text css-0"
-      >
-        Thu May 14 11:01 AM
-      </p>
-    </span>
+      Thu May 14 11:01 AM
+    </p>
   </button>
+  <div
+    class="css-lztqgm"
+  >
+    <div
+      class="chakra-stack css-1jbmm9k"
+    >
+      <div
+        class="css-1u450b"
+      >
+        <div
+          class="css-1rslm09"
+        >
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1isbnq6"
+            >
+              THURSDAY
+            </p>
+            <p
+              class="chakra-text css-ioibws"
+            >
+              14
+            </p>
+          </div>
+          <p
+            class="chakra-text css-7t1bt"
+          >
+            No Events Today
+          </p>
+        </div>
+        <div
+          class="css-1ipdxr0"
+        >
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1u8coqu"
+            >
+              Pune ↗
+            </p>
+            <p
+              class="chakra-text css-1kwkpe3"
+            >
+              23°
+            </p>
+          </div>
+          <div
+            class="css-0"
+          >
+            <div
+              class="chakra-stack css-1erbfv3"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.36 10.04a6 6 0 0 0-11.11-1.5 4.5 4.5 0 0 0-1.89 8.78h13.36a4.12 4.12 0 0 0-.36-7.28z"
+                />
+              </svg>
+              <p
+                class="chakra-text css-7qcwdg"
+              >
+                Mostly Cloudy
+              </p>
+            </div>
+            <p
+              class="chakra-text css-1tgtg8d"
+            >
+              H:29° L:22°
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1bbe7oy"
+      >
+        <div
+          class="chakra-stack css-1g23erx"
+        >
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Cupertino
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Yesterday
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              -12:30
+            </p>
+          </div>
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Tokyo
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Today
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              +3:30
+            </p>
+          </div>
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Sydney
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Today
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              +4:30
+            </p>
+          </div>
+          <div
+            class="chakra-stack css-q23b4k"
+          >
+            <div
+              class="css-iamqmo"
+            >
+              <div
+                aria-label="mock-clock"
+              />
+            </div>
+            <p
+              class="chakra-text css-1qymrty"
+            >
+              Paris
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              Yesterday
+            </p>
+            <p
+              class="chakra-text css-1kfh92p"
+            >
+              -3:30
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1u450b"
+      >
+        <div
+          class="css-mzt8m6"
+        >
+          <div
+            class="chakra-stack css-1a1f2hq"
+          >
+            <div
+              class="chakra-stack css-1y3f6ad"
+            >
+              <p
+                class="chakra-text css-qljqz"
+              >
+                ▼ DOW
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                52,499
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-1y3f6ad"
+            >
+              <p
+                class="chakra-text css-qljqz"
+              >
+                ▼ S&P 500
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                7,515
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-1y3f6ad"
+            >
+              <p
+                class="chakra-text css-6a54a0"
+              >
+                ▲ AAPL
+              </p>
+              <p
+                class="chakra-text css-6a54a0"
+              >
+                317.31
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-0"
+          >
+            <p
+              class="chakra-text css-1y8qa8j"
+            >
+              Economic Times
+            </p>
+            <p
+              class="chakra-text css-gz8ysp"
+            >
+              US stocks today: S&P 500 and Nasdaq open lo...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="css-1bbe7oy"
+      >
+        <p
+          class="chakra-text css-1ydmulh"
+        >
+          1h 55m
+        </p>
+        <div
+          class="css-185ri42"
+        >
+          <div
+            class="css-p0spjt"
+          >
+            <div
+              class="css-1x8qcqd"
+            >
+              <p
+                class="chakra-text css-sc1k4m"
+              >
+                60m
+              </p>
+            </div>
+            <div
+              class="css-1x8qcqd"
+            >
+              <p
+                class="chakra-text css-sc1k4m"
+              >
+                30m
+              </p>
+            </div>
+            <div
+              class="css-bayyz5"
+            >
+              <p
+                class="chakra-text css-8gpzoc"
+              >
+                0
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-mkcnih"
+            >
+              <div
+                class="css-1tsylwj"
+              />
+              <div
+                class="css-1wdn5n6"
+              />
+              <div
+                class="css-16npksi"
+              />
+            </div>
+            <div
+              class="chakra-stack css-wqf380"
+            >
+              <p
+                class="chakra-text css-0"
+              >
+                12 AM
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                6 AM
+              </p>
+              <p
+                class="chakra-text css-0"
+              >
+                12 PM
+              </p>
+            </div>
+          </div>
+          <div
+            class="chakra-stack css-7tz4zo"
+          >
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Xcode
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                1h 14m
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Chrome
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                38m
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Settings
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                1m
+              </p>
+            </div>
+            <div
+              class="chakra-stack css-18403hd"
+            >
+              <div
+                class="chakra-stack css-1xwk49h"
+              >
+                <img
+                  class="chakra-image css-qzxgwt"
+                  src="[object Object]"
+                />
+                <p
+                  class="chakra-text css-1834uat"
+                >
+                  Finder
+                </p>
+              </div>
+              <p
+                class="chakra-text css-mfq1v"
+              >
+                18s
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-stack css-1aov9ha"
+      >
+        <button
+          class="chakra-button css-1pdmzci"
+          type="button"
+        >
+          Edit Widgets
+        </button>
+        <div
+          class="css-10bpbgx"
+        >
+          <p
+            class="chakra-text css-5w865n"
+          >
+            ✕
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;

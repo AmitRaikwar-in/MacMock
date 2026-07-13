@@ -1,27 +1,21 @@
 import { useContext } from 'react';
 import { Box } from '@chakra-ui/react';
-import { HomeProps } from './type';
 import { WallpaperComponent, Window } from '@components';
 import { settingsStore, useShallow, wallpaperSelector } from '@settingsStore';
 import { TopBar } from './TopBar';
 import { BottomBar } from './BottomBar';
-import {
-  ProgramType,
-  processStore,
-  activeAppSelector,
-  WindowSize,
-} from '@processStore';
+import { ProgramType, processStore, activeAppSelector } from '@processStore';
 import { Launchpad } from './Launchpad';
 import { LaunchpadContext } from '../Mac';
 import WindowAppMap from './AppMap';
 
-const Home = (props: HomeProps) => {
+const Home = () => {
   const { launchpad } = useContext(LaunchpadContext);
   const { wallpaper } = settingsStore(useShallow(wallpaperSelector));
   const activeApp = processStore(useShallow(activeAppSelector));
 
   const shouldShowAppWindow = (app: ProgramType) =>
-    activeApp(app) !== undefined && activeApp(app)?.size !== WindowSize.HIDE;
+    activeApp(app) !== undefined;
   return (
     <Box aria-label="home" width={'100vw'} height={'100vh'}>
       <Box width={'100vw'} height={'100vh'} position={'absolute'} zIndex={-10}>
@@ -50,12 +44,7 @@ const Home = (props: HomeProps) => {
       {launchpad ? (
         <Launchpad />
       ) : (
-        <Box
-          width={'100vw'}
-          height={'100vh'}
-          position={'absolute'}
-          zIndex={800}
-        >
+        <>
           {Object.values(ProgramType).map((app) => {
             return (
               shouldShowAppWindow(app) && (
@@ -67,7 +56,7 @@ const Home = (props: HomeProps) => {
               )
             );
           })}
-        </Box>
+        </>
       )}
     </Box>
   );

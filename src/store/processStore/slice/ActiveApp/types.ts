@@ -57,11 +57,15 @@ export type AppState = {
     x: number;
     y: number;
   };
+  /** Monotonically-increasing value — higher = in front */
+  zIndex: number;
 };
 
 export type ActiveAppsState = {
   activeApp: ProgramType;
   apps: Record<ProgramType, AppState | undefined>;
+  /** Global z-index counter; incremented on every bringToFront call */
+  zCounter: number;
 };
 
 export interface ActiveAppsAction {
@@ -109,6 +113,12 @@ export interface ActiveAppsAction {
     type: ProgramType,
     position: { x: number; y: number },
   ) => void;
+
+  /**
+   * Bring a window to the front by giving it the highest z-index
+   * @param type - type of app
+   */
+  bringToFront: (type: ProgramType) => void;
 
   /**
    * Clear all apps

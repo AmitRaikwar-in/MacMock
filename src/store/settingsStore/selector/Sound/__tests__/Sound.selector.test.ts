@@ -6,6 +6,9 @@ describe('Sound selector', () => {
   it('should return default Sound state', () => {
     const { result } = renderHook(() => settingsStore(soundSelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current).toEqual({
+      soundVolume: 75,
+      setSoundVolume: expect.any(Function),
+    });
   });
 });

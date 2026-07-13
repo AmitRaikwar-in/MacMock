@@ -1,697 +1,1077 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Launchpad should render correctly 1`] = `
-<div>
-  <div
-    aria-label="launchpad"
-    class="css-b4kcmh"
-  >
+<body>
+  <div>
     <div
-      class="css-znm4t"
-    >
-      <img
-        aria-label="wallpaper-component-with-wallpaper7"
-        class="chakra-image css-uwwqev"
-        loading="lazy"
-        src=""
-      />
-    </div>
-    <div
-      class="css-1xirmdq"
+      aria-label="launchpad"
+      class="css-l1in2v"
+      style="opacity: 0;"
     >
       <div
-        class="css-k7m5qz"
+        class="css-12kjwba"
+        style="opacity: 0; transform: scale(0.9);"
       >
         <div
-          aria-label="program-button-App Store"
-          class="css-16co9uo"
+          class="css-1jvxv3n"
         >
-          <img
-            alt="App Store"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+          <div
+            class="css-70qvj9"
           >
-            App Store
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Safari"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Safari"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            <div
+              class="css-16pu31y"
+            >
+              <svg
+                fill="none"
+                height="14"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                style="color: rgb(255, 255, 255); opacity: 0.9;"
+                viewBox="0 0 24 24"
+                width="14"
+              >
+                <line
+                  x1="6"
+                  x2="18"
+                  y1="20"
+                  y2="4"
+                />
+                <line
+                  x1="18"
+                  x2="12"
+                  y1="20"
+                  y2="4"
+                />
+                <line
+                  x1="9"
+                  x2="15"
+                  y1="14"
+                  y2="14"
+                />
+              </svg>
+            </div>
+            <p
+              class="chakra-text css-1gporx3"
+            >
+              Applications
+            </p>
+          </div>
+          <button
+            aria-label="more-options"
+            class="css-mnuy7f"
           >
-            Safari
-          </p>
+            <svg
+              fill="none"
+              height="14"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="14"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                fill="currentColor"
+                r="1.5"
+              />
+              <circle
+                cx="18"
+                cy="12"
+                fill="currentColor"
+                r="1.5"
+              />
+              <circle
+                cx="6"
+                cy="12"
+                fill="currentColor"
+                r="1.5"
+              />
+            </svg>
+          </button>
         </div>
         <div
-          aria-label="program-button-Mails"
-          class="css-16co9uo"
+          class="css-1nsfh1g"
         >
-          <img
-            alt="Mails"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+          <button
+            class="css-1rnu7qx"
           >
-            Mails
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Contacts"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Contacts"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            All
+          </button>
+          <button
+            class="css-11l97j"
           >
-            Contacts
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Finder"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Finder"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            Productivity & Finance
+          </button>
+          <button
+            class="css-11l97j"
           >
-            Finder
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Notes"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Notes"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            Developer Tools
+          </button>
+          <button
+            class="css-11l97j"
           >
-            Notes
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Chrome"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Chrome"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            Utilities
+          </button>
+          <button
+            class="css-11l97j"
           >
-            Chrome
-          </p>
-        </div>
-        <div
-          aria-label="program-button-VsCode"
-          class="css-16co9uo"
-        >
-          <img
-            alt="VsCode"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            Entertainment
+          </button>
+          <button
+            class="css-11l97j"
           >
-            VsCode
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Terminal"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Terminal"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            Social
+          </button>
+          <button
+            class="css-11l97j"
           >
-            Terminal
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Spotify"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Spotify"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+            Creativity
+          </button>
+          <button
+            class="css-11l97j"
           >
-            Spotify
-          </p>
+            Information & Reading
+          </button>
         </div>
+        <hr
+          aria-orientation="horizontal"
+          class="chakra-divider css-pqfwt8"
+        />
         <div
-          aria-label="program-button-Github"
-          class="css-16co9uo"
+          class="css-z5z09l"
         >
-          <img
-            alt="Github"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
+          <div
+            class="css-1l53hmk"
+            style="opacity: 0;"
           >
-            Github
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Settings"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Settings"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Settings
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Bin"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Bin"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Bin
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Calendar"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Calendar"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Calendar
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Reminders"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Reminders"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Reminders
-          </p>
-        </div>
-        <div
-          aria-label="program-button-FaceTime"
-          class="css-16co9uo"
-        >
-          <img
-            alt="FaceTime"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            FaceTime
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Messages"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Messages"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Messages
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Maps"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Maps"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Maps
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Find My"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Find My"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Find My
-          </p>
-        </div>
-        <div
-          aria-label="program-button-PhotoBooth"
-          class="css-16co9uo"
-        >
-          <img
-            alt="PhotoBooth"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            PhotoBooth
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Photos"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Photos"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Photos
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Preview"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Preview"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Preview
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Music"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Music"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Music
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Podcasts"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Podcasts"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Podcasts
-          </p>
-        </div>
-        <div
-          aria-label="program-button-TV"
-          class="css-16co9uo"
-        >
-          <img
-            alt="TV"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            TV
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Voice Memos"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Voice Memos"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Voice Memos
-          </p>
-        </div>
-        <div
-          aria-label="program-button-GarageBand"
-          class="css-16co9uo"
-        >
-          <img
-            alt="GarageBand"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            GarageBand
-          </p>
-        </div>
-        <div
-          aria-label="program-button-iMovie"
-          class="css-16co9uo"
-        >
-          <img
-            alt="iMovie"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            iMovie
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Keynote"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Keynote"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Keynote
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Numbers"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Numbers"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Numbers
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Pages"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Pages"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Pages
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Weather"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Weather"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Weather
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Stocks"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Stocks"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Stocks
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Books"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Books"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Books
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Dictionary"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Dictionary"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Dictionary
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Calculator"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Calculator"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Calculator
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Freeform"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Freeform"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Freeform
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Home"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Home"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Home
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Clock"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Clock"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Clock
-          </p>
-        </div>
-        <div
-          aria-label="program-button-Xcode"
-          class="css-16co9uo"
-        >
-          <img
-            alt="Xcode"
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          >
-            Xcode
-          </p>
-        </div>
-        <div
-          aria-label="program-button-"
-          class="css-16co9uo"
-        >
-          <img
-            alt=""
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src=""
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          />
-        </div>
-        <div
-          aria-label="program-button-"
-          class="css-16co9uo"
-        >
-          <img
-            alt=""
-            class="chakra-image css-mzgt0a"
-            loading="lazy"
-            src="[object Object]"
-          />
-          <p
-            class="chakra-text css-1d0as8b"
-          />
+            <div
+              aria-label="program-button-App Store"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="App Store"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                App Store
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Safari"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Safari"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Safari
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Mails"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Mails"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Mails
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Contacts"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Contacts"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Contacts
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Finder"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Finder"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Finder
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Notes"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Notes"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Notes
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Chrome"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Chrome"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Chrome
+              </p>
+            </div>
+            <div
+              aria-label="program-button-VsCode"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="VsCode"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                VsCode
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Terminal"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Terminal"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Terminal
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Spotify"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Spotify"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Spotify
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Github"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Github"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Github
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Settings"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Settings"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Settings
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Bin"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Bin"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Bin
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Calendar"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Calendar"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Calendar
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Reminders"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Reminders"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Reminders
+              </p>
+            </div>
+            <div
+              aria-label="program-button-FaceTime"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="FaceTime"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                FaceTime
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Messages"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Messages"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Messages
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Maps"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Maps"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Maps
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Find My"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Find My"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Find My
+              </p>
+            </div>
+            <div
+              aria-label="program-button-PhotoBooth"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="PhotoBooth"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                PhotoBooth
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Photos"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Photos"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Photos
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Preview"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Preview"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Preview
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Music"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Music"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Music
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Podcasts"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Podcasts"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Podcasts
+              </p>
+            </div>
+            <div
+              aria-label="program-button-TV"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="TV"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                TV
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Voice Memos"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Voice Memos"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Voice Memos
+              </p>
+            </div>
+            <div
+              aria-label="program-button-GarageBand"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="GarageBand"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                GarageBand
+              </p>
+            </div>
+            <div
+              aria-label="program-button-iMovie"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="iMovie"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                iMovie
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Keynote"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Keynote"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Keynote
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Numbers"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Numbers"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Numbers
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Pages"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Pages"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Pages
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Weather"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Weather"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Weather
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Stocks"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Stocks"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Stocks
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Books"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Books"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Books
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Dictionary"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Dictionary"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Dictionary
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Calculator"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Calculator"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Calculator
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Freeform"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Freeform"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Freeform
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Home"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Home"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Home
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Clock"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Clock"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Clock
+              </p>
+            </div>
+            <div
+              aria-label="program-button-Xcode"
+              class="css-zv3901"
+              role="button"
+              style="opacity: 0; transform: scale(0.9);"
+              tabindex="0"
+            >
+              <div
+                class="css-iq66yo"
+              >
+                <img
+                  alt="Xcode"
+                  class="chakra-image css-r91awh"
+                  draggable="false"
+                  src="[object Object]"
+                />
+              </div>
+              <p
+                class="chakra-text css-1dkycqx"
+              >
+                Xcode
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</body>
 `;

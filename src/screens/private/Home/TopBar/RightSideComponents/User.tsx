@@ -9,7 +9,13 @@ import {
   settingsStore,
   useShallow,
   usersSelector,
+  generalSelector,
 } from '@settingsStore';
+import {
+  ProgramType,
+  activeAppActionsSelector,
+  processStore,
+} from '@processStore';
 import { useTranslation } from 'react-i18next';
 
 const User = () => {
@@ -18,6 +24,12 @@ const User = () => {
   const { name, profilePicture } = settingsStore(
     useShallow(usersSelector),
   ).userData;
+  const { addApp } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
+  const { setSelectedTab, setSubPage } = settingsStore(
+    useShallow(generalSelector),
+  );
 
   return (
     <Menu>
@@ -58,7 +70,11 @@ const User = () => {
         <MenuItemComponent
           text={t('TopAppBar.user.setting')}
           ariaLabel="user-setting"
-          onClick={() => {}}
+          onClick={() => {
+            setSelectedTab('users_groups');
+            setSubPage(null);
+            addApp(ProgramType.SETTINGS);
+          }}
         />
       </MenuListComponent>
     </Menu>

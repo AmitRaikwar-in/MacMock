@@ -238,7 +238,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               aria-controls="menu-list-:rd:"
               aria-expanded="false"
               aria-haspopup="menu"
-              aria-label="code-top-bar-button"
+              aria-label="finder-top-bar-button"
               class="chakra-menu__menu-button css-a89oud"
               id="menu-button-:rd:"
             >
@@ -248,7 +248,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 <p
                   class="chakra-text css-1h4j8ci"
                 >
-                  Code
+                  Finder
                 </p>
               </span>
             </button>
@@ -265,7 +265,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 tabindex="-1"
               >
                 <button
-                  aria-label="about-visual-studio-code-menu-button"
+                  aria-label="about-finder-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
                   id="menu-list-:rd:-menuitem-:re:"
@@ -273,10 +273,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   tabindex="-1"
                   type="button"
                 >
-                  About Visual Studio Code
+                  About Finder
                 </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
                 <button
-                  aria-label="check-for-updates-menu-button"
+                  aria-label="settings-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="1"
                   id="menu-list-:rd:-menuitem-:rf:"
@@ -284,28 +288,72 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   tabindex="-1"
                   type="button"
                 >
-                  Check for Updates...
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Settings...
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘,
+                  </span>
                 </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-controls="menu-list-:rh:"
+                  aria-label="empty-trash-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="2"
+                  id="menu-list-:rd:-menuitem-:rg:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Empty Trash...
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⇧⌘⌫
+                  </span>
+                </button>
+                <button
+                  aria-label="secure-empty-trash-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="3"
+                  id="menu-list-:rd:-menuitem-:rh:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Secure Empty Trash...
+                </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
+                <button
+                  aria-controls="menu-list-:rj:"
                   aria-expanded="false"
                   aria-haspopup="menu"
-                  aria-label="settings-menu-button"
+                  aria-label="services-menu-button"
                   class="chakra-menu__menu-button css-p03ncx"
-                  id="menu-button-:rh:"
+                  id="menu-button-:rj:"
                 >
                   <span
                     class="css-xl71ch"
                   >
                     <button
-                      aria-label="settings-inner-menu-item"
+                      aria-label="services-inner-menu-item"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="0"
-                      id="menu-list-:rh:-menuitem-:ri:"
+                      id="menu-list-:rj:-menuitem-:rk:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
@@ -313,7 +361,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                       <span
                         style="pointer-events: none; flex: 1;"
                       >
-                        Settings
+                        Services
                       </span>
                       <span
                         class="chakra-menu__command css-8dknqd"
@@ -334,72 +382,68 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <div
                     aria-orientation="vertical"
                     class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:rh:"
+                    id="menu-list-:rj:"
                     role="menu"
                     style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                     tabindex="-1"
                   >
                     <button
-                      aria-label="settings-sub-menu-item"
+                      aria-label="no-services-apply-sub-menu-item"
                       class="chakra-menu__menuitem css-wuxpns"
                       data-index="1"
-                      id="menu-list-:rh:-menuitem-:rj:"
+                      id="menu-list-:rj:-menuitem-:rl:"
                       role="menuitem"
                       tabindex="-1"
                       type="button"
                     >
-                      settings
-                    </button>
-                    <button
-                      aria-label="profiles-sub-menu-item"
-                      class="chakra-menu__menuitem css-wuxpns"
-                      data-index="2"
-                      id="menu-list-:rh:-menuitem-:rk:"
-                      role="menuitem"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      Profiles
-                    </button>
-                    <button
-                      aria-label="extensions-sub-menu-item"
-                      class="chakra-menu__menuitem css-wuxpns"
-                      data-index="3"
-                      id="menu-list-:rh:-menuitem-:rl:"
-                      role="menuitem"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      extensions
+                      No Services Apply
                     </button>
                   </div>
                 </div>
                 <button
-                  aria-label="hide-visual-studio-code-menu-button"
+                  aria-label="hide-finder-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="2"
+                  data-index="4"
                   id="menu-list-:rd:-menuitem-:rm:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Hide Visual Studio Code
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Hide Finder
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘H
+                  </span>
                 </button>
                 <button
                   aria-label="hide-others-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="3"
+                  data-index="5"
                   id="menu-list-:rd:-menuitem-:rn:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Hide Others
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Hide Others
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌥⌘H
+                  </span>
                 </button>
                 <button
                   aria-label="show-all-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="4"
+                  data-index="6"
                   id="menu-list-:rd:-menuitem-:ro:"
                   role="menuitem"
                   tabindex="-1"
@@ -412,15 +456,24 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="quit-visual-studio-code-menu-button"
+                  aria-label="quit-finder-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
+                  data-index="7"
                   id="menu-list-:rd:-menuitem-:rp:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Quit Visual Studio Code
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Quit Finder
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘Q
+                  </span>
                 </button>
               </div>
             </div>
@@ -455,7 +508,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 tabindex="-1"
               >
                 <button
-                  aria-label="new-file-menu-button"
+                  aria-label="new-finder-window-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
                   id="menu-list-:rr:-menuitem-:rs:"
@@ -466,7 +519,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    New File
+                    New Finder Window
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
@@ -475,7 +528,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   </span>
                 </button>
                 <button
-                  aria-label="new-window-menu-button"
+                  aria-label="new-folder-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="1"
                   id="menu-list-:rr:-menuitem-:rt:"
@@ -486,7 +539,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    New Window
+                    New Folder
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
@@ -494,12 +547,8 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     ⇧⌘N
                   </span>
                 </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
                 <button
-                  aria-label="open-file-menu-button"
+                  aria-label="new-folder-with-selection-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="2"
                   id="menu-list-:rr:-menuitem-:ru:"
@@ -510,7 +559,62 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Open File...
+                    New Folder with Selection
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌃⌘N
+                  </span>
+                </button>
+                <button
+                  aria-label="new-smart-folder-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="3"
+                  id="menu-list-:rr:-menuitem-:rv:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  New Smart Folder
+                </button>
+                <button
+                  aria-label="new-tab-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="4"
+                  id="menu-list-:rr:-menuitem-:r10:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    New Tab
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘T
+                  </span>
+                </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
+                <button
+                  aria-label="open-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="5"
+                  id="menu-list-:rr:-menuitem-:r11:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Open
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
@@ -519,47 +623,68 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   </span>
                 </button>
                 <button
-                  aria-label="open-folder-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="3"
-                  id="menu-list-:rr:-menuitem-:rv:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
+                  aria-controls="menu-list-:r13:"
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  aria-label="open-with-menu-button"
+                  class="chakra-menu__menu-button css-p03ncx"
+                  id="menu-button-:r13:"
                 >
-                  Open Folder...
+                  <span
+                    class="css-xl71ch"
+                  >
+                    <button
+                      aria-label="open-with-inner-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="0"
+                      id="menu-list-:r13:-menuitem-:r14:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        style="pointer-events: none; flex: 1;"
+                      >
+                        Open With
+                      </span>
+                      <span
+                        class="chakra-menu__command css-8dknqd"
+                      >
+                        &gt;
+                      </span>
+                    </button>
+                  </span>
                 </button>
-                <button
-                  aria-label="open-workspace-from-file-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="4"
-                  id="menu-list-:rr:-menuitem-:r10:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
+                <div
+                  class="css-0"
+                  style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
                 >
-                  Open Workspace from file...
-                </button>
+                  <div
+                    aria-orientation="vertical"
+                    class="chakra-menu__menu-list css-f6jf1x"
+                    id="menu-list-:r13:"
+                    role="menu"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
+                    tabindex="-1"
+                  >
+                    <button
+                      aria-label="other-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="1"
+                      id="menu-list-:r13:-menuitem-:r15:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Other...
+                    </button>
+                  </div>
+                </div>
                 <button
-                  aria-label="open-recent-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
-                  id="menu-list-:rr:-menuitem-:r11:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Open Recent
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="save-menu-button"
+                  aria-label="close-window-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="6"
-                  id="menu-list-:rr:-menuitem-:r12:"
+                  id="menu-list-:rr:-menuitem-:r16:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -567,119 +692,248 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Save
+                    Close Window
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘S
+                    ⌘W
                   </span>
-                </button>
-                <button
-                  aria-label="save-as-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="7"
-                  id="menu-list-:rr:-menuitem-:r13:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Save As...
-                </button>
-                <button
-                  aria-label="save-all-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="8"
-                  id="menu-list-:rr:-menuitem-:r14:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Save All
-                </button>
-                <button
-                  aria-label="auto-save-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:rr:-menuitem-:r15:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Auto Save
                 </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="close-window-menu-button"
+                  aria-label="get-info-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:rr:-menuitem-:r16:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Close Window
-                </button>
-                <button
-                  aria-label="close-folder-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="11"
+                  data-index="7"
                   id="menu-list-:rr:-menuitem-:r17:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Close Folder
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Get Info
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘I
+                  </span>
                 </button>
                 <button
-                  aria-label="close-workspace-menu-button"
+                  aria-label="rename-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="12"
+                  data-index="8"
                   id="menu-list-:rr:-menuitem-:r18:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Close Workspace
+                  Rename
                 </button>
                 <button
-                  aria-label="close-editor-menu-button"
+                  aria-label="compress-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="13"
+                  data-index="9"
                   id="menu-list-:rr:-menuitem-:r19:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Close Editor
+                  Compress
+                </button>
+                <button
+                  aria-label="duplicate-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="10"
+                  id="menu-list-:rr:-menuitem-:r1a:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Duplicate
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘D
+                  </span>
+                </button>
+                <button
+                  aria-label="make-alias-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="11"
+                  id="menu-list-:rr:-menuitem-:r1b:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Make Alias
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌃⌘A
+                  </span>
+                </button>
+                <button
+                  aria-label="quick-look-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="12"
+                  id="menu-list-:rr:-menuitem-:r1c:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Quick Look
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘Y
+                  </span>
+                </button>
+                <button
+                  aria-label="show-original-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="13"
+                  id="menu-list-:rr:-menuitem-:r1d:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Show Original
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘R
+                  </span>
+                </button>
+                <button
+                  aria-label="add-to-sidebar-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="14"
+                  id="menu-list-:rr:-menuitem-:r1e:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Add to Sidebar
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌃⌘T
+                  </span>
                 </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="exit-menu-button"
+                  aria-label="move-to-trash-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="14"
-                  id="menu-list-:rr:-menuitem-:r1a:"
+                  data-index="15"
+                  id="menu-list-:rr:-menuitem-:r1f:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Exit
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Move to Trash
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘⌫
+                  </span>
+                </button>
+                <button
+                  aria-label="eject-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="16"
+                  id="menu-list-:rr:-menuitem-:r1g:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Eject
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘E
+                  </span>
+                </button>
+                <button
+                  aria-label="burn-to-disc-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="17"
+                  id="menu-list-:rr:-menuitem-:r1h:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  Burn to Disc...
+                </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
+                <button
+                  aria-label="find-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="18"
+                  id="menu-list-:rr:-menuitem-:r1i:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Find
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘F
+                  </span>
                 </button>
               </div>
             </div>
             <button
-              aria-controls="menu-list-:r1c:"
+              aria-controls="menu-list-:r1k:"
               aria-expanded="false"
               aria-haspopup="menu"
               aria-label="edit-top-bar-button"
               class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r1c:"
+              id="menu-button-:r1k:"
             >
               <span
                 class="css-xl71ch"
@@ -698,7 +952,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               <div
                 aria-orientation="vertical"
                 class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r1c:"
+                id="menu-list-:r1k:"
                 role="menu"
                 style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
@@ -707,7 +961,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   aria-label="undo-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
-                  id="menu-list-:r1c:-menuitem-:r1d:"
+                  id="menu-list-:r1k:-menuitem-:r1l:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -720,14 +974,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ Z
+                    ⌘Z
                   </span>
                 </button>
                 <button
                   aria-label="redo-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="1"
-                  id="menu-list-:r1c:-menuitem-:r1e:"
+                  id="menu-list-:r1k:-menuitem-:r1m:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -740,7 +994,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⇧ ⌘ Z
+                    ⇧⌘Z
                   </span>
                 </button>
                 <hr
@@ -751,7 +1005,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   aria-label="cut-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="2"
-                  id="menu-list-:r1c:-menuitem-:r1f:"
+                  id="menu-list-:r1k:-menuitem-:r1n:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -764,14 +1018,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ X
+                    ⌘X
                   </span>
                 </button>
                 <button
                   aria-label="copy-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="3"
-                  id="menu-list-:r1c:-menuitem-:r1g:"
+                  id="menu-list-:r1k:-menuitem-:r1o:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -784,14 +1038,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ C
+                    ⌘C
                   </span>
                 </button>
                 <button
                   aria-label="paste-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="4"
-                  id="menu-list-:r1c:-menuitem-:r1h:"
+                  id="menu-list-:r1k:-menuitem-:r1p:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -804,258 +1058,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ V
+                    ⌘V
                   </span>
                 </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="find-in-files-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
-                  id="menu-list-:r1c:-menuitem-:r1i:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Find in Files
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ H
-                  </span>
-                </button>
-                <button
-                  aria-label="replace-in-files-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="6"
-                  id="menu-list-:r1c:-menuitem-:r1j:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Replace in Files
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="toggle-line-comment-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="7"
-                  id="menu-list-:r1c:-menuitem-:r1k:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Toggle Line Comment
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌘ /
-                  </span>
-                </button>
-                <button
-                  aria-label="toggle-block-comment-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="8"
-                  id="menu-list-:r1c:-menuitem-:r1l:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Toggle Block Comment
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌥ A
-                  </span>
-                </button>
-                <button
-                  aria-label="emmet-expand-abbreviation-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:r1c:-menuitem-:r1m:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Emmet: Expand Abbreviation
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇥
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-controls="menu-list-:r1o:"
-                  aria-expanded="false"
-                  aria-haspopup="menu"
-                  aria-label="auto-fill-menu-button"
-                  class="chakra-menu__menu-button css-p03ncx"
-                  id="menu-button-:r1o:"
-                >
-                  <span
-                    class="css-xl71ch"
-                  >
-                    <button
-                      aria-label="auto-fill-inner-menu-item"
-                      class="chakra-menu__menuitem css-wuxpns"
-                      data-index="0"
-                      id="menu-list-:r1o:-menuitem-:r1p:"
-                      role="menuitem"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      <span
-                        style="pointer-events: none; flex: 1;"
-                      >
-                        Auto Fill
-                      </span>
-                      <span
-                        class="chakra-menu__command css-8dknqd"
-                      >
-                        &gt;
-                      </span>
-                    </button>
-                  </span>
-                </button>
-                <div
-                  class="css-0"
-                  style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-                >
-                  <div
-                    aria-orientation="vertical"
-                    class="chakra-menu__menu-list css-f6jf1x"
-                    id="menu-list-:r1o:"
-                    role="menu"
-                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
-                    tabindex="-1"
-                  >
-                    <button
-                      aria-label="contact-sub-menu-item"
-                      class="chakra-menu__menuitem css-wuxpns"
-                      data-index="1"
-                      id="menu-list-:r1o:-menuitem-:r1q:"
-                      role="menuitem"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      Contact...
-                    </button>
-                    <button
-                      aria-label="passwords-sub-menu-item"
-                      class="chakra-menu__menuitem css-wuxpns"
-                      data-index="2"
-                      id="menu-list-:r1o:-menuitem-:r1r:"
-                      role="menuitem"
-                      tabindex="-1"
-                      type="button"
-                    >
-                      Passwords...
-                    </button>
-                  </div>
-                </div>
-                <button
-                  aria-label="start-dictation-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:r1c:-menuitem-:r1s:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Start Dictation
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    🎤
-                  </span>
-                </button>
-                <button
-                  aria-label="emoji-symbols-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="11"
-                  id="menu-list-:r1c:-menuitem-:r1t:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Emoji & Symbols
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    🙂
-                  </span>
-                </button>
-              </div>
-            </div>
-            <button
-              aria-controls="menu-list-:r1v:"
-              aria-expanded="false"
-              aria-haspopup="menu"
-              aria-label="selection-top-bar-button"
-              class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r1v:"
-            >
-              <span
-                class="css-xl71ch"
-              >
-                <p
-                  class="chakra-text css-1ym3mq"
-                >
-                  Selection
-                </p>
-              </span>
-            </button>
-            <div
-              class="css-0"
-              style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-            >
-              <div
-                aria-orientation="vertical"
-                class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r1v:"
-                role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
-                tabindex="-1"
-              >
                 <button
                   aria-label="select-all-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="0"
-                  id="menu-list-:r1v:-menuitem-:r20:"
+                  data-index="5"
+                  id="menu-list-:r1k:-menuitem-:r1q:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1068,292 +1078,59 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ A
+                    ⌘A
                   </span>
                 </button>
                 <button
-                  aria-label="expand-selection-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="1"
-                  id="menu-list-:r1v:-menuitem-:r21:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Expand Selection
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ ⇧ ⌘ →
-                  </span>
-                </button>
-                <button
-                  aria-label="shrink-selection-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="2"
-                  id="menu-list-:r1v:-menuitem-:r22:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Shrink Selection
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ ⇧ ⌘ ←
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="copy-line-up-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="3"
-                  id="menu-list-:r1v:-menuitem-:r23:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Copy Line Up
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌥ ↑
-                  </span>
-                </button>
-                <button
-                  aria-label="copy-line-down-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="4"
-                  id="menu-list-:r1v:-menuitem-:r24:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Copy Line Down
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌥ ↓
-                  </span>
-                </button>
-                <button
-                  aria-label="move-line-up-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
-                  id="menu-list-:r1v:-menuitem-:r25:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Move Line Up
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌥ ↑
-                  </span>
-                </button>
-                <button
-                  aria-label="move-line-down-menu-button"
+                  aria-label="invert-selection-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="6"
-                  id="menu-list-:r1v:-menuitem-:r26:"
+                  id="menu-list-:r1k:-menuitem-:r1r:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Move Line Down
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌥ ↓
-                  </span>
+                  Invert Selection
                 </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
                 <button
-                  aria-label="duplicate-selection-menu-button"
+                  aria-label="show-clipboard-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="7"
-                  id="menu-list-:r1v:-menuitem-:r27:"
+                  id="menu-list-:r1k:-menuitem-:r1s:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Duplicate Selection
+                  Show Clipboard
                 </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="add-cursor-above-menu-button"
+                  aria-label="tags-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="8"
-                  id="menu-list-:r1v:-menuitem-:r28:"
+                  id="menu-list-:r1k:-menuitem-:r1t:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Add Cursor Above
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌥ ⌘ ↑
-                  </span>
-                </button>
-                <button
-                  aria-label="add-cursor-below-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:r1v:-menuitem-:r29:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Add Cursor Below
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌥ ⌘ ↓
-                  </span>
-                </button>
-                <button
-                  aria-label="add-cursor-to-line-end-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:r1v:-menuitem-:r2a:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Add Cursor to Line End
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ ⇧ →
-                  </span>
-                </button>
-                <button
-                  aria-label="add-next-occurrence-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="11"
-                  id="menu-list-:r1v:-menuitem-:r2b:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Add Next Occurrence
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌘ D
-                  </span>
-                </button>
-                <button
-                  aria-label="add-previous-occurrence-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="12"
-                  id="menu-list-:r1v:-menuitem-:r2c:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Add Previous Occurrence
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ D
-                  </span>
-                </button>
-                <button
-                  aria-label="select-all-occurrences-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="13"
-                  id="menu-list-:r1v:-menuitem-:r2d:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Select All Occurrences
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌘ F2
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="switch-to-cmd-click-for-multi-cursor-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="14"
-                  id="menu-list-:r1v:-menuitem-:r2e:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Switch to Cmd+Click for Multi-Cursor
+                  Tags...
                 </button>
               </div>
             </div>
             <button
-              aria-controls="menu-list-:r2g:"
+              aria-controls="menu-list-:r1v:"
               aria-expanded="false"
               aria-haspopup="menu"
               aria-label="view-top-bar-button"
               class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r2g:"
+              id="menu-button-:r1v:"
             >
               <span
                 class="css-xl71ch"
@@ -1372,16 +1149,16 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               <div
                 aria-orientation="vertical"
                 class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r2g:"
+                id="menu-list-:r1v:"
                 role="menu"
                 style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
-                  aria-label="command-palette-menu-button"
+                  aria-label="as-icons-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
-                  id="menu-list-:r2g:-menuitem-:r2h:"
+                  id="menu-list-:r1v:-menuitem-:r20:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1389,7 +1166,350 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Command Palette...
+                    as Icons
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘1
+                  </span>
+                </button>
+                <button
+                  aria-label="as-list-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="1"
+                  id="menu-list-:r1v:-menuitem-:r21:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    as List
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘2
+                  </span>
+                </button>
+                <button
+                  aria-label="as-columns-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="2"
+                  id="menu-list-:r1v:-menuitem-:r22:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    as Columns
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘3
+                  </span>
+                </button>
+                <button
+                  aria-label="as-gallery-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="3"
+                  id="menu-list-:r1v:-menuitem-:r23:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    as Gallery
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘4
+                  </span>
+                </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
+                <button
+                  aria-label="use-groups-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="4"
+                  id="menu-list-:r1v:-menuitem-:r24:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Use Groups
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌃⌘0
+                  </span>
+                </button>
+                <button
+                  aria-controls="menu-list-:r26:"
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  aria-label="sort-by-menu-button"
+                  class="chakra-menu__menu-button css-p03ncx"
+                  id="menu-button-:r26:"
+                >
+                  <span
+                    class="css-xl71ch"
+                  >
+                    <button
+                      aria-label="sort-by-inner-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="0"
+                      id="menu-list-:r26:-menuitem-:r27:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        style="pointer-events: none; flex: 1;"
+                      >
+                        Sort By
+                      </span>
+                      <span
+                        class="chakra-menu__command css-8dknqd"
+                      >
+                        &gt;
+                      </span>
+                    </button>
+                  </span>
+                </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-9li2h0"
+                />
+                <div
+                  class="css-0"
+                  style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+                >
+                  <div
+                    aria-orientation="vertical"
+                    class="chakra-menu__menu-list css-f6jf1x"
+                    id="menu-list-:r26:"
+                    role="menu"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
+                    tabindex="-1"
+                  >
+                    <button
+                      aria-label="name-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="1"
+                      id="menu-list-:r26:-menuitem-:r28:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Name
+                    </button>
+                    <button
+                      aria-label="kind-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="2"
+                      id="menu-list-:r26:-menuitem-:r29:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Kind
+                    </button>
+                    <button
+                      aria-label="date-last-opened-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="3"
+                      id="menu-list-:r26:-menuitem-:r2a:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Date Last Opened
+                    </button>
+                    <button
+                      aria-label="date-added-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="4"
+                      id="menu-list-:r26:-menuitem-:r2b:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Date Added
+                    </button>
+                    <button
+                      aria-label="date-modified-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="5"
+                      id="menu-list-:r26:-menuitem-:r2c:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Date Modified
+                    </button>
+                    <button
+                      aria-label="date-created-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="6"
+                      id="menu-list-:r26:-menuitem-:r2d:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Date Created
+                    </button>
+                    <button
+                      aria-label="size-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="7"
+                      id="menu-list-:r26:-menuitem-:r2e:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Size
+                    </button>
+                    <button
+                      aria-label="tags-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="8"
+                      id="menu-list-:r26:-menuitem-:r2f:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Tags
+                    </button>
+                  </div>
+                </div>
+                <button
+                  aria-label="hide-toolbar-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="5"
+                  id="menu-list-:r1v:-menuitem-:r2g:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Hide Toolbar
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌥⌘T
+                  </span>
+                </button>
+                <button
+                  aria-label="hide-sidebar-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="6"
+                  id="menu-list-:r1v:-menuitem-:r2h:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Hide Sidebar
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌥⌘S
+                  </span>
+                </button>
+                <button
+                  aria-label="show-tab-bar-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="7"
+                  id="menu-list-:r1v:-menuitem-:r2i:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Show Tab Bar
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⇧⌘T
+                  </span>
+                </button>
+                <button
+                  aria-label="show-path-bar-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="8"
+                  id="menu-list-:r1v:-menuitem-:r2j:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Show Path Bar
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌥⌘P
+                  </span>
+                </button>
+                <button
+                  aria-label="show-status-bar-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="9"
+                  id="menu-list-:r1v:-menuitem-:r2k:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Show Status Bar
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⌘/
+                  </span>
+                </button>
+                <button
+                  aria-label="show-preview-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="10"
+                  id="menu-list-:r1v:-menuitem-:r2l:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Show Preview
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
@@ -1397,234 +1517,26 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     ⇧⌘P
                   </span>
                 </button>
-                <button
-                  aria-label="open-view-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="1"
-                  id="menu-list-:r2g:-menuitem-:r2i:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Open View...
-                </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="appearance-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="2"
-                  id="menu-list-:r2g:-menuitem-:r2j:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Appearance
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    &gt;
-                  </span>
-                </button>
-                <button
-                  aria-label="editor-layout-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="3"
-                  id="menu-list-:r2g:-menuitem-:r2k:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Editor Layout
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    &gt;
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="explorer-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="4"
-                  id="menu-list-:r2g:-menuitem-:r2l:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Explorer
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ E
-                  </span>
-                </button>
-                <button
-                  aria-label="search-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
-                  id="menu-list-:r2g:-menuitem-:r2m:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Search
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ F
-                  </span>
-                </button>
-                <button
-                  aria-label="source-control-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="6"
-                  id="menu-list-:r2g:-menuitem-:r2n:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Source Control
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ ⇧ G
-                  </span>
-                </button>
-                <button
-                  aria-label="run-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="7"
-                  id="menu-list-:r2g:-menuitem-:r2o:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Run
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ D
-                  </span>
-                </button>
-                <button
-                  aria-label="extensions-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="8"
-                  id="menu-list-:r2g:-menuitem-:r2p:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Extensions
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ X
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="problems-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:r2g:-menuitem-:r2q:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Problems
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ M
-                  </span>
-                </button>
-                <button
-                  aria-label="output-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:r2g:-menuitem-:r2r:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Output
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ U
-                  </span>
-                </button>
-                <button
-                  aria-label="debug-console-menu-button"
+                  aria-label="customize-toolbar-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="11"
-                  id="menu-list-:r2g:-menuitem-:r2s:"
+                  id="menu-list-:r1v:-menuitem-:r2m:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Debug Console
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ D
-                  </span>
+                  Customize Toolbar...
                 </button>
                 <button
-                  aria-label="terminal-menu-button"
+                  aria-label="show-view-options-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="12"
-                  id="menu-list-:r2g:-menuitem-:r2t:"
+                  id="menu-list-:r1v:-menuitem-:r2n:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1632,47 +1544,23 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Terminal
+                    Show View Options
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌃ \`
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="word-wrap-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="13"
-                  id="menu-list-:r2g:-menuitem-:r2u:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Word Wrap
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌥ Z
+                    ⌘J
                   </span>
                 </button>
               </div>
             </div>
             <button
-              aria-controls="menu-list-:r30:"
+              aria-controls="menu-list-:r2p:"
               aria-expanded="false"
               aria-haspopup="menu"
               aria-label="go-top-bar-button"
               class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r30:"
+              id="menu-button-:r2p:"
             >
               <span
                 class="css-xl71ch"
@@ -1691,7 +1579,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               <div
                 aria-orientation="vertical"
                 class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r30:"
+                id="menu-list-:r2p:"
                 role="menu"
                 style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
@@ -1700,7 +1588,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   aria-label="back-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
-                  id="menu-list-:r30:-menuitem-:r31:"
+                  id="menu-list-:r2p:-menuitem-:r2q:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1713,14 +1601,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌃ -
+                    ⌘[
                   </span>
                 </button>
                 <button
                   aria-label="forward-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="1"
-                  id="menu-list-:r30:-menuitem-:r32:"
+                  id="menu-list-:r2p:-menuitem-:r2r:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1733,14 +1621,14 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌃ ⇧ -
+                    ⌘]
                   </span>
                 </button>
                 <button
-                  aria-label="last-edit-location-menu-button"
+                  aria-label="enclosing-folder-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="2"
-                  id="menu-list-:r30:-menuitem-:r33:"
+                  id="menu-list-:r2p:-menuitem-:r2s:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1748,12 +1636,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Last Edit Location
+                    Enclosing Folder
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌃ ⇧ -
+                    ⌘↑
                   </span>
                 </button>
                 <hr
@@ -1761,10 +1649,10 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="switch-editor-menu-button"
+                  aria-label="recents-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="3"
-                  id="menu-list-:r30:-menuitem-:r34:"
+                  id="menu-list-:r2p:-menuitem-:r2t:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1772,19 +1660,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Switch Editor
+                    Recents
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    &gt;
+                    ⇧⌘F
                   </span>
                 </button>
                 <button
-                  aria-label="switch-group-menu-button"
+                  aria-label="documents-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="4"
-                  id="menu-list-:r30:-menuitem-:r35:"
+                  id="menu-list-:r2p:-menuitem-:r2u:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1792,23 +1680,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Switch Group
+                    Documents
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    &gt;
+                    ⇧⌘O
                   </span>
                 </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
                 <button
-                  aria-label="go-to-file-menu-button"
+                  aria-label="desktop-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="5"
-                  id="menu-list-:r30:-menuitem-:r36:"
+                  id="menu-list-:r2p:-menuitem-:r2v:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1816,19 +1700,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Go to File...
+                    Desktop
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ P
+                    ⇧⌘D
                   </span>
                 </button>
                 <button
-                  aria-label="go-to-symbol-in-workspace-menu-button"
+                  aria-label="downloads-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="6"
-                  id="menu-list-:r30:-menuitem-:r37:"
+                  id="menu-list-:r2p:-menuitem-:r30:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1836,23 +1720,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Go to Symbol in workspace...
+                    Downloads
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⇧ ⌘ O
+                    ⌥⌘L
                   </span>
                 </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
                 <button
-                  aria-label="go-to-symbol-in-editor-menu-button"
+                  aria-label="home-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="7"
-                  id="menu-list-:r30:-menuitem-:r38:"
+                  id="menu-list-:r2p:-menuitem-:r31:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1860,61 +1740,70 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Go to Symbol in Editor...
+                    Home
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ T
+                    ⇧⌘H
                   </span>
                 </button>
                 <button
-                  aria-label="go-to-definition-menu-button"
+                  aria-label="library-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="8"
-                  id="menu-list-:r30:-menuitem-:r39:"
+                  id="menu-list-:r2p:-menuitem-:r32:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Go to Definition
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    F12
-                  </span>
+                  Library
                 </button>
                 <button
-                  aria-label="go-to-declaration-menu-button"
+                  aria-label="computer-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="9"
-                  id="menu-list-:r30:-menuitem-:r3a:"
+                  id="menu-list-:r2p:-menuitem-:r33:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Go to Declaration
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Computer
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⇧⌘C
+                  </span>
                 </button>
                 <button
-                  aria-label="go-to-type-definition-menu-button"
+                  aria-label="air-drop-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="10"
-                  id="menu-list-:r30:-menuitem-:r3b:"
+                  id="menu-list-:r2p:-menuitem-:r34:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Go to Type Definition
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    AirDrop
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⇧⌘R
+                  </span>
                 </button>
                 <button
-                  aria-label="go-to-implementation-menu-button"
+                  aria-label="network-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="11"
-                  id="menu-list-:r30:-menuitem-:r3c:"
+                  id="menu-list-:r2p:-menuitem-:r35:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1922,19 +1811,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Go to Implementation
+                    Network
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘ F12
+                    ⇧⌘K
                   </span>
                 </button>
                 <button
-                  aria-label="go-to-references-menu-button"
+                  aria-label="applications-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="12"
-                  id="menu-list-:r30:-menuitem-:r3d:"
+                  id="menu-list-:r2p:-menuitem-:r36:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1942,23 +1831,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Go to References
+                    Applications
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⇧ F12
+                    ⇧⌘A
                   </span>
                 </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
                 <button
-                  aria-label="go-to-line-menu-button"
+                  aria-label="utilities-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="13"
-                  id="menu-list-:r30:-menuitem-:r3e:"
+                  id="menu-list-:r2p:-menuitem-:r37:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -1966,32 +1851,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Go to Line...
+                    Utilities
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌃ G
-                  </span>
-                </button>
-                <button
-                  aria-label="go-to-bracket-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="14"
-                  id="menu-list-:r30:-menuitem-:r3f:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Go to Bracket
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ \\
+                    ⇧⌘U
                   </span>
                 </button>
                 <hr
@@ -1999,10 +1864,92 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="next-problem-menu-button"
+                  aria-controls="menu-list-:r39:"
+                  aria-expanded="false"
+                  aria-haspopup="menu"
+                  aria-label="recent-folders-menu-button"
+                  class="chakra-menu__menu-button css-p03ncx"
+                  id="menu-button-:r39:"
+                >
+                  <span
+                    class="css-xl71ch"
+                  >
+                    <button
+                      aria-label="recent-folders-inner-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="0"
+                      id="menu-list-:r39:-menuitem-:r3a:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      <span
+                        style="pointer-events: none; flex: 1;"
+                      >
+                        Recent Folders
+                      </span>
+                      <span
+                        class="chakra-menu__command css-8dknqd"
+                      >
+                        &gt;
+                      </span>
+                    </button>
+                  </span>
+                </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-9li2h0"
+                />
+                <div
+                  class="css-0"
+                  style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+                >
+                  <div
+                    aria-orientation="vertical"
+                    class="chakra-menu__menu-list css-f6jf1x"
+                    id="menu-list-:r39:"
+                    role="menu"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
+                    tabindex="-1"
+                  >
+                    <button
+                      aria-label="clear-menu-sub-menu-item"
+                      class="chakra-menu__menuitem css-wuxpns"
+                      data-index="1"
+                      id="menu-list-:r39:-menuitem-:r3b:"
+                      role="menuitem"
+                      tabindex="-1"
+                      type="button"
+                    >
+                      Clear Menu
+                    </button>
+                  </div>
+                </div>
+                <button
+                  aria-label="go-to-folder-menu-button"
+                  class="chakra-menu__menuitem css-wuxpns"
+                  data-index="14"
+                  id="menu-list-:r2p:-menuitem-:r3c:"
+                  role="menuitem"
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    style="pointer-events: none; flex: 1;"
+                  >
+                    Go to Folder...
+                  </span>
+                  <span
+                    class="chakra-menu__command css-8dknqd"
+                  >
+                    ⇧⌘G
+                  </span>
+                </button>
+                <button
+                  aria-label="connect-to-server-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="15"
-                  id="menu-list-:r30:-menuitem-:r3g:"
+                  id="menu-list-:r2p:-menuitem-:r3d:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -2010,87 +1957,23 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Next Problem
+                    Connect to Server...
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    F8
-                  </span>
-                </button>
-                <button
-                  aria-label="previous-problem-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="16"
-                  id="menu-list-:r30:-menuitem-:r3h:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Previous Problem
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ F8
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="next-change-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="17"
-                  id="menu-list-:r30:-menuitem-:r3i:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Next Change
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ ⇧ M
-                  </span>
-                </button>
-                <button
-                  aria-label="previous-change-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="18"
-                  id="menu-list-:r30:-menuitem-:r3j:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Previous Change
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ ⇧ M
+                    ⌘K
                   </span>
                 </button>
               </div>
             </div>
             <button
-              aria-controls="menu-list-:r3l:"
+              aria-controls="menu-list-:r3f:"
               aria-expanded="false"
               aria-haspopup="menu"
-              aria-label="run-top-bar-button"
+              aria-label="window-top-bar-button"
               class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r3l:"
+              id="menu-button-:r3f:"
             >
               <span
                 class="css-xl71ch"
@@ -2098,7 +1981,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 <p
                   class="chakra-text css-1ym3mq"
                 >
-                  Run
+                  Window
                 </p>
               </span>
             </button>
@@ -2109,16 +1992,16 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               <div
                 aria-orientation="vertical"
                 class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r3l:"
+                id="menu-list-:r3f:"
                 role="menu"
                 style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
-                  aria-label="start-debugging-menu-button"
+                  aria-label="minimize-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
-                  id="menu-list-:r3l:-menuitem-:r3m:"
+                  id="menu-list-:r3f:-menuitem-:r3g:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -2126,89 +2009,71 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Start Debugging
+                    Minimize
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    F5
+                    ⌘M
                   </span>
                 </button>
                 <button
-                  aria-label="run-without-debugging-menu-button"
+                  aria-label="zoom-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="1"
-                  id="menu-list-:r3l:-menuitem-:r3n:"
+                  id="menu-list-:r3f:-menuitem-:r3h:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Run Without Debugging
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃F5
-                  </span>
+                  Zoom
                 </button>
                 <button
-                  aria-label="stop-debugging-menu-button"
+                  aria-label="move-to-i-pad-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="2"
-                  id="menu-list-:r3l:-menuitem-:r3o:"
+                  id="menu-list-:r3f:-menuitem-:r3i:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Stop Debugging
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧F5
-                  </span>
+                  Move to iPad
                 </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
                 <button
-                  aria-label="open-configurations-menu-button"
+                  aria-label="tile-window-to-left-of-screen-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="3"
-                  id="menu-list-:r3l:-menuitem-:r3p:"
+                  id="menu-list-:r3f:-menuitem-:r3j:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Open Configurations
+                  Tile Window to Left of Screen
                 </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
                 <button
-                  aria-label="add-configuration-menu-button"
+                  aria-label="tile-window-to-right-of-screen-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="4"
-                  id="menu-list-:r3l:-menuitem-:r3q:"
+                  id="menu-list-:r3f:-menuitem-:r3k:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Add Configuration...
+                  Tile Window to Right of Screen
                 </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="step-over-menu-button"
+                  aria-label="show-previous-tab-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="5"
-                  id="menu-list-:r3l:-menuitem-:r3r:"
+                  id="menu-list-:r3f:-menuitem-:r3l:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -2216,19 +2081,19 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Step Over
+                    Show Previous Tab
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    F10
+                    ⇧⌃⇥
                   </span>
                 </button>
                 <button
-                  aria-label="step-into-menu-button"
+                  aria-label="show-next-tab-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="6"
-                  id="menu-list-:r3l:-menuitem-:r3s:"
+                  id="menu-list-:r3f:-menuitem-:r3m:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -2236,342 +2101,49 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Step Into
+                    Show Next Tab
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    F11
+                    ⌃⇥
                   </span>
                 </button>
                 <button
-                  aria-label="step-out-menu-button"
+                  aria-label="merge-all-windows-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="7"
-                  id="menu-list-:r3l:-menuitem-:r3t:"
+                  id="menu-list-:r3f:-menuitem-:r3n:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Step Out
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧F11
-                  </span>
+                  Merge All Windows
                 </button>
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-15ckxw5"
+                />
                 <button
-                  aria-label="continue-menu-button"
+                  aria-label="bring-all-to-front-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="8"
-                  id="menu-list-:r3l:-menuitem-:r3u:"
+                  id="menu-list-:r3f:-menuitem-:r3o:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Continue
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    F5
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="toggle-breakpoint-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:r3l:-menuitem-:r3v:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Toggle Breakpoint
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    F9
-                  </span>
-                </button>
-                <button
-                  aria-label="add-breakpoint-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:r3l:-menuitem-:r40:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Add Breakpoint...
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="enable-all-breakpoints-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="11"
-                  id="menu-list-:r3l:-menuitem-:r41:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Enable All Breakpoints
-                </button>
-                <button
-                  aria-label="disable-all-breakpoints-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="12"
-                  id="menu-list-:r3l:-menuitem-:r42:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Disable All Breakpoints
-                </button>
-                <button
-                  aria-label="remove-all-breakpoints-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="13"
-                  id="menu-list-:r3l:-menuitem-:r43:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Remove All Breakpoints
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="install-additional-debuggers-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="14"
-                  id="menu-list-:r3l:-menuitem-:r44:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Install Additional Debuggers...
+                  Bring All to Front
                 </button>
               </div>
             </div>
             <button
-              aria-controls="menu-list-:r46:"
-              aria-expanded="false"
-              aria-haspopup="menu"
-              aria-label="terminal-top-bar-button"
-              class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r46:"
-            >
-              <span
-                class="css-xl71ch"
-              >
-                <p
-                  class="chakra-text css-1ym3mq"
-                >
-                  Terminal
-                </p>
-              </span>
-            </button>
-            <div
-              class="css-0"
-              style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-            >
-              <div
-                aria-orientation="vertical"
-                class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r46:"
-                role="menu"
-                style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
-                tabindex="-1"
-              >
-                <button
-                  aria-label="new-terminal-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="0"
-                  id="menu-list-:r46:-menuitem-:r47:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    New Terminal
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌃ \`
-                  </span>
-                </button>
-                <button
-                  aria-label="split-terminal-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="1"
-                  id="menu-list-:r46:-menuitem-:r48:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Split Terminal
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⌘ /
-                  </span>
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="run-task-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="2"
-                  id="menu-list-:r46:-menuitem-:r49:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  <span
-                    style="pointer-events: none; flex: 1;"
-                  >
-                    Run Task...
-                  </span>
-                  <span
-                    class="chakra-menu__command css-8dknqd"
-                  >
-                    ⇧ ⌘ B
-                  </span>
-                </button>
-                <button
-                  aria-label="run-build-task-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="3"
-                  id="menu-list-:r46:-menuitem-:r4a:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Run Build Task...
-                </button>
-                <button
-                  aria-label="run-active-file-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="4"
-                  id="menu-list-:r46:-menuitem-:r4b:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Run Active File
-                </button>
-                <button
-                  aria-label="run-selected-text-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
-                  id="menu-list-:r46:-menuitem-:r4c:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Run Selected Text
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="show-running-tasks-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="6"
-                  id="menu-list-:r46:-menuitem-:r4d:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Show Running Tasks
-                </button>
-                <button
-                  aria-label="restart-running-task-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="7"
-                  id="menu-list-:r46:-menuitem-:r4e:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Restart Running Task
-                </button>
-                <button
-                  aria-label="terminate-task-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="8"
-                  id="menu-list-:r46:-menuitem-:r4f:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Terminate Task
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="configure-tasks-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:r46:-menuitem-:r4g:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Configure Tasks...
-                </button>
-                <button
-                  aria-label="configure-default-build-task-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:r46:-menuitem-:r4h:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Configure Default Build Task...
-                </button>
-              </div>
-            </div>
-            <button
-              aria-controls="menu-list-:r4j:"
+              aria-controls="menu-list-:r3q:"
               aria-expanded="false"
               aria-haspopup="menu"
               aria-label="help-top-bar-button"
               class="chakra-menu__menu-button css-a89oud"
-              id="menu-button-:r4j:"
+              id="menu-button-:r3q:"
             >
               <span
                 class="css-xl71ch"
@@ -2590,75 +2162,31 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
               <div
                 aria-orientation="vertical"
                 class="chakra-menu__menu-list css-f6jf1x"
-                id="menu-list-:r4j:"
+                id="menu-list-:r3q:"
                 role="menu"
                 style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
                 tabindex="-1"
               >
                 <button
-                  aria-label="welcome-menu-button"
+                  aria-label="search-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
                   data-index="0"
-                  id="menu-list-:r4j:-menuitem-:r4k:"
+                  id="menu-list-:r3q:-menuitem-:r3r:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
                 >
-                  Welcome
-                </button>
-                <button
-                  aria-label="show-all-commands-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="1"
-                  id="menu-list-:r4j:-menuitem-:r4l:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Show All Commands
-                </button>
-                <button
-                  aria-label="documentation-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="2"
-                  id="menu-list-:r4j:-menuitem-:r4m:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Documentation
-                </button>
-                <button
-                  aria-label="editor-playground-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="3"
-                  id="menu-list-:r4j:-menuitem-:r4n:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Editor Playground
-                </button>
-                <button
-                  aria-label="show-release-notes-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="4"
-                  id="menu-list-:r4j:-menuitem-:r4o:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Show Release Notes
+                  Search
                 </button>
                 <hr
                   aria-orientation="horizontal"
                   class="chakra-divider css-15ckxw5"
                 />
                 <button
-                  aria-label="keyboard-shortcuts-reference-menu-button"
+                  aria-label="mac-os-help-menu-button"
                   class="chakra-menu__menuitem css-wuxpns"
-                  data-index="5"
-                  id="menu-list-:r4j:-menuitem-:r4p:"
+                  data-index="1"
+                  id="menu-list-:r3q:-menuitem-:r3s:"
                   role="menuitem"
                   tabindex="-1"
                   type="button"
@@ -2666,124 +2194,13 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     style="pointer-events: none; flex: 1;"
                   >
-                    Keyboard Shortcuts Reference
+                    macOS Help
                   </span>
                   <span
                     class="chakra-menu__command css-8dknqd"
                   >
-                    ⌘K ⌘S
+                    ⌘?
                   </span>
-                </button>
-                <button
-                  aria-label="video-and-tutorials-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="6"
-                  id="menu-list-:r4j:-menuitem-:r4q:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Video and Tutorials
-                </button>
-                <button
-                  aria-label="tips-and-tricks-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="7"
-                  id="menu-list-:r4j:-menuitem-:r4r:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Tips and Tricks
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="join-us-on-youtube-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="8"
-                  id="menu-list-:r4j:-menuitem-:r4s:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Join us on Youtube
-                </button>
-                <button
-                  aria-label="search-feature-requests-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="9"
-                  id="menu-list-:r4j:-menuitem-:r4t:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Search Feature Requests
-                </button>
-                <button
-                  aria-label="report-issue-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="10"
-                  id="menu-list-:r4j:-menuitem-:r4u:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Report Issue
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="view-license-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="11"
-                  id="menu-list-:r4j:-menuitem-:r4v:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  View License
-                </button>
-                <button
-                  aria-label="privacy-statement-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="12"
-                  id="menu-list-:r4j:-menuitem-:r50:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Privacy Statement
-                </button>
-                <hr
-                  aria-orientation="horizontal"
-                  class="chakra-divider css-15ckxw5"
-                />
-                <button
-                  aria-label="toggle-developer-tools-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="13"
-                  id="menu-list-:r4j:-menuitem-:r51:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Toggle Developer Tools
-                </button>
-                <button
-                  aria-label="open-process-explorer-menu-button"
-                  class="chakra-menu__menuitem css-wuxpns"
-                  data-index="14"
-                  id="menu-list-:r4j:-menuitem-:r52:"
-                  role="menuitem"
-                  tabindex="-1"
-                  type="button"
-                >
-                  Open Process Explorer
                 </button>
               </div>
             </div>
@@ -2795,12 +2212,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
           role="group"
         >
           <button
-            aria-controls="menu-list-:r54:"
+            aria-controls="menu-list-:r3u:"
             aria-expanded="false"
             aria-haspopup="menu"
             aria-label="monitor-top-bar-button"
             class="chakra-menu__menu-button css-10l0d22"
-            id="menu-button-:r54:"
+            id="menu-button-:r3u:"
           >
             <span
               class="css-xl71ch"
@@ -2825,7 +2242,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             <div
               aria-orientation="vertical"
               class="chakra-menu__menu-list css-f6jf1x"
-              id="menu-list-:r54:"
+              id="menu-list-:r3u:"
               role="menu"
               style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
@@ -2845,7 +2262,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 >
                   <div
                     class="chakra-slider__track css-q9xlwy"
-                    id="slider-track-:r55:"
+                    id="slider-track-:r3v:"
                     style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
                   >
                     <div
@@ -2871,7 +2288,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     aria-valuemin="0"
                     aria-valuenow="100"
                     class="chakra-slider__thumb css-1om1vhp"
-                    id="slider-thumb-:r55:"
+                    id="slider-thumb-:r3v:"
                     role="slider"
                     style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
                     tabindex="0"
@@ -3001,7 +2418,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="monitor-settings"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="0"
-                id="menu-list-:r54:-menuitem-:r56:"
+                id="menu-list-:r3u:-menuitem-:r40:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3011,12 +2428,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </div>
           </div>
           <button
-            aria-controls="menu-list-:r58:"
+            aria-controls="menu-list-:r42:"
             aria-expanded="false"
             aria-haspopup="menu"
             aria-label="user-top-bar-button"
             class="chakra-menu__menu-button css-10l0d22"
-            id="menu-button-:r58:"
+            id="menu-button-:r42:"
           >
             <span
               class="css-xl71ch"
@@ -3035,7 +2452,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             <div
               aria-orientation="vertical"
               class="chakra-menu__menu-list css-f6jf1x"
-              id="menu-list-:r58:"
+              id="menu-list-:r42:"
               role="menu"
               style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
@@ -3063,7 +2480,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="login-window"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="0"
-                id="menu-list-:r58:-menuitem-:r59:"
+                id="menu-list-:r42:-menuitem-:r43:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3078,7 +2495,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="user-setting"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="1"
-                id="menu-list-:r58:-menuitem-:r5a:"
+                id="menu-list-:r42:-menuitem-:r44:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3088,12 +2505,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </div>
           </div>
           <button
-            aria-controls="menu-list-:r5c:"
+            aria-controls="menu-list-:r46:"
             aria-expanded="false"
             aria-haspopup="menu"
             aria-label="battery-top-bar-button"
             class="chakra-menu__menu-button css-10l0d22"
-            id="menu-button-:r5c:"
+            id="menu-button-:r46:"
           >
             <span
               class="css-xl71ch"
@@ -3106,7 +2523,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 width="2em"
               >
                 <path
-                  d="M2 6h6.7v4H2V6z"
+                  d="M2 6h9.8v4H2V6z"
                 />
                 <path
                   d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
@@ -3121,13 +2538,13 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             <div
               aria-orientation="vertical"
               class="chakra-menu__menu-list css-f6jf1x"
-              id="menu-list-:r5c:"
+              id="menu-list-:r46:"
               role="menu"
               style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
-                class="css-ucdv1m"
+                class="css-guph18"
               >
                 <p
                   class="chakra-text css-16c42s3"
@@ -3135,9 +2552,9 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   Battery
                 </p>
                 <p
-                  class="chakra-text css-1lj023j"
+                  class="chakra-text css-g8sb60"
                 >
-                  67%
+                  98%
                 </p>
               </div>
               <hr
@@ -3148,7 +2565,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="battery-settings"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="0"
-                id="menu-list-:r5c:-menuitem-:r5d:"
+                id="menu-list-:r46:-menuitem-:r47:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3158,12 +2575,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </div>
           </div>
           <button
-            aria-controls="menu-list-:r5f:"
+            aria-controls="menu-list-:r49:"
             aria-expanded="false"
             aria-haspopup="menu"
             aria-label="wifi-top-bar-button"
             class="chakra-menu__menu-button css-10l0d22"
-            id="menu-button-:r5f:"
+            id="menu-button-:r49:"
           >
             <span
               class="css-xl71ch"
@@ -3172,6 +2589,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 color="#000000"
                 fill="currentColor"
                 height="1.5em"
+                style="opacity: 1;"
                 viewBox="0 0 24 24"
                 width="1.5em"
               >
@@ -3188,7 +2606,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             <div
               aria-orientation="vertical"
               class="chakra-menu__menu-list css-f6jf1x"
-              id="menu-list-:r5f:"
+              id="menu-list-:r49:"
               role="menu"
               style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
@@ -3203,9 +2621,11 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 </p>
                 <label
                   class="chakra-switch css-16pgy8f"
+                  data-checked=""
                 >
                   <input
-                    aria-checked="false"
+                    aria-checked="true"
+                    checked=""
                     class="chakra-switch__input"
                     style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
                     type="checkbox"
@@ -3214,9 +2634,11 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                   <span
                     aria-hidden="true"
                     class="chakra-switch__track css-14qxnv8"
+                    data-checked=""
                   >
                     <span
                       class="chakra-switch__thumb css-0"
+                      data-checked=""
                     />
                   </span>
                 </label>
@@ -3225,7 +2647,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="wifi-weak-security"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="0"
-                id="menu-list-:r5f:-menuitem-:r5g:"
+                id="menu-list-:r49:-menuitem-:r4a:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3237,7 +2659,41 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 class="chakra-menu__divider css-1fmk8qx"
               />
               <button
-                aria-label="wifi-1"
+                aria-label="wifi-home"
+                class="chakra-button css-1g2zxsv"
+                type="button"
+              >
+                <span
+                  class="chakra-button__icon css-1wh2kri"
+                >
+                  <svg
+                    aria-hidden="true"
+                    color="white"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1.5em"
+                    style="background-color: rgb(0, 122, 255); padding: 0.2em; border-radius: 50%;"
+                    viewBox="0 0 24 24"
+                    width="1.5em"
+                  >
+                    <path
+                      d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+                    />
+                  </svg>
+                </span>
+                <p
+                  class="chakra-text css-g8sb60"
+                >
+                  Home-5G
+                </p>
+                <p
+                  class="chakra-text css-1byebmo"
+                >
+                  Connected
+                </p>
+              </button>
+              <button
+                aria-label="wifi-coffeeshop"
                 class="chakra-button css-1kdauxm"
                 type="button"
               >
@@ -3259,11 +2715,15 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     />
                   </svg>
                 </span>
-                Wi-Fi 1
+                <p
+                  class="chakra-text css-1bl4uq1"
+                >
+                  CoffeeShop-Free
+                </p>
               </button>
               <button
-                aria-label="wifi-2"
-                class="chakra-button css-18oy9dh"
+                aria-label="wifi-office"
+                class="chakra-button css-1kdauxm"
                 type="button"
               >
                 <span
@@ -3284,7 +2744,11 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                     />
                   </svg>
                 </span>
-                Wi-Fi 2
+                <p
+                  class="chakra-text css-1bl4uq1"
+                >
+                  Office-WiFi
+                </p>
               </button>
               <hr
                 aria-orientation="horizontal"
@@ -3294,7 +2758,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="other-network"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="1"
-                id="menu-list-:r5f:-menuitem-:r5h:"
+                id="menu-list-:r49:-menuitem-:r4b:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3318,7 +2782,7 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
                 aria-label="wifi-settings"
                 class="chakra-menu__menuitem css-cvp33l"
                 data-index="2"
-                id="menu-list-:r5f:-menuitem-:r5i:"
+                id="menu-list-:r49:-menuitem-:r4c:"
                 role="menuitem"
                 tabindex="-1"
                 type="button"
@@ -3347,12 +2811,12 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             </svg>
           </button>
           <button
-            aria-controls="menu-list-:r5k:"
+            aria-controls="menu-list-:r4e:"
             aria-expanded="false"
             aria-haspopup="menu"
             aria-label="settings-top-bar-button"
             class="chakra-menu__menu-button css-10l0d22"
-            id="menu-button-:r5k:"
+            id="menu-button-:r4e:"
           >
             <span
               class="css-xl71ch"
@@ -3378,46 +2842,922 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
             <div
               aria-orientation="vertical"
               class="chakra-menu__menu-list css-f6jf1x"
-              id="menu-list-:r5k:"
+              id="menu-list-:r4e:"
               role="menu"
               style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
               tabindex="-1"
             >
               <div
-                class="css-k008qs"
+                class="css-1o02kvm"
               >
                 <div
-                  class="css-1pidzr7"
+                  class="css-arj9kl"
                 >
                   <div
-                    class="chakra-stack css-1igwmid"
+                    class="css-eolx5n"
                   >
                     <div
-                      class="chakra-stack css-tl3ftk"
+                      class="chakra-stack css-2kgjhe"
+                    >
+                      <div
+                        class="css-1a5ip0i"
+                      >
+                        <svg
+                          color="white"
+                          fill="currentColor"
+                          height="14px"
+                          viewBox="0 0 24 24"
+                          width="14px"
+                        >
+                          <path
+                            d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="chakra-stack css-cw1eu"
+                      >
+                        <p
+                          class="chakra-text css-1xyvcnp"
+                        >
+                          Wi-Fi
+                        </p>
+                        <p
+                          class="chakra-text css-14vwr1s"
+                        >
+                          Home-5G
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="chakra-stack css-2kgjhe"
+                    >
+                      <div
+                        class="css-1a5ip0i"
+                      >
+                        <svg
+                          color="white"
+                          fill="currentColor"
+                          height="14px"
+                          viewBox="0 0 24 24"
+                          width="14px"
+                        >
+                          <path
+                            d="M14.88 16.29L13 18.17v-3.76m0-8.58l1.88 1.88L13 9.58m4.71-1.87L12 2h-1v7.58L6.41 5 5 6.41 10.59 12 5 17.58 6.41 19 11 14.41V22h1l5.71-5.71-4.3-4.29 4.3-4.29z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="chakra-stack css-mw8ufx"
+                      >
+                        <p
+                          class="chakra-text css-1xyvcnp"
+                        >
+                          Bluetooth
+                        </p>
+                        <p
+                          class="chakra-text css-1w9afu7"
+                        >
+                          On
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="chakra-stack css-2kgjhe"
+                    >
+                      <div
+                        class="css-1kqdr8t"
+                      >
+                        <svg
+                          color="white"
+                          height="14px"
+                          viewBox="0 0 30 30"
+                          width="14px"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M 15 3 C 7.832 3 2 8.832 2 16 C 2 20.774 4.5934531 24.944078 8.4394531 27.205078 L 9.5195312 25.523438 C 6.2265312 23.620438 4 20.069 4 16 C 4 9.935 8.935 5 15 5 C 21.065 5 26 9.935 26 16 C 26 20.069 23.773469 23.620438 20.480469 25.523438 L 21.560547 27.205078 C 25.406547 24.944078 28 20.774 28 16 C 28 8.832 22.168 3 15 3 z M 15 7 C 10.038 7 6 11.038 6 16 C 6 19.364 7.8595625 22.29975 10.601562 23.84375 L 11.681641 22.160156 C 9.4916406 20.976156 8 18.66 8 16 C 8 12.14 11.14 9 15 9 C 18.86 9 22 12.14 22 16 C 22 18.66 20.508359 20.977109 18.318359 22.162109 L 19.398438 23.84375 C 22.140437 22.29875 24 19.364 24 16 C 24 11.038 19.962 7 15 7 z M 15 11 C 12.243 11 10 13.243 10 16 C 10 17.955 11.138344 19.633078 12.777344 20.455078 L 13.859375 18.773438 C 12.769375 18.323438 12 17.251 12 16 C 12 14.346 13.346 13 15 13 C 16.654 13 18 14.346 18 16 C 18 17.251 17.229672 18.322484 16.138672 18.771484 L 17.220703 20.455078 C 18.860703 19.634078 20 17.955 20 16 C 20 13.243 17.757 11 15 11 z M 15 15 A 1 1 0 0 0 14 16 A 1 1 0 0 0 15 17 A 1 1 0 0 0 16 16 A 1 1 0 0 0 15 15 z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="chakra-stack css-mw8ufx"
+                      >
+                        <p
+                          class="chakra-text css-1xyvcnp"
+                        >
+                          AirDrop
+                        </p>
+                        <p
+                          class="chakra-text css-1w9afu7"
+                        >
+                          Off
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="css-1pyx7hi"
+                  >
+                    <div
+                      class="css-1e31xnv"
+                    >
+                      <div
+                        class="chakra-stack css-j1sent"
+                      >
+                        <div
+                          class="css-4sb5iw"
+                        />
+                        <div
+                          class="chakra-stack css-mw8ufx"
+                        >
+                          <p
+                            class="chakra-text css-1xyvcnp"
+                          >
+                            Not Playing
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="chakra-stack css-1y5vhtx"
+                      >
+                        <div
+                          class="css-931twc"
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="12"
+                            viewBox="0 0 24 24"
+                            width="12"
+                          >
+                            <path
+                              d="M6 19h2V5H6v14zm3.5-7L19 19V5l-9.5 7z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="css-931twc"
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            width="14"
+                          >
+                            <path
+                              d="M8 5v14l11-7z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="css-931twc"
+                        >
+                          <svg
+                            fill="currentColor"
+                            height="12"
+                            viewBox="0 0 24 24"
+                            width="12"
+                          >
+                            <path
+                              d="M16 5v14h2V5h-2zm-12.5 14L13 12 3.5 5v14z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="chakra-stack css-oqe9em"
+                    >
+                      <div
+                        class="css-km6skl"
+                      >
+                        <svg
+                          fill="none"
+                          height="1.2em"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2.5"
+                          viewBox="0 0 24 24"
+                          width="1.2em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            height="4"
+                            rx="1"
+                            width="3"
+                            x="3"
+                            y="4"
+                          />
+                          <rect
+                            height="4"
+                            rx="1"
+                            width="3"
+                            x="3"
+                            y="10"
+                          />
+                          <rect
+                            height="4"
+                            rx="1"
+                            width="3"
+                            x="3"
+                            y="16"
+                          />
+                          <rect
+                            height="16"
+                            rx="2"
+                            width="13"
+                            x="8"
+                            y="4"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="css-epago5"
+                      >
+                        <svg
+                          fill="none"
+                          height="1.2em"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2.5"
+                          viewBox="0 0 24 24"
+                          width="1.2em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            height="10"
+                            rx="1.5"
+                            width="13"
+                            x="2"
+                            y="6"
+                          />
+                          <rect
+                            height="10"
+                            rx="1.5"
+                            width="13"
+                            x="9"
+                            y="9"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="chakra-stack css-1a7x1tw"
+                >
+                  <div
+                    class="css-1n87ddc"
+                  >
+                    <svg
+                      fill="none"
+                      height="16px"
+                      viewBox="0 0 24 24"
+                      width="16px"
+                    >
+                      <path
+                        d="M12 16a4 4 0 000-8v8z"
+                        fill="currentColor"
+                      />
+                      <path
+                        clip-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="css-180p601"
+                  >
+                    <svg
+                      fill="none"
+                      height="1.2em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2.5"
+                      viewBox="0 0 24 24"
+                      width="1.2em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+                      />
+                      <circle
+                        cx="12"
+                        cy="13"
+                        r="4"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="chakra-stack css-195x584"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="14px"
+                      viewBox="0 0 512 512"
+                      width="14px"
+                    >
+                      <path
+                        d="M264 480A232 232 0 0132 248c0-94 54-178.28 137.61-214.67a16 16 0 0121.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200 31.34 0 59.57-5.07 81.61-14.67a16 16 0 0121.06 21.06C442.28 426 358 480 264 480z"
+                      />
+                    </svg>
+                    <p
+                      class="chakra-text css-1rf69w1"
+                    >
+                      Focus
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="css-1x3q0mb"
+                >
+                  <p
+                    class="chakra-text css-qeetxa"
+                  >
+                    Display
+                  </p>
+                  <div
+                    class="chakra-slider css-0"
+                    style="position: relative; user-select: none; outline: 0;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="chakra-slider__track css-dwe5oj"
+                      id="slider-track-:r4f:"
+                      style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+                    >
+                      <div
+                        class="chakra-slider__filled-track css-vlvtzn"
+                        style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+                      >
+                        <svg
+                          color="white"
+                          fill="currentColor"
+                          height="12"
+                          viewBox="0 0 16 16"
+                          width="12"
+                        >
+                          <path
+                            d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      aria-label="display-brightness"
+                      aria-orientation="horizontal"
+                      aria-valuemax="100"
+                      aria-valuemin="10"
+                      aria-valuenow="100"
+                      class="chakra-slider__thumb css-1om1vhp"
+                      id="slider-thumb-:r4f:"
+                      role="slider"
+                      style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
+                      tabindex="0"
+                    />
+                    <input
+                      type="hidden"
+                      value="100"
                     />
                   </div>
+                </div>
+                <div
+                  class="css-4c3bp4"
+                >
+                  <p
+                    class="chakra-text css-qeetxa"
+                  >
+                    Sound
+                  </p>
+                  <div
+                    class="chakra-slider css-0"
+                    style="position: relative; user-select: none; outline: 0;"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="chakra-slider__track css-dwe5oj"
+                      id="slider-track-:r4g:"
+                      style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+                    >
+                      <div
+                        class="chakra-slider__filled-track css-vlvtzn"
+                        style="position: absolute; top: 50%; transform: translateY(-50%); width: 75%; left: 0%;"
+                      >
+                        <svg
+                          color="white"
+                          fill="currentColor"
+                          height="12"
+                          viewBox="0 0 512 512"
+                          width="12"
+                        >
+                          <path
+                            d="M232 416a23.88 23.88 0 01-14.2-4.68 8.27 8.27 0 01-.66-.51L125.76 336H56a24 24 0 01-24-24V200a24 24 0 0124-24h69.75l91.37-74.81a8.27 8.27 0 01.66-.51A24 24 0 01256 120v272a24 24 0 01-24 24zm-106.18-80zm-.27-159.86zM320 336a16 16 0 01-14.29-23.19c9.49-18.87 14.3-38 14.3-56.81 0-19.38-4.66-37.94-14.25-56.73a16 16 0 0128.5-14.54C346.19 208.12 352 231.44 352 256c0 23.86-6 47.81-17.7 71.19A16 16 0 01320 336z"
+                          />
+                          <path
+                            d="M368 384a16 16 0 01-13.86-24C373.05 327.09 384 299.51 384 256c0-44.17-10.93-71.56-29.82-103.94a16 16 0 0127.64-16.12C402.92 172.11 416 204.81 416 256c0 50.43-13.06 83.29-34.13 120a16 16 0 01-13.87 8z"
+                          />
+                          <path
+                            d="M416 432a16 16 0 01-13.39-24.74C429.85 365.47 448 323.76 448 256c0-66.5-18.18-108.62-45.49-151.39a16 16 0 1127-17.22C459.81 134.89 480 181.74 480 256c0 64.75-14.66 113.63-50.6 168.74A16 16 0 01416 432z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      aria-label="sound-volume"
+                      aria-orientation="horizontal"
+                      aria-valuemax="100"
+                      aria-valuemin="0"
+                      aria-valuenow="75"
+                      class="chakra-slider__thumb css-1om1vhp"
+                      id="slider-thumb-:r4g:"
+                      role="slider"
+                      style="position: absolute; user-select: none; left: 75%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
+                      tabindex="0"
+                    />
+                    <input
+                      type="hidden"
+                      value="75"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="css-ldo4d5"
+                >
+                  <button
+                    class="chakra-button css-m9ymhv"
+                    type="button"
+                  >
+                    Edit Controls
+                  </button>
                 </div>
               </div>
             </div>
           </div>
           <button
-            aria-controls="menu-list-:r5n:"
-            aria-expanded="false"
-            aria-haspopup="menu"
             aria-label="date-time-top-bar-button"
-            class="chakra-menu__menu-button css-10l0d22"
-            id="menu-button-:r5n:"
+            class="chakra-button css-d9j2vv"
+            type="button"
           >
-            <span
-              class="css-xl71ch"
+            <p
+              class="chakra-text css-0"
             >
-              <p
-                class="chakra-text css-0"
-              >
-                Thu May 14 11:01 AM
-              </p>
-            </span>
+              Thu May 14 11:01 AM
+            </p>
           </button>
+          <div
+            class="css-lztqgm"
+          >
+            <div
+              class="chakra-stack css-1jbmm9k"
+            >
+              <div
+                class="css-1u450b"
+              >
+                <div
+                  class="css-1rslm09"
+                >
+                  <div
+                    class="css-0"
+                  >
+                    <p
+                      class="chakra-text css-1isbnq6"
+                    >
+                      THURSDAY
+                    </p>
+                    <p
+                      class="chakra-text css-ioibws"
+                    >
+                      14
+                    </p>
+                  </div>
+                  <p
+                    class="chakra-text css-7t1bt"
+                  >
+                    No Events Today
+                  </p>
+                </div>
+                <div
+                  class="css-1ipdxr0"
+                >
+                  <div
+                    class="css-0"
+                  >
+                    <p
+                      class="chakra-text css-1u8coqu"
+                    >
+                      Pune ↗
+                    </p>
+                    <p
+                      class="chakra-text css-1kwkpe3"
+                    >
+                      23°
+                    </p>
+                  </div>
+                  <div
+                    class="css-0"
+                  >
+                    <div
+                      class="chakra-stack css-1erbfv3"
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        viewBox="0 0 24 24"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M19.36 10.04a6 6 0 0 0-11.11-1.5 4.5 4.5 0 0 0-1.89 8.78h13.36a4.12 4.12 0 0 0-.36-7.28z"
+                        />
+                      </svg>
+                      <p
+                        class="chakra-text css-7qcwdg"
+                      >
+                        Mostly Cloudy
+                      </p>
+                    </div>
+                    <p
+                      class="chakra-text css-1tgtg8d"
+                    >
+                      H:29° L:22°
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1bbe7oy"
+              >
+                <div
+                  class="chakra-stack css-1g23erx"
+                >
+                  <div
+                    class="chakra-stack css-q23b4k"
+                  >
+                    <div
+                      class="css-iamqmo"
+                    >
+                      <div
+                        aria-label="mock-clock"
+                      />
+                    </div>
+                    <p
+                      class="chakra-text css-1qymrty"
+                    >
+                      Cupertino
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      Yesterday
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      -12:30
+                    </p>
+                  </div>
+                  <div
+                    class="chakra-stack css-q23b4k"
+                  >
+                    <div
+                      class="css-iamqmo"
+                    >
+                      <div
+                        aria-label="mock-clock"
+                      />
+                    </div>
+                    <p
+                      class="chakra-text css-1qymrty"
+                    >
+                      Tokyo
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      Today
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      +3:30
+                    </p>
+                  </div>
+                  <div
+                    class="chakra-stack css-q23b4k"
+                  >
+                    <div
+                      class="css-iamqmo"
+                    >
+                      <div
+                        aria-label="mock-clock"
+                      />
+                    </div>
+                    <p
+                      class="chakra-text css-1qymrty"
+                    >
+                      Sydney
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      Today
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      +4:30
+                    </p>
+                  </div>
+                  <div
+                    class="chakra-stack css-q23b4k"
+                  >
+                    <div
+                      class="css-iamqmo"
+                    >
+                      <div
+                        aria-label="mock-clock"
+                      />
+                    </div>
+                    <p
+                      class="chakra-text css-1qymrty"
+                    >
+                      Paris
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      Yesterday
+                    </p>
+                    <p
+                      class="chakra-text css-1kfh92p"
+                    >
+                      -3:30
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1u450b"
+              >
+                <div
+                  class="css-mzt8m6"
+                >
+                  <div
+                    class="chakra-stack css-1a1f2hq"
+                  >
+                    <div
+                      class="chakra-stack css-1y3f6ad"
+                    >
+                      <p
+                        class="chakra-text css-qljqz"
+                      >
+                        ▼ DOW
+                      </p>
+                      <p
+                        class="chakra-text css-0"
+                      >
+                        52,499
+                      </p>
+                    </div>
+                    <div
+                      class="chakra-stack css-1y3f6ad"
+                    >
+                      <p
+                        class="chakra-text css-qljqz"
+                      >
+                        ▼ S&P 500
+                      </p>
+                      <p
+                        class="chakra-text css-0"
+                      >
+                        7,515
+                      </p>
+                    </div>
+                    <div
+                      class="chakra-stack css-1y3f6ad"
+                    >
+                      <p
+                        class="chakra-text css-6a54a0"
+                      >
+                        ▲ AAPL
+                      </p>
+                      <p
+                        class="chakra-text css-6a54a0"
+                      >
+                        317.31
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="css-0"
+                  >
+                    <p
+                      class="chakra-text css-1y8qa8j"
+                    >
+                      Economic Times
+                    </p>
+                    <p
+                      class="chakra-text css-gz8ysp"
+                    >
+                      US stocks today: S&P 500 and Nasdaq open lo...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1bbe7oy"
+              >
+                <p
+                  class="chakra-text css-1ydmulh"
+                >
+                  1h 55m
+                </p>
+                <div
+                  class="css-185ri42"
+                >
+                  <div
+                    class="css-p0spjt"
+                  >
+                    <div
+                      class="css-1x8qcqd"
+                    >
+                      <p
+                        class="chakra-text css-sc1k4m"
+                      >
+                        60m
+                      </p>
+                    </div>
+                    <div
+                      class="css-1x8qcqd"
+                    >
+                      <p
+                        class="chakra-text css-sc1k4m"
+                      >
+                        30m
+                      </p>
+                    </div>
+                    <div
+                      class="css-bayyz5"
+                    >
+                      <p
+                        class="chakra-text css-8gpzoc"
+                      >
+                        0
+                      </p>
+                    </div>
+                    <div
+                      class="chakra-stack css-mkcnih"
+                    >
+                      <div
+                        class="css-1tsylwj"
+                      />
+                      <div
+                        class="css-1wdn5n6"
+                      />
+                      <div
+                        class="css-16npksi"
+                      />
+                    </div>
+                    <div
+                      class="chakra-stack css-wqf380"
+                    >
+                      <p
+                        class="chakra-text css-0"
+                      >
+                        12 AM
+                      </p>
+                      <p
+                        class="chakra-text css-0"
+                      >
+                        6 AM
+                      </p>
+                      <p
+                        class="chakra-text css-0"
+                      >
+                        12 PM
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="chakra-stack css-7tz4zo"
+                  >
+                    <div
+                      class="chakra-stack css-18403hd"
+                    >
+                      <div
+                        class="chakra-stack css-1xwk49h"
+                      >
+                        <img
+                          class="chakra-image css-qzxgwt"
+                          src="[object Object]"
+                        />
+                        <p
+                          class="chakra-text css-1834uat"
+                        >
+                          Xcode
+                        </p>
+                      </div>
+                      <p
+                        class="chakra-text css-mfq1v"
+                      >
+                        1h 14m
+                      </p>
+                    </div>
+                    <div
+                      class="chakra-stack css-18403hd"
+                    >
+                      <div
+                        class="chakra-stack css-1xwk49h"
+                      >
+                        <img
+                          class="chakra-image css-qzxgwt"
+                          src="[object Object]"
+                        />
+                        <p
+                          class="chakra-text css-1834uat"
+                        >
+                          Chrome
+                        </p>
+                      </div>
+                      <p
+                        class="chakra-text css-mfq1v"
+                      >
+                        38m
+                      </p>
+                    </div>
+                    <div
+                      class="chakra-stack css-18403hd"
+                    >
+                      <div
+                        class="chakra-stack css-1xwk49h"
+                      >
+                        <img
+                          class="chakra-image css-qzxgwt"
+                          src="[object Object]"
+                        />
+                        <p
+                          class="chakra-text css-1834uat"
+                        >
+                          Settings
+                        </p>
+                      </div>
+                      <p
+                        class="chakra-text css-mfq1v"
+                      >
+                        1m
+                      </p>
+                    </div>
+                    <div
+                      class="chakra-stack css-18403hd"
+                    >
+                      <div
+                        class="chakra-stack css-1xwk49h"
+                      >
+                        <img
+                          class="chakra-image css-qzxgwt"
+                          src="[object Object]"
+                        />
+                        <p
+                          class="chakra-text css-1834uat"
+                        >
+                          Finder
+                        </p>
+                      </div>
+                      <p
+                        class="chakra-text css-mfq1v"
+                      >
+                        18s
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="chakra-stack css-1aov9ha"
+              >
+                <button
+                  class="chakra-button css-zynthc"
+                  type="button"
+                >
+                  Edit Widgets
+                </button>
+                <div
+                  class="css-10bpbgx"
+                >
+                  <p
+                    class="chakra-text css-5w865n"
+                  >
+                    ✕
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -3659,9 +3999,6 @@ exports[`LazyHomeComponent should render correctly to match snapshot 1`] = `
         </div>
       </div>
     </div>
-    <div
-      class="css-1larjut"
-    />
   </div>
 </div>
 `;

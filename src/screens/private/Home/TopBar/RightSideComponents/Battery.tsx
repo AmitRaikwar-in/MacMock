@@ -9,14 +9,30 @@ import {
   darkModeColorSelector,
   settingsStore,
   useShallow,
+  batterySelector,
+  generalSelector,
 } from '@settingsStore';
+import {
+  ProgramType,
+  activeAppActionsSelector,
+  processStore,
+} from '@processStore';
 import { useTranslation } from 'react-i18next';
 
 const Battery = () => {
-  const batteryPercentage = 67;
+  const batteryPercentage = 98; // Match the health/status in Settings (98% Normal)
   const { t } = useTranslation();
   const { iconColor, textColor } = settingsStore(
     useShallow(darkModeColorSelector),
+  );
+  const { lowPowerMode } = settingsStore(
+    useShallow(batterySelector),
+  );
+  const { addApp } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
+  const { setSelectedTab, setSubPage } = settingsStore(
+    useShallow(generalSelector),
   );
 
   return (
@@ -31,7 +47,8 @@ const Battery = () => {
             props={{
               width: '2em',
               height: '2em',
-              color: iconColor,
+              // Use yellow icon color if lowPowerMode is enabled, mimicking macOS behavior!
+              color: lowPowerMode ? '#FFCC00' : iconColor,
             }}
           />
         }
@@ -43,17 +60,31 @@ const Battery = () => {
           flexDirection={'row'}
           mx={2}
           color={textColor}
+          py={1}
         >
           <Text fontSize={'xs'} fontWeight={'bold'}>
             {t('TopAppBar.battery.title')}
           </Text>
-          <Text fontSize={'xs'}>{batteryPercentage + '%'}</Text>
+          <Text fontSize={'xs'} fontWeight={'semibold'}>
+            {batteryPercentage + '%'}
+          </Text>
         </Box>
+        {lowPowerMode && (
+          <Box mx={2} mb={1}>
+            <Text fontSize={'10px'} color="#FFCC00" fontWeight="bold">
+              Low Power Mode: On
+            </Text>
+          </Box>
+        )}
         <MenuDivider mx={2} />
         <MenuItemComponent
           text={t('TopAppBar.battery.batterySettings')}
           ariaLabel="battery-settings"
-          onClick={() => {}}
+          onClick={() => {
+            setSelectedTab('battery');
+            setSubPage(null);
+            addApp(ProgramType.SETTINGS);
+          }}
         />
       </MenuListComponent>
     </Menu>

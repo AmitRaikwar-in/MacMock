@@ -2,10 +2,28 @@
 
 exports[`Finder should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
+  <div
+    class="css-u7o7oz"
+  >
+    <h2
+      class="chakra-heading css-1itv5e3"
+    >
       Finder
-    </h1>
+    </h2>
+    <div
+      class="css-1itv5e3"
+    >
+      <p
+        class="chakra-text css-wlea3r"
+      >
+        Current Directory:
+      </p>
+      <input
+        aria-label="current-directory-input"
+        class="chakra-input css-1l1ors0"
+        value="/Users/mr.robot"
+      />
+    </div>
   </div>
 </div>
 `;

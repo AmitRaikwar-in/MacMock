@@ -3,9 +3,9 @@ import Launchpad from '../Launchpad';
 
 describe('Launchpad', () => {
   it('should render correctly', () => {
-    const { container } = render(<Launchpad />);
+    const { baseElement } = render(<Launchpad />);
 
-    expect(container).toMatchSnapshot();
+    expect(baseElement).toMatchSnapshot();
   });
 
   it('should call onClickHandler when clicked', () => {

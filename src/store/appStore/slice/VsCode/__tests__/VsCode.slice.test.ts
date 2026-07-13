@@ -5,6 +5,7 @@ describe('VsCode slice', () => {
   it('should return default vsCode state', () => {
     const { result } = renderHook(() => appStore());
 
-    expect(result.current.VsCode).toEqual({});
+    expect(result.current.VsCode.iframeUrl).toEqual('https://github1s.com/onemanfighter/ar-mac-portfolio');
+    expect(result.current.VsCode.setIframeUrl).toBeDefined();
   });
 });

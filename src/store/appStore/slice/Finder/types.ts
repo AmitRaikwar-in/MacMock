@@ -1,5 +1,9 @@
-export type FinderState = {};
+export type FinderState = {
+  currentPath: string;
+};
 
-export interface FinderAppAction {}
+export interface FinderAppAction {
+  setCurrentPath: (path: string) => void;
+}
 
 export type FinderStateSlice = FinderState & FinderAppAction;

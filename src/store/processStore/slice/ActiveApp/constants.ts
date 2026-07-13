@@ -1,7 +1,8 @@
 import { ActiveAppsState, ProgramType } from './types';
 
 export const DEFAULT_ACTIVE_STATE: ActiveAppsState = {
-  activeApp: ProgramType.VSCODE,
+  activeApp: ProgramType.FINDER,
+  zCounter: 0,
   apps: {
     [ProgramType.CHROME]: undefined,
     [ProgramType.NOTES]: undefined,

@@ -5,6 +5,7 @@ describe('Finder selector', () => {
   it('should return default finder state', () => {
     const { result } = renderHook(() => appStore(finderSelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current.currentPath).toEqual('/Users/mr.robot');
+    expect(result.current.setCurrentPath).toBeDefined();
   });
 });

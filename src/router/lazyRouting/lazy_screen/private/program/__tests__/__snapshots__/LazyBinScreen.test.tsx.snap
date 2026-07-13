@@ -2,10 +2,39 @@
 
 exports[`LazyBinComponent should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      Bin
-    </h1>
+  <div
+    class="css-scgnmv"
+  >
+    <h2
+      class="chakra-heading css-1itv5e3"
+    >
+      Trash Bin
+    </h2>
+    <div
+      class="css-182b4ba"
+    >
+      <ul
+        class="css-1ahh3va"
+        role="list"
+      >
+        <li
+          class="css-1yijecc"
+        >
+          deleted_file.txt
+        </li>
+        <li
+          class="css-1yijecc"
+        >
+          old_photo.png
+        </li>
+      </ul>
+    </div>
+    <button
+      class="chakra-button css-4xx2wk"
+      type="button"
+    >
+      Empty Trash
+    </button>
   </div>
 </div>
 `;

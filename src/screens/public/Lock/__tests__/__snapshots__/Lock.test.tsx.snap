@@ -124,7 +124,7 @@ exports[`Lock should render correctly to match snapshot 1`] = `
         </p>
       </div>
       <div
-        class="css-xl42ag"
+        class="chakra-stack css-1lvdoy1"
       >
         <div
           class="chakra-input__group css-5l6ydk"
@@ -159,31 +159,27 @@ exports[`Lock should render correctly to match snapshot 1`] = `
             </button>
           </div>
         </div>
-        <div
-          class="css-6xeous"
+        <button
+          aria-controls="popover-content-:r3:"
+          aria-expanded="false"
+          aria-haspopup="dialog"
+          aria-label="password-hint-button"
+          class="css-11ld3eo"
+          id="popover-trigger-:r3:"
         >
-          <button
-            aria-controls="popover-content-:r3:"
-            aria-expanded="false"
-            aria-haspopup="dialog"
-            aria-label="password-hint-button"
-            class="css-1w9lxxx"
-            id="popover-trigger-:r3:"
-          >
-            ?
-          </button>
-          <div
-            class="chakra-popover__popper css-0"
-            style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-          >
-            <section
-              class="chakra-popover__content css-vqsmka"
-              id="popover-content-:r3:"
-              role="dialog"
-              style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-              tabindex="-1"
-            />
-          </div>
+          ?
+        </button>
+        <div
+          class="chakra-popover__popper css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <section
+            class="chakra-popover__content css-vqsmka"
+            id="popover-content-:r3:"
+            role="dialog"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+            tabindex="-1"
+          />
         </div>
       </div>
       <p

@@ -7,3 +7,4 @@ export * from './Chrome';
 export * from './Spotify';
 export * from './Github';
 export * from './Settings';
+export * from './Calendar';

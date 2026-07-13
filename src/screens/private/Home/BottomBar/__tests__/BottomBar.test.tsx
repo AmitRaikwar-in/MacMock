@@ -235,13 +235,15 @@ describe('BottomBar', () => {
       });
     });
 
-    it('should render and click running middle apps', () => {
+    it('should bring running middle app to front without changing its size', () => {
       act(() => {
         processStore.setState((state: any) => {
           state.ActiveApp.apps[ProgramType.CALENDAR] = {
             position: { x: 0, y: 0 },
             size: WindowSize.MAX,
+            zIndex: 1,
           };
+          state.ActiveApp.zCounter = 1;
         });
       });
 
@@ -252,7 +254,9 @@ describe('BottomBar', () => {
 
       const appState =
         processStore.getState().ActiveApp.apps[ProgramType.CALENDAR];
-      expect(appState?.size).toBe(WindowSize.DEFAULT);
+      // Size is preserved — bringToFront does not reset it
+      expect(appState?.size).toBe(WindowSize.MAX);
+      expect(appState?.zIndex).toBeGreaterThan(1);
     });
 
     it('should open a middle app if it was not running', () => {
@@ -276,13 +280,15 @@ describe('BottomBar', () => {
       expect(appState).toBeDefined();
     });
 
-    it('should set window size when clicking an already running bottom bar app', () => {
+    it('should bring already running bottom bar app to front without resetting its size', () => {
       act(() => {
         processStore.setState((state: any) => {
           state.ActiveApp.apps[ProgramType.FINDER] = {
             position: { x: 0, y: 0 },
             size: WindowSize.MAX,
+            zIndex: 1,
           };
+          state.ActiveApp.zCounter = 1;
         });
       });
 
@@ -292,20 +298,25 @@ describe('BottomBar', () => {
 
       const appState =
         processStore.getState().ActiveApp.apps[ProgramType.FINDER];
-      expect(appState?.size).toBe(WindowSize.DEFAULT);
+      // Size is preserved — bringToFront does not reset it
+      expect(appState?.size).toBe(WindowSize.MAX);
+      expect(appState?.zIndex).toBeGreaterThan(1);
     });
 
-    it('should set window size when clicking an already running Bin app', () => {
+    it('should bring already running Bin app to front without resetting its size', () => {
       act(() => {
         processStore.setState((state: any) => {
           state.ActiveApp.apps[ProgramType.FINDER] = {
             position: { x: 0, y: 0 },
             size: WindowSize.DEFAULT,
+            zIndex: 1,
           };
           state.ActiveApp.apps[ProgramType.BIN] = {
             position: { x: 0, y: 0 },
             size: WindowSize.MAX,
+            zIndex: 1,
           };
+          state.ActiveApp.zCounter = 1;
         });
       });
 
@@ -314,7 +325,9 @@ describe('BottomBar', () => {
       fireEvent.click(screen.getByLabelText('program-button-Bin'));
 
       const appState = processStore.getState().ActiveApp.apps[ProgramType.BIN];
-      expect(appState?.size).toBe(WindowSize.DEFAULT);
+      // Size is preserved — bringToFront does not reset it
+      expect(appState?.size).toBe(WindowSize.MAX);
+      expect(appState?.zIndex).toBeGreaterThan(1);
     });
 
     it('should close launchpad when activeAppRunning changes', () => {

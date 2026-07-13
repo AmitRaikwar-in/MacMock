@@ -12,6 +12,7 @@ import {
   createSpotifySlice,
   createTerminalSlice,
   createVsCodeSlice,
+  createCalendarSlice,
 } from '../slice';
 
 export const appStore = create<AppStoreState>()(
@@ -26,6 +27,7 @@ export const appStore = create<AppStoreState>()(
       Spotify: createSpotifySlice(...api),
       Github: createGithubSlice(...api),
       Settings: createSettingsSlice(...api),
+      Calendar: createCalendarSlice(...api),
     })),
     {
       name: 'appStore',
@@ -50,5 +52,6 @@ function deepMerge(
     Chrome: { ...currentState.Chrome, ...persistedState.Chrome },
     Spotify: { ...currentState.Spotify, ...persistedState.Spotify },
     Settings: { ...currentState.Settings, ...persistedState.Settings },
+    Calendar: { ...currentState.Calendar, ...persistedState.Calendar },
   };
 }

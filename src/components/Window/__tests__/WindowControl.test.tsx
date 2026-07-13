@@ -81,11 +81,11 @@ describe('WindowControl', () => {
       />,
     );
 
-    fireEvent.mouseEnter(screen.getByText('x'));
+    fireEvent.mouseEnter(screen.getByTestId('traffic-lights'));
 
     expect(container).toMatchSnapshot();
 
-    fireEvent.mouseLeave(screen.getByText('x'));
+    fireEvent.mouseLeave(screen.getByTestId('traffic-lights'));
 
     expect(container).toMatchSnapshot();
   });

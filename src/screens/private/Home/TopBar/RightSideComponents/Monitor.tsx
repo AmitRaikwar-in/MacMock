@@ -24,7 +24,13 @@ import {
   displayTrueToneSelector,
   settingsStore,
   useShallow,
+  generalSelector,
 } from '@settingsStore';
+import {
+  ProgramType,
+  activeAppActionsSelector,
+  processStore,
+} from '@processStore';
 import { useTranslation } from 'react-i18next';
 
 const ModeStack = () => {
@@ -137,6 +143,12 @@ const Monitor = () => {
     useShallow(displayBrightnessSelector),
   );
   const { iconColor } = settingsStore(useShallow(darkModeColorSelector));
+  const { addApp } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
+  const { setSelectedTab, setSubPage } = settingsStore(
+    useShallow(generalSelector),
+  );
 
   return (
     <Menu>
@@ -184,7 +196,11 @@ const Monitor = () => {
         <MenuItemComponent
           text={t('TopAppBar.monitor.monitorSettings')}
           ariaLabel="monitor-settings"
-          onClick={() => {}}
+          onClick={() => {
+            setSelectedTab('displays');
+            setSubPage(null);
+            addApp(ProgramType.SETTINGS);
+          }}
         />
       </MenuListComponent>
     </Menu>

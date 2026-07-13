@@ -254,3 +254,65 @@ export const LaunchpadProgramsList: ProgramDataRecord = {
     programType: ProgramType.NEWS,
   },
 };
+
+export const appCategoryMap: Record<string, string> = {
+  [ProgramType.APP_STORE]: 'Productivity & Finance',
+  [ProgramType.SAFARI]: 'Productivity & Finance',
+  [ProgramType.MAILS]: 'Productivity & Finance',
+  [ProgramType.CALENDAR]: 'Productivity & Finance',
+  [ProgramType.REMINDERS]: 'Productivity & Finance',
+  [ProgramType.NOTES]: 'Productivity & Finance',
+  [ProgramType.WEATHER]: 'Productivity & Finance',
+  [ProgramType.STOCKS]: 'Productivity & Finance',
+  [ProgramType.KEYNOTE]: 'Productivity & Finance',
+  [ProgramType.NUMBERS]: 'Productivity & Finance',
+  [ProgramType.PAGES]: 'Productivity & Finance',
+  [ProgramType.CHROME]: 'Productivity & Finance',
+
+  [ProgramType.VSCODE]: 'Developer Tools',
+  [ProgramType.TERMINAL]: 'Developer Tools',
+  [ProgramType.GITHUB]: 'Developer Tools',
+  [ProgramType.XCODE]: 'Developer Tools',
+
+  [ProgramType.FINDER]: 'Utilities',
+  [ProgramType.SETTINGS]: 'Utilities',
+  [ProgramType.BIN]: 'Utilities',
+  [ProgramType.MAPS]: 'Utilities',
+  [ProgramType.FIND_MY]: 'Utilities',
+  [ProgramType.PREVIEW]: 'Utilities',
+  [ProgramType.VOICE_MEMOS]: 'Utilities',
+  [ProgramType.DICTIONARY]: 'Utilities',
+  [ProgramType.CALCULATOR]: 'Utilities',
+  [ProgramType.HOME]: 'Utilities',
+  [ProgramType.CLOCK]: 'Utilities',
+
+  [ProgramType.SPOTIFY]: 'Entertainment',
+  [ProgramType.PHOTO_BOOTH]: 'Entertainment',
+  [ProgramType.MUSIC]: 'Entertainment',
+  [ProgramType.PODCASTS]: 'Entertainment',
+  [ProgramType.TV]: 'Entertainment',
+
+  [ProgramType.CONTACTS]: 'Social',
+  [ProgramType.FACE_TIME]: 'Social',
+  [ProgramType.MESSAGES]: 'Social',
+
+  [ProgramType.PHOTOS]: 'Creativity',
+  [ProgramType.GARAGE_BAND]: 'Creativity',
+  [ProgramType.I_MOVIE]: 'Creativity',
+  [ProgramType.FREEFORM]: 'Creativity',
+
+  [ProgramType.BOOKS]: 'Information & Reading',
+  [ProgramType.NEWS]: 'Information & Reading',
+};
+
+export const categories = [
+  'All',
+  'Productivity & Finance',
+  'Developer Tools',
+  'Utilities',
+  'Entertainment',
+  'Social',
+  'Creativity',
+  'Information & Reading',
+];
+

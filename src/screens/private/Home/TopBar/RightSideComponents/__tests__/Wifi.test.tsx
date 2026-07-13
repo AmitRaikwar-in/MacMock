@@ -16,19 +16,11 @@ describe('Wifi', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('should toggle wifi when wifi 1 is tapped', () => {
+  it('should click wifi home option', () => {
     const { container } = render(<Wifi />);
-
-    fireEvent.click(screen.getByLabelText('wifi-1'));
-
-    expect(container).toMatchSnapshot();
-  });
-
-  it('should toggle wifi when wifi 2 is tapped', () => {
-    const { container } = render(<Wifi />);
-
-    fireEvent.click(screen.getByLabelText('wifi-2'));
-
+ 
+    fireEvent.click(screen.getByLabelText('wifi-home'));
+ 
     expect(container).toMatchSnapshot();
   });
 

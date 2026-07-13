@@ -1,6 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import ProgramButton from '../ProgramButton';
-import dummyIcon from '@assets/icons/finder.png';
 
 describe('ProgramButton', () => {
   const onClickHandler = jest.fn();
@@ -14,9 +13,9 @@ describe('ProgramButton', () => {
       <ProgramButton
         name={'Finder'}
         variant="default"
-        icon={dummyIcon}
         isActive={false}
         onClickHandler={onClickHandler}
+        icon={''}
       />,
     );
 
@@ -28,7 +27,7 @@ describe('ProgramButton', () => {
       <ProgramButton
         name={'Finder'}
         variant="default"
-        icon={dummyIcon}
+        icon=""
         isActive={true}
         onClickHandler={onClickHandler}
       />,
@@ -42,7 +41,7 @@ describe('ProgramButton', () => {
       <ProgramButton
         name={'Finder'}
         variant="default"
-        icon={dummyIcon}
+        icon=""
         isActive={false}
         onClickHandler={onClickHandler}
       />,

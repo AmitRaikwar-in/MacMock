@@ -3,34 +3,70 @@
 exports[`WindowControl should render correctly 1`] = `
 <div>
   <div
-    aria-label="close"
-    class="css-apaxy7"
+    class="css-axw7ok"
+    data-testid="traffic-lights"
   >
-    <p
-      class="chakra-text css-1r0gc73"
+    <div
+      aria-label="close"
+      class="css-trrl7s"
     >
-      x
-    </p>
-  </div>
-  <div
-    aria-label="minimize"
-    class="css-1oliyf7"
-  >
-    <p
-      class="chakra-text css-1r0gc73"
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 0; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+          stroke="#4C0002"
+          stroke-linecap="round"
+          stroke-width="1.2"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="minimize"
+      class="css-pklp1d"
     >
-      -
-    </p>
-  </div>
-  <div
-    aria-label="maximize"
-    class="css-18q4sxm"
-  >
-    <p
-      class="chakra-text css-1r0gc73"
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 0; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 3H5"
+          stroke="#5C3E00"
+          stroke-linecap="round"
+          stroke-width="1.2"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="maximize"
+      class="css-12g04q5"
     >
-      o
-    </p>
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 0; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+          stroke="#004D05"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </div>
   </div>
 </div>
 `;
@@ -38,34 +74,70 @@ exports[`WindowControl should render correctly 1`] = `
 exports[`WindowControl should trigger mouse enter and leave event 1`] = `
 <div>
   <div
-    aria-label="close"
-    class="css-apaxy7"
+    class="css-axw7ok"
+    data-testid="traffic-lights"
   >
-    <p
-      class="chakra-text css-s3z63p"
+    <div
+      aria-label="close"
+      class="css-trrl7s"
     >
-      x
-    </p>
-  </div>
-  <div
-    aria-label="minimize"
-    class="css-1oliyf7"
-  >
-    <p
-      class="chakra-text css-s3z63p"
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 1; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+          stroke="#4C0002"
+          stroke-linecap="round"
+          stroke-width="1.2"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="minimize"
+      class="css-pklp1d"
     >
-      -
-    </p>
-  </div>
-  <div
-    aria-label="maximize"
-    class="css-18q4sxm"
-  >
-    <p
-      class="chakra-text css-s3z63p"
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 1; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 3H5"
+          stroke="#5C3E00"
+          stroke-linecap="round"
+          stroke-width="1.2"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="maximize"
+      class="css-12g04q5"
     >
-      o
-    </p>
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 1; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+          stroke="#004D05"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </div>
   </div>
 </div>
 `;
@@ -73,34 +145,70 @@ exports[`WindowControl should trigger mouse enter and leave event 1`] = `
 exports[`WindowControl should trigger mouse enter and leave event 2`] = `
 <div>
   <div
-    aria-label="close"
-    class="css-apaxy7"
+    class="css-axw7ok"
+    data-testid="traffic-lights"
   >
-    <p
-      class="chakra-text css-1r0gc73"
+    <div
+      aria-label="close"
+      class="css-trrl7s"
     >
-      x
-    </p>
-  </div>
-  <div
-    aria-label="minimize"
-    class="css-1oliyf7"
-  >
-    <p
-      class="chakra-text css-1r0gc73"
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 0; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+          stroke="#4C0002"
+          stroke-linecap="round"
+          stroke-width="1.2"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="minimize"
+      class="css-pklp1d"
     >
-      -
-    </p>
-  </div>
-  <div
-    aria-label="maximize"
-    class="css-18q4sxm"
-  >
-    <p
-      class="chakra-text css-1r0gc73"
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 0; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1 3H5"
+          stroke="#5C3E00"
+          stroke-linecap="round"
+          stroke-width="1.2"
+        />
+      </svg>
+    </div>
+    <div
+      aria-label="maximize"
+      class="css-12g04q5"
     >
-      o
-    </p>
+      <svg
+        fill="none"
+        height="6"
+        style="opacity: 0; transition: opacity 0.15s ease;"
+        viewBox="0 0 6 6"
+        width="6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+          stroke="#004D05"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </div>
   </div>
 </div>
 `;

@@ -5,6 +5,9 @@ describe('Bluetooth slice', () => {
   it('should return default bluetooth state', () => {
     const { result } = renderHook(() => settingsStore());
 
-    expect(result.current.Bluetooth).toEqual({});
+    expect(result.current.Bluetooth).toEqual({
+      enabled: true,
+      setEnabled: expect.any(Function),
+    });
   });
 });

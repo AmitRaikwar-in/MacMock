@@ -8,4 +8,6 @@ export type DraggableProps = {
   position: Position;
   maximized: boolean;
   onPositionChange: (position: Position) => void;
+  /** Called when a drag starts — use to bring window to front */
+  onStart?: () => void;
 };
