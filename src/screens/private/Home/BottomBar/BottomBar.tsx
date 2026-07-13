@@ -17,7 +17,6 @@ import {
   allActiveAppsSelector,
   processStore,
   ProgramType,
-  WindowSize,
 } from '@processStore';
 import { LaunchpadContext } from '../../Mac';
 import { ProgramButton } from '../common';
@@ -36,7 +35,7 @@ const BottomBar = (_props: BottomBarProps) => {
   const { launchpad, setLaunchpad } = useContext(LaunchpadContext);
   const [state, setState] = useState<ProgramItem[]>(InitialProgramOrderList);
   const { bottomBarBgColor } = settingsStore(useShallow(darkModeColorSelector));
-  const { addApp, setWindowSize } = processStore(
+  const { addApp, bringToFront } = processStore(
     useShallow(activeAppActionsSelector),
   );
   const { allActiveApps, getActiveApp, activeAppRunning } = processStore(
@@ -138,10 +137,7 @@ const BottomBar = (_props: BottomBarProps) => {
                           ? setTimeout(() => {
                               addApp(app as unknown as ProgramType);
                             }, 500)
-                          : setWindowSize(
-                              app as unknown as ProgramType,
-                              WindowSize.DEFAULT,
-                            );
+                          : bringToFront(app as unknown as ProgramType);
                       }}
                     />
                   );
@@ -164,7 +160,7 @@ const BottomBar = (_props: BottomBarProps) => {
                               ? setTimeout(() => {
                                   addApp(app);
                                 }, 500)
-                              : setWindowSize(app, WindowSize.DEFAULT);
+                              : bringToFront(app);
                           }}
                         />
                       );
@@ -182,7 +178,7 @@ const BottomBar = (_props: BottomBarProps) => {
                       ? setTimeout(() => {
                           addApp(ProgramType.BIN);
                         }, 500)
-                      : setWindowSize(ProgramType.BIN, WindowSize.DEFAULT);
+                      : bringToFront(ProgramType.BIN);
                   }}
                 />
               </Box>

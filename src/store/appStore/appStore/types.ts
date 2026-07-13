@@ -8,6 +8,7 @@ import {
   SettingsStateSlice,
   TerminalStateSlice,
   VsCodeStateSlice,
+  CalendarStateSlice,
 } from '../slice';
 import { SpotifyStateSlice } from '../slice/Spotify';
 
@@ -21,6 +22,7 @@ export interface AppStoreState {
   Spotify: SpotifyStateSlice;
   Settings: SettingsStateSlice;
   Github: GithubStateSlice;
+  Calendar: CalendarStateSlice;
 }
 
 export type AppStoreSlice<T> = StateCreator<

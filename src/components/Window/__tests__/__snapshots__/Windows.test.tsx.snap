@@ -3,60 +3,100 @@
 exports[`Windows should render for default values 1`] = `
 <div>
   <div
-    data-testid="draggable-provider"
+    style="position: absolute; z-index: 0; left: 0px; top: 0px; transform: translate(112px, 622.8px) scale(0.01); opacity: 0; pointer-events: none; visibility: hidden; transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease-in-out, visibility 0.4s;"
   >
     <div
-      data-testid="resizable-box"
+      data-testid="draggable-provider"
     >
       <div
-        class="css-fjdgft"
+        data-testid="resizable-box"
       >
         <div
-          class="handle css-1q7gku6"
+          class="css-fjdgft"
         >
           <div
-            aria-label="close"
-            class="css-apaxy7"
+            class="handle css-15s8592"
           >
-            <p
-              class="chakra-text css-1r0gc73"
+            <div
+              class="css-axw7ok"
+              data-testid="traffic-lights"
             >
-              x
-            </p>
-          </div>
-          <div
-            aria-label="minimize"
-            class="css-1oliyf7"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
+              <div
+                aria-label="close"
+                class="css-trrl7s"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+                    stroke="#4C0002"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-pklp1d"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 3H5"
+                    stroke="#5C3E00"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-12g04q5"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+                    stroke="#004D05"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="css-1bc9bee"
             >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          >
-            <div>
-              Top bar
+              <div>
+                Top bar
+              </div>
             </div>
           </div>
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            Test
+          <div
+            class="css-1qx9vnh"
+          >
+            <div>
+              Test
+            </div>
           </div>
         </div>
       </div>
@@ -68,56 +108,96 @@ exports[`Windows should render for default values 1`] = `
 exports[`Windows should render maximized window 1`] = `
 <div>
   <div
-    data-testid="draggable-provider"
+    style="position: absolute; z-index: 0; left: 0px; top: 0px; transform: translate(112px, 622.8px) scale(0.01); opacity: 0; pointer-events: none; visibility: hidden; transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease-in-out, visibility 0.4s;"
   >
     <div
-      data-testid="resizable-box"
+      data-testid="draggable-provider"
     >
       <div
-        class="css-fjdgft"
+        data-testid="resizable-box"
       >
         <div
-          class="css-1q7gku6"
+          class="css-fjdgft"
         >
           <div
-            aria-label="close"
-            class="css-apaxy7"
+            class="css-15s8592"
           >
-            <p
-              class="chakra-text css-1r0gc73"
+            <div
+              class="css-axw7ok"
+              data-testid="traffic-lights"
             >
-              x
-            </p>
+              <div
+                aria-label="close"
+                class="css-trrl7s"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+                    stroke="#4C0002"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-pklp1d"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 3H5"
+                    stroke="#5C3E00"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-12g04q5"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+                    stroke="#004D05"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="css-1bc9bee"
+            />
           </div>
           <div
-            aria-label="minimize"
-            class="css-1oliyf7"
+            class="css-1qx9vnh"
           >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            Test
+            <div>
+              Test
+            </div>
           </div>
         </div>
       </div>
@@ -129,56 +209,96 @@ exports[`Windows should render maximized window 1`] = `
 exports[`Windows should toggle maximize on double click on title bar 1`] = `
 <div>
   <div
-    data-testid="draggable-provider"
+    style="position: absolute; z-index: 0; left: 0px; top: 0px; transform: translate(112px, 622.8px) scale(0.01); opacity: 0; pointer-events: none; visibility: hidden; transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease-in-out, visibility 0.4s;"
   >
     <div
-      data-testid="resizable-box"
+      data-testid="draggable-provider"
     >
       <div
-        class="css-fjdgft"
+        data-testid="resizable-box"
       >
         <div
-          class="css-1q7gku6"
+          class="css-fjdgft"
         >
           <div
-            aria-label="close"
-            class="css-apaxy7"
+            class="css-15s8592"
           >
-            <p
-              class="chakra-text css-1r0gc73"
+            <div
+              class="css-axw7ok"
+              data-testid="traffic-lights"
             >
-              x
-            </p>
+              <div
+                aria-label="close"
+                class="css-trrl7s"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+                    stroke="#4C0002"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-pklp1d"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 3H5"
+                    stroke="#5C3E00"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-12g04q5"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+                    stroke="#004D05"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="css-1bc9bee"
+            />
           </div>
           <div
-            aria-label="minimize"
-            class="css-1oliyf7"
+            class="css-1qx9vnh"
           >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            Test
+            <div>
+              Test
+            </div>
           </div>
         </div>
       </div>
@@ -190,56 +310,96 @@ exports[`Windows should toggle maximize on double click on title bar 1`] = `
 exports[`Windows should trigger close on close button press 1`] = `
 <div>
   <div
-    data-testid="draggable-provider"
+    style="position: absolute; z-index: 0; left: 0px; top: 0px; transform: translate(112px, 622.8px) scale(0.01); opacity: 0; pointer-events: none; visibility: hidden; transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease-in-out, visibility 0.4s;"
   >
     <div
-      data-testid="resizable-box"
+      data-testid="draggable-provider"
     >
       <div
-        class="css-fjdgft"
+        data-testid="resizable-box"
       >
         <div
-          class="handle css-1q7gku6"
+          class="css-fjdgft"
         >
           <div
-            aria-label="close"
-            class="css-apaxy7"
+            class="handle css-15s8592"
           >
-            <p
-              class="chakra-text css-1r0gc73"
+            <div
+              class="css-axw7ok"
+              data-testid="traffic-lights"
             >
-              x
-            </p>
+              <div
+                aria-label="close"
+                class="css-trrl7s"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+                    stroke="#4C0002"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-pklp1d"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 3H5"
+                    stroke="#5C3E00"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-12g04q5"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+                    stroke="#004D05"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="css-1bc9bee"
+            />
           </div>
           <div
-            aria-label="minimize"
-            class="css-1oliyf7"
+            class="css-1qx9vnh"
           >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            Test
+            <div>
+              Test
+            </div>
           </div>
         </div>
       </div>
@@ -251,56 +411,96 @@ exports[`Windows should trigger close on close button press 1`] = `
 exports[`Windows should trigger maximize on maximize button press 1`] = `
 <div>
   <div
-    data-testid="draggable-provider"
+    style="position: absolute; z-index: 0; left: 0px; top: 0px; transform: translate(112px, 622.8px) scale(0.01); opacity: 0; pointer-events: none; visibility: hidden; transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease-in-out, visibility 0.4s;"
   >
     <div
-      data-testid="resizable-box"
+      data-testid="draggable-provider"
     >
       <div
-        class="css-fjdgft"
+        data-testid="resizable-box"
       >
         <div
-          class="css-1q7gku6"
+          class="css-fjdgft"
         >
           <div
-            aria-label="close"
-            class="css-apaxy7"
+            class="css-15s8592"
           >
-            <p
-              class="chakra-text css-1r0gc73"
+            <div
+              class="css-axw7ok"
+              data-testid="traffic-lights"
             >
-              x
-            </p>
+              <div
+                aria-label="close"
+                class="css-trrl7s"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+                    stroke="#4C0002"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-pklp1d"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 3H5"
+                    stroke="#5C3E00"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-12g04q5"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+                    stroke="#004D05"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="css-1bc9bee"
+            />
           </div>
           <div
-            aria-label="minimize"
-            class="css-1oliyf7"
+            class="css-1qx9vnh"
           >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            Test
+            <div>
+              Test
+            </div>
           </div>
         </div>
       </div>
@@ -312,56 +512,96 @@ exports[`Windows should trigger maximize on maximize button press 1`] = `
 exports[`Windows should trigger minimize on minimize button press 1`] = `
 <div>
   <div
-    data-testid="draggable-provider"
+    style="position: absolute; z-index: 0; left: 0px; top: 0px; transform: translate(112px, 622.8px) scale(0.01); opacity: 0; pointer-events: none; visibility: hidden; transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease-in-out, visibility 0.4s;"
   >
     <div
-      data-testid="resizable-box"
+      data-testid="draggable-provider"
     >
       <div
-        class="css-fjdgft"
+        data-testid="resizable-box"
       >
         <div
-          class="handle css-1q7gku6"
+          class="css-fjdgft"
         >
           <div
-            aria-label="close"
-            class="css-apaxy7"
+            class="handle css-15s8592"
           >
-            <p
-              class="chakra-text css-1r0gc73"
+            <div
+              class="css-axw7ok"
+              data-testid="traffic-lights"
             >
-              x
-            </p>
+              <div
+                aria-label="close"
+                class="css-trrl7s"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 1.2L4.8 4.8M4.8 1.2L1.2 4.8"
+                    stroke="#4C0002"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="minimize"
+                class="css-pklp1d"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 3H5"
+                    stroke="#5C3E00"
+                    stroke-linecap="round"
+                    stroke-width="1.2"
+                  />
+                </svg>
+              </div>
+              <div
+                aria-label="maximize"
+                class="css-12g04q5"
+              >
+                <svg
+                  fill="none"
+                  height="6"
+                  style="opacity: 0; transition: opacity 0.15s ease;"
+                  viewBox="0 0 6 6"
+                  width="6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.2 4.8L4.8 1.2M1.2 4.8H3.8M1.2 4.8V2.2M4.8 1.2L1.2 4.8M4.8 1.2H2.2M4.8 1.2V3.8"
+                    stroke="#004D05"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="css-1bc9bee"
+            />
           </div>
           <div
-            aria-label="minimize"
-            class="css-1oliyf7"
+            class="css-1qx9vnh"
           >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              -
-            </p>
-          </div>
-          <div
-            aria-label="maximize"
-            class="css-18q4sxm"
-          >
-            <p
-              class="chakra-text css-1r0gc73"
-            >
-              o
-            </p>
-          </div>
-          <div
-            class="css-1bc9bee"
-          />
-        </div>
-        <div
-          class="css-1qx9vnh"
-        >
-          <div>
-            Test
+            <div>
+              Test
+            </div>
           </div>
         </div>
       </div>

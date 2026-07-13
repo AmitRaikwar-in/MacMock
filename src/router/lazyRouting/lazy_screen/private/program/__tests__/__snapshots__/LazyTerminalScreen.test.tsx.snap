@@ -2,10 +2,32 @@
 
 exports[`LazyTerminalComponent should render correctly to match snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      Terminal
-    </h1>
+  <div
+    class="css-1dazpoe"
+  >
+    <div
+      class="css-v2tto3"
+    >
+      <p
+        class="chakra-text css-0"
+      >
+        Last login: Mon Jul 13 23:25:25 on ttys001
+      </p>
+    </div>
+    <div
+      class="css-70qvj9"
+    >
+      <p
+        class="chakra-text css-1qkvt8e"
+      >
+        $
+      </p>
+      <input
+        aria-label="terminal-input"
+        class="chakra-input css-om6kp9"
+        value=""
+      />
+    </div>
   </div>
 </div>
 `;

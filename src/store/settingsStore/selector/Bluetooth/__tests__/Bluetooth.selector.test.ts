@@ -6,6 +6,9 @@ describe('Bluetooth selector', () => {
   it('should return default bluetooth state', () => {
     const { result } = renderHook(() => settingsStore(bluetoothSelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current).toEqual({
+      bluetoothEnabled: true,
+      setBluetoothEnabled: expect.any(Function),
+    });
   });
 });

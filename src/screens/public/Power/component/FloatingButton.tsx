@@ -2,8 +2,6 @@ import { InfoIcon } from '@assets';
 import {
   Box,
   CloseButton,
-  Drawer,
-  DrawerContent,
   IconButton,
   useDisclosure,
 } from '@chakra-ui/react';
@@ -29,16 +27,38 @@ const FloatingButton = () => {
         right={5}
         top={5}
       />
-      <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
-        <DrawerContent bg="black" borderLeftWidth={'1px'} borderColor={'white'}>
-          <Box
-            boxSize={'100%'}
-            position={'fixed'}
-            color={'white'}
-            top={0}
-            left={0}
-            zIndex={100}
-          >
+
+      {/* Backdrop Overlay */}
+      {isOpen && (
+        <Box
+          position="fixed"
+          top="0"
+          left="0"
+          right="0"
+          bottom="0"
+          bg="blackAlpha.300"
+          zIndex={9999}
+          onClick={onClose}
+        />
+      )}
+
+      {/* Custom Sliding Sidebar Panel */}
+      <Box
+        position="fixed"
+        top="0"
+        right={isOpen ? "0" : "-360px"}
+        visibility={isOpen ? "visible" : "hidden"}
+        w="350px"
+        h="100vh"
+        bg="black"
+        borderLeftWidth="1px"
+        borderColor="white"
+        zIndex={10000}
+        transition="right 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s"
+        p={4}
+      >
+        {isOpen && (
+          <Box boxSize="100%" position="relative" color="white">
             <IconButton
               variant="outline"
               color="white"
@@ -56,8 +76,8 @@ const FloatingButton = () => {
             <AboutProject />
             <SocialButtons />
           </Box>
-        </DrawerContent>
-      </Drawer>
+        )}
+      </Box>
     </>
   );
 };

@@ -1,5 +1,9 @@
-export type BatteryState = {};
+export type BatteryState = {
+  lowPowerMode: boolean;
+};
 
-export interface BatterySettingsAction {}
+export interface BatterySettingsAction {
+  setLowPowerMode: (lowPowerMode: boolean) => void;
+}
 
 export type BatteryStateSlice = BatteryState & BatterySettingsAction;

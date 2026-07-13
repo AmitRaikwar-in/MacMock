@@ -21,7 +21,7 @@ exports[`Battery should open battery settings when battery settings is tapped 1`
         width="2em"
       >
         <path
-          d="M2 6h6.7v4H2V6z"
+          d="M2 6h9.8v4H2V6z"
         />
         <path
           d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
@@ -42,7 +42,7 @@ exports[`Battery should open battery settings when battery settings is tapped 1`
       tabindex="-1"
     >
       <div
-        class="css-ucdv1m"
+        class="css-guph18"
       >
         <p
           class="chakra-text css-16c42s3"
@@ -50,9 +50,9 @@ exports[`Battery should open battery settings when battery settings is tapped 1`
           Battery
         </p>
         <p
-          class="chakra-text css-1lj023j"
+          class="chakra-text css-g8sb60"
         >
-          67%
+          98%
         </p>
       </div>
       <hr
@@ -97,7 +97,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
         width="2em"
       >
         <path
-          d="M2 6h6.7v4H2V6z"
+          d="M2 6h9.8v4H2V6z"
         />
         <path
           d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
@@ -121,7 +121,7 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
       tabindex="-1"
     >
       <div
-        class="css-ucdv1m"
+        class="css-guph18"
       >
         <p
           class="chakra-text css-16c42s3"
@@ -129,9 +129,9 @@ exports[`Battery should open pop-up when battery icon is tapped 1`] = `
           Battery
         </p>
         <p
-          class="chakra-text css-1lj023j"
+          class="chakra-text css-g8sb60"
         >
-          67%
+          98%
         </p>
       </div>
       <hr
@@ -175,7 +175,7 @@ exports[`Battery should render 1`] = `
         width="2em"
       >
         <path
-          d="M2 6h6.7v4H2V6z"
+          d="M2 6h9.8v4H2V6z"
         />
         <path
           d="M2 4a2 2 0 00-2 2v4a2 2 0 002 2h10a2 2 0 002-2V6a2 2 0 00-2-2H2zm10 1a1 1 0 011 1v4a1 1 0 01-1 1H2a1 1 0 01-1-1V6a1 1 0 011-1h10zm4 3a1.5 1.5 0 01-1.5 1.5v-3A1.5 1.5 0 0116 8z"
@@ -196,7 +196,7 @@ exports[`Battery should render 1`] = `
       tabindex="-1"
     >
       <div
-        class="css-ucdv1m"
+        class="css-guph18"
       >
         <p
           class="chakra-text css-16c42s3"
@@ -204,9 +204,9 @@ exports[`Battery should render 1`] = `
           Battery
         </p>
         <p
-          class="chakra-text css-1lj023j"
+          class="chakra-text css-g8sb60"
         >
-          67%
+          98%
         </p>
       </div>
       <hr

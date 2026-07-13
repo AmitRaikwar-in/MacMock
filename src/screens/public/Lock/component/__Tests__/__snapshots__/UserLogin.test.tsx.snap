@@ -32,7 +32,7 @@ exports[`UserLogin should log in when correct password is entered 1`] = `
       </p>
     </div>
     <div
-      class="css-xl42ag"
+      class="chakra-stack css-1lvdoy1"
     >
       <div
         class="chakra-input__group css-5l6ydk"
@@ -67,31 +67,27 @@ exports[`UserLogin should log in when correct password is entered 1`] = `
           </button>
         </div>
       </div>
-      <div
-        class="css-6xeous"
+      <button
+        aria-controls="popover-content-:r9:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-label="password-hint-button"
+        class="css-11ld3eo"
+        id="popover-trigger-:r9:"
       >
-        <button
-          aria-controls="popover-content-:r9:"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          aria-label="password-hint-button"
-          class="css-1w9lxxx"
-          id="popover-trigger-:r9:"
-        >
-          ?
-        </button>
-        <div
-          class="chakra-popover__popper css-0"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <section
-            class="chakra-popover__content css-vqsmka"
-            id="popover-content-:r9:"
-            role="dialog"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-            tabindex="-1"
-          />
-        </div>
+        ?
+      </button>
+      <div
+        class="chakra-popover__popper css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <section
+          class="chakra-popover__content css-vqsmka"
+          id="popover-content-:r9:"
+          role="dialog"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+          tabindex="-1"
+        />
       </div>
     </div>
     <p
@@ -135,7 +131,7 @@ exports[`UserLogin should return the default user login component 1`] = `
       </p>
     </div>
     <div
-      class="css-xl42ag"
+      class="chakra-stack css-1lvdoy1"
     >
       <div
         class="chakra-input__group css-5l6ydk"
@@ -170,31 +166,27 @@ exports[`UserLogin should return the default user login component 1`] = `
           </button>
         </div>
       </div>
-      <div
-        class="css-6xeous"
+      <button
+        aria-controls="popover-content-:r1:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-label="password-hint-button"
+        class="css-11ld3eo"
+        id="popover-trigger-:r1:"
       >
-        <button
-          aria-controls="popover-content-:r1:"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          aria-label="password-hint-button"
-          class="css-1w9lxxx"
-          id="popover-trigger-:r1:"
-        >
-          ?
-        </button>
-        <div
-          class="chakra-popover__popper css-0"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <section
-            class="chakra-popover__content css-vqsmka"
-            id="popover-content-:r1:"
-            role="dialog"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-            tabindex="-1"
-          />
-        </div>
+        ?
+      </button>
+      <div
+        class="chakra-popover__popper css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <section
+          class="chakra-popover__content css-vqsmka"
+          id="popover-content-:r1:"
+          role="dialog"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+          tabindex="-1"
+        />
       </div>
     </div>
     <p
@@ -238,7 +230,7 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
       </p>
     </div>
     <div
-      class="css-xl42ag"
+      class="chakra-stack css-1lvdoy1"
     >
       <div
         class="chakra-input__group css-5l6ydk"
@@ -267,31 +259,27 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
           </div>
         </div>
       </div>
-      <div
-        class="css-6xeous"
+      <button
+        aria-controls="popover-content-:r3:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-label="password-hint-button"
+        class="css-11ld3eo"
+        id="popover-trigger-:r3:"
       >
-        <button
-          aria-controls="popover-content-:r3:"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          aria-label="password-hint-button"
-          class="css-1w9lxxx"
-          id="popover-trigger-:r3:"
-        >
-          ?
-        </button>
-        <div
-          class="chakra-popover__popper css-0"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <section
-            class="chakra-popover__content css-vqsmka"
-            id="popover-content-:r3:"
-            role="dialog"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-            tabindex="-1"
-          />
-        </div>
+        ?
+      </button>
+      <div
+        class="chakra-popover__popper css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <section
+          class="chakra-popover__content css-vqsmka"
+          id="popover-content-:r3:"
+          role="dialog"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+          tabindex="-1"
+        />
       </div>
     </div>
     <p
@@ -335,7 +323,7 @@ exports[`UserLogin should toggle password visibility on click on user button 1`]
       </p>
     </div>
     <div
-      class="css-gmi4fd"
+      class="chakra-stack css-ojk9qj"
     >
       <div
         class="chakra-input__group css-5l6ydk"
@@ -370,31 +358,27 @@ exports[`UserLogin should toggle password visibility on click on user button 1`]
           </button>
         </div>
       </div>
-      <div
-        class="css-sbocp7"
+      <button
+        aria-controls="popover-content-:r5:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-label="password-hint-button"
+        class="css-11ld3eo"
+        id="popover-trigger-:r5:"
       >
-        <button
-          aria-controls="popover-content-:r5:"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          aria-label="password-hint-button"
-          class="css-1w9lxxx"
-          id="popover-trigger-:r5:"
-        >
-          ?
-        </button>
-        <div
-          class="chakra-popover__popper css-0"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <section
-            class="chakra-popover__content css-vqsmka"
-            id="popover-content-:r5:"
-            role="dialog"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-            tabindex="-1"
-          />
-        </div>
+        ?
+      </button>
+      <div
+        class="chakra-popover__popper css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <section
+          class="chakra-popover__content css-vqsmka"
+          id="popover-content-:r5:"
+          role="dialog"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+          tabindex="-1"
+        />
       </div>
     </div>
     <p
@@ -438,7 +422,7 @@ exports[`UserLogin should update password input field on change event 1`] = `
       </p>
     </div>
     <div
-      class="css-xl42ag"
+      class="chakra-stack css-1lvdoy1"
     >
       <div
         class="chakra-input__group css-5l6ydk"
@@ -473,31 +457,27 @@ exports[`UserLogin should update password input field on change event 1`] = `
           </button>
         </div>
       </div>
-      <div
-        class="css-6xeous"
+      <button
+        aria-controls="popover-content-:r7:"
+        aria-expanded="false"
+        aria-haspopup="dialog"
+        aria-label="password-hint-button"
+        class="css-11ld3eo"
+        id="popover-trigger-:r7:"
       >
-        <button
-          aria-controls="popover-content-:r7:"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          aria-label="password-hint-button"
-          class="css-1w9lxxx"
-          id="popover-trigger-:r7:"
-        >
-          ?
-        </button>
-        <div
-          class="chakra-popover__popper css-0"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <section
-            class="chakra-popover__content css-vqsmka"
-            id="popover-content-:r7:"
-            role="dialog"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-            tabindex="-1"
-          />
-        </div>
+        ?
+      </button>
+      <div
+        class="chakra-popover__popper css-0"
+        style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+      >
+        <section
+          class="chakra-popover__content css-vqsmka"
+          id="popover-content-:r7:"
+          role="dialog"
+          style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+          tabindex="-1"
+        />
       </div>
     </div>
     <p

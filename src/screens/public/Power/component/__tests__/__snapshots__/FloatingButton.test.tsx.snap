@@ -47,5 +47,8 @@ exports[`Floating button should render correctly 1`] = `
       />
     </svg>
   </button>
+  <div
+    class="css-19zpu9h"
+  />
 </div>
 `;

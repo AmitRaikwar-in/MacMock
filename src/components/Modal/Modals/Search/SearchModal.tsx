@@ -36,8 +36,9 @@ const SearchModal = () => {
       <InputGroup>
         <InputLeftElement
           display={'flex'}
-          flexDir={'column'}
+          alignItems={'center'}
           justifyContent={'center'}
+          h={'100%'}
           pointerEvents="none"
         >
           <SearchIcon color="gray" width={'1.5em'} height={'1.5em'} />

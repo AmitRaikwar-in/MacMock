@@ -3,13 +3,13 @@
 exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
 <div>
   <button
-    aria-controls="menu-list-:r3:"
+    aria-controls="menu-list-:r5:"
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="settings-top-bar-button"
     class="chakra-menu__menu-button css-10l0d22"
     data-active=""
-    id="menu-button-:r3:"
+    id="menu-button-:r5:"
   >
     <span
       class="css-xl71ch"
@@ -38,24 +38,458 @@ exports[`Settings should open pop-up when Settings icon is tapped 1`] = `
     <div
       aria-orientation="vertical"
       class="chakra-menu__menu-list css-f6jf1x"
-      id="menu-list-:r3:"
+      id="menu-list-:r5:"
       role="menu"
       style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.8);"
       tabindex="-1"
     >
       <div
-        class="css-k008qs"
+        class="css-1o02kvm"
       >
         <div
-          class="css-1pidzr7"
+          class="css-arj9kl"
         >
           <div
-            class="chakra-stack css-1igwmid"
+            class="css-eolx5n"
           >
             <div
-              class="chakra-stack css-tl3ftk"
+              class="chakra-stack css-2kgjhe"
+            >
+              <div
+                class="css-1a5ip0i"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="14px"
+                  viewBox="0 0 24 24"
+                  width="14px"
+                >
+                  <path
+                    d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="chakra-stack css-cw1eu"
+              >
+                <p
+                  class="chakra-text css-1xyvcnp"
+                >
+                  Wi-Fi
+                </p>
+                <p
+                  class="chakra-text css-14vwr1s"
+                >
+                  Home-5G
+                </p>
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-2kgjhe"
+            >
+              <div
+                class="css-1a5ip0i"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="14px"
+                  viewBox="0 0 24 24"
+                  width="14px"
+                >
+                  <path
+                    d="M14.88 16.29L13 18.17v-3.76m0-8.58l1.88 1.88L13 9.58m4.71-1.87L12 2h-1v7.58L6.41 5 5 6.41 10.59 12 5 17.58 6.41 19 11 14.41V22h1l5.71-5.71-4.3-4.29 4.3-4.29z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="chakra-stack css-mw8ufx"
+              >
+                <p
+                  class="chakra-text css-1xyvcnp"
+                >
+                  Bluetooth
+                </p>
+                <p
+                  class="chakra-text css-1w9afu7"
+                >
+                  On
+                </p>
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-2kgjhe"
+            >
+              <div
+                class="css-1kqdr8t"
+              >
+                <svg
+                  color="white"
+                  height="14px"
+                  viewBox="0 0 30 30"
+                  width="14px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 15 3 C 7.832 3 2 8.832 2 16 C 2 20.774 4.5934531 24.944078 8.4394531 27.205078 L 9.5195312 25.523438 C 6.2265312 23.620438 4 20.069 4 16 C 4 9.935 8.935 5 15 5 C 21.065 5 26 9.935 26 16 C 26 20.069 23.773469 23.620438 20.480469 25.523438 L 21.560547 27.205078 C 25.406547 24.944078 28 20.774 28 16 C 28 8.832 22.168 3 15 3 z M 15 7 C 10.038 7 6 11.038 6 16 C 6 19.364 7.8595625 22.29975 10.601562 23.84375 L 11.681641 22.160156 C 9.4916406 20.976156 8 18.66 8 16 C 8 12.14 11.14 9 15 9 C 18.86 9 22 12.14 22 16 C 22 18.66 20.508359 20.977109 18.318359 22.162109 L 19.398438 23.84375 C 22.140437 22.29875 24 19.364 24 16 C 24 11.038 19.962 7 15 7 z M 15 11 C 12.243 11 10 13.243 10 16 C 10 17.955 11.138344 19.633078 12.777344 20.455078 L 13.859375 18.773438 C 12.769375 18.323438 12 17.251 12 16 C 12 14.346 13.346 13 15 13 C 16.654 13 18 14.346 18 16 C 18 17.251 17.229672 18.322484 16.138672 18.771484 L 17.220703 20.455078 C 18.860703 19.634078 20 17.955 20 16 C 20 13.243 17.757 11 15 11 z M 15 15 A 1 1 0 0 0 14 16 A 1 1 0 0 0 15 17 A 1 1 0 0 0 16 16 A 1 1 0 0 0 15 15 z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="chakra-stack css-mw8ufx"
+              >
+                <p
+                  class="chakra-text css-1xyvcnp"
+                >
+                  AirDrop
+                </p>
+                <p
+                  class="chakra-text css-1w9afu7"
+                >
+                  Off
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1pyx7hi"
+          >
+            <div
+              class="css-1e31xnv"
+            >
+              <div
+                class="chakra-stack css-j1sent"
+              >
+                <div
+                  class="css-4sb5iw"
+                />
+                <div
+                  class="chakra-stack css-mw8ufx"
+                >
+                  <p
+                    class="chakra-text css-1xyvcnp"
+                  >
+                    Not Playing
+                  </p>
+                </div>
+              </div>
+              <div
+                class="chakra-stack css-1y5vhtx"
+              >
+                <div
+                  class="css-931twc"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    width="12"
+                  >
+                    <path
+                      d="M6 19h2V5H6v14zm3.5-7L19 19V5l-9.5 7z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-931twc"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    width="14"
+                  >
+                    <path
+                      d="M8 5v14l11-7z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-931twc"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    width="12"
+                  >
+                    <path
+                      d="M16 5v14h2V5h-2zm-12.5 14L13 12 3.5 5v14z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-oqe9em"
+            >
+              <div
+                class="css-km6skl"
+              >
+                <svg
+                  fill="none"
+                  height="1.2em"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  viewBox="0 0 24 24"
+                  width="1.2em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="4"
+                    rx="1"
+                    width="3"
+                    x="3"
+                    y="4"
+                  />
+                  <rect
+                    height="4"
+                    rx="1"
+                    width="3"
+                    x="3"
+                    y="10"
+                  />
+                  <rect
+                    height="4"
+                    rx="1"
+                    width="3"
+                    x="3"
+                    y="16"
+                  />
+                  <rect
+                    height="16"
+                    rx="2"
+                    width="13"
+                    x="8"
+                    y="4"
+                  />
+                </svg>
+              </div>
+              <div
+                class="css-epago5"
+              >
+                <svg
+                  fill="none"
+                  height="1.2em"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  viewBox="0 0 24 24"
+                  width="1.2em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="10"
+                    rx="1.5"
+                    width="13"
+                    x="2"
+                    y="6"
+                  />
+                  <rect
+                    height="10"
+                    rx="1.5"
+                    width="13"
+                    x="9"
+                    y="9"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="chakra-stack css-1a7x1tw"
+        >
+          <div
+            class="css-1n87ddc"
+          >
+            <svg
+              fill="none"
+              height="16px"
+              viewBox="0 0 24 24"
+              width="16px"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="css-180p601"
+          >
+            <svg
+              fill="none"
+              height="1.2em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2.5"
+              viewBox="0 0 24 24"
+              width="1.2em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+              />
+              <circle
+                cx="12"
+                cy="13"
+                r="4"
+              />
+            </svg>
+          </div>
+          <div
+            class="chakra-stack css-195x584"
+          >
+            <svg
+              fill="currentColor"
+              height="14px"
+              viewBox="0 0 512 512"
+              width="14px"
+            >
+              <path
+                d="M264 480A232 232 0 0132 248c0-94 54-178.28 137.61-214.67a16 16 0 0121.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200 31.34 0 59.57-5.07 81.61-14.67a16 16 0 0121.06 21.06C442.28 426 358 480 264 480z"
+              />
+            </svg>
+            <p
+              class="chakra-text css-1rf69w1"
+            >
+              Focus
+            </p>
+          </div>
+        </div>
+        <div
+          class="css-1x3q0mb"
+        >
+          <p
+            class="chakra-text css-qeetxa"
+          >
+            Display
+          </p>
+          <div
+            class="chakra-slider css-0"
+            style="position: relative; user-select: none; outline: 0;"
+            tabindex="-1"
+          >
+            <div
+              class="chakra-slider__track css-dwe5oj"
+              id="slider-track-:r6:"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+            >
+              <div
+                class="chakra-slider__filled-track css-vlvtzn"
+                style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="12"
+                  viewBox="0 0 16 16"
+                  width="12"
+                >
+                  <path
+                    d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              aria-label="display-brightness"
+              aria-orientation="horizontal"
+              aria-valuemax="100"
+              aria-valuemin="10"
+              aria-valuenow="100"
+              class="chakra-slider__thumb css-1om1vhp"
+              id="slider-thumb-:r6:"
+              role="slider"
+              style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
+              tabindex="0"
+            />
+            <input
+              type="hidden"
+              value="100"
             />
           </div>
+        </div>
+        <div
+          class="css-4c3bp4"
+        >
+          <p
+            class="chakra-text css-qeetxa"
+          >
+            Sound
+          </p>
+          <div
+            class="chakra-slider css-0"
+            style="position: relative; user-select: none; outline: 0;"
+            tabindex="-1"
+          >
+            <div
+              class="chakra-slider__track css-dwe5oj"
+              id="slider-track-:r7:"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+            >
+              <div
+                class="chakra-slider__filled-track css-vlvtzn"
+                style="position: absolute; top: 50%; transform: translateY(-50%); width: 75%; left: 0%;"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="12"
+                  viewBox="0 0 512 512"
+                  width="12"
+                >
+                  <path
+                    d="M232 416a23.88 23.88 0 01-14.2-4.68 8.27 8.27 0 01-.66-.51L125.76 336H56a24 24 0 01-24-24V200a24 24 0 0124-24h69.75l91.37-74.81a8.27 8.27 0 01.66-.51A24 24 0 01256 120v272a24 24 0 01-24 24zm-106.18-80zm-.27-159.86zM320 336a16 16 0 01-14.29-23.19c9.49-18.87 14.3-38 14.3-56.81 0-19.38-4.66-37.94-14.25-56.73a16 16 0 0128.5-14.54C346.19 208.12 352 231.44 352 256c0 23.86-6 47.81-17.7 71.19A16 16 0 01320 336z"
+                  />
+                  <path
+                    d="M368 384a16 16 0 01-13.86-24C373.05 327.09 384 299.51 384 256c0-44.17-10.93-71.56-29.82-103.94a16 16 0 0127.64-16.12C402.92 172.11 416 204.81 416 256c0 50.43-13.06 83.29-34.13 120a16 16 0 01-13.87 8z"
+                  />
+                  <path
+                    d="M416 432a16 16 0 01-13.39-24.74C429.85 365.47 448 323.76 448 256c0-66.5-18.18-108.62-45.49-151.39a16 16 0 1127-17.22C459.81 134.89 480 181.74 480 256c0 64.75-14.66 113.63-50.6 168.74A16 16 0 01416 432z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              aria-label="sound-volume"
+              aria-orientation="horizontal"
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="75"
+              class="chakra-slider__thumb css-1om1vhp"
+              id="slider-thumb-:r7:"
+              role="slider"
+              style="position: absolute; user-select: none; left: 75%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
+              tabindex="0"
+            />
+            <input
+              type="hidden"
+              value="75"
+            />
+          </div>
+        </div>
+        <div
+          class="css-ldo4d5"
+        >
+          <button
+            class="chakra-button css-h1eou"
+            type="button"
+          >
+            Edit Controls
+          </button>
         </div>
       </div>
     </div>
@@ -103,18 +537,452 @@ exports[`Settings should render 1`] = `
       tabindex="-1"
     >
       <div
-        class="css-k008qs"
+        class="css-1o02kvm"
       >
         <div
-          class="css-1pidzr7"
+          class="css-arj9kl"
         >
           <div
-            class="chakra-stack css-1igwmid"
+            class="css-eolx5n"
           >
             <div
-              class="chakra-stack css-tl3ftk"
+              class="chakra-stack css-2kgjhe"
+            >
+              <div
+                class="css-1a5ip0i"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="14px"
+                  viewBox="0 0 24 24"
+                  width="14px"
+                >
+                  <path
+                    d="M12 21l3.6-4.8c-1-.75-2.25-1.2-3.6-1.2s-2.6.45-3.6 1.2L12 21m0-18C7.95 3 4.21 4.34 1.2 6.6L3 9c2.5-1.88 5.62-3 9-3s6.5 1.12 9 3l1.8-2.4C19.79 4.34 16.05 3 12 3m0 6c-2.7 0-5.19.89-7.2 2.4l1.8 2.4C8.1 12.67 9.97 12 12 12c2.03 0 3.9.67 5.4 1.8l1.8-2.4C17.19 9.89 14.7 9 12 9z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="chakra-stack css-cw1eu"
+              >
+                <p
+                  class="chakra-text css-1xyvcnp"
+                >
+                  Wi-Fi
+                </p>
+                <p
+                  class="chakra-text css-14vwr1s"
+                >
+                  Home-5G
+                </p>
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-2kgjhe"
+            >
+              <div
+                class="css-1a5ip0i"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="14px"
+                  viewBox="0 0 24 24"
+                  width="14px"
+                >
+                  <path
+                    d="M14.88 16.29L13 18.17v-3.76m0-8.58l1.88 1.88L13 9.58m4.71-1.87L12 2h-1v7.58L6.41 5 5 6.41 10.59 12 5 17.58 6.41 19 11 14.41V22h1l5.71-5.71-4.3-4.29 4.3-4.29z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="chakra-stack css-mw8ufx"
+              >
+                <p
+                  class="chakra-text css-1xyvcnp"
+                >
+                  Bluetooth
+                </p>
+                <p
+                  class="chakra-text css-1w9afu7"
+                >
+                  On
+                </p>
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-2kgjhe"
+            >
+              <div
+                class="css-1kqdr8t"
+              >
+                <svg
+                  color="white"
+                  height="14px"
+                  viewBox="0 0 30 30"
+                  width="14px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 15 3 C 7.832 3 2 8.832 2 16 C 2 20.774 4.5934531 24.944078 8.4394531 27.205078 L 9.5195312 25.523438 C 6.2265312 23.620438 4 20.069 4 16 C 4 9.935 8.935 5 15 5 C 21.065 5 26 9.935 26 16 C 26 20.069 23.773469 23.620438 20.480469 25.523438 L 21.560547 27.205078 C 25.406547 24.944078 28 20.774 28 16 C 28 8.832 22.168 3 15 3 z M 15 7 C 10.038 7 6 11.038 6 16 C 6 19.364 7.8595625 22.29975 10.601562 23.84375 L 11.681641 22.160156 C 9.4916406 20.976156 8 18.66 8 16 C 8 12.14 11.14 9 15 9 C 18.86 9 22 12.14 22 16 C 22 18.66 20.508359 20.977109 18.318359 22.162109 L 19.398438 23.84375 C 22.140437 22.29875 24 19.364 24 16 C 24 11.038 19.962 7 15 7 z M 15 11 C 12.243 11 10 13.243 10 16 C 10 17.955 11.138344 19.633078 12.777344 20.455078 L 13.859375 18.773438 C 12.769375 18.323438 12 17.251 12 16 C 12 14.346 13.346 13 15 13 C 16.654 13 18 14.346 18 16 C 18 17.251 17.229672 18.322484 16.138672 18.771484 L 17.220703 20.455078 C 18.860703 19.634078 20 17.955 20 16 C 20 13.243 17.757 11 15 11 z M 15 15 A 1 1 0 0 0 14 16 A 1 1 0 0 0 15 17 A 1 1 0 0 0 16 16 A 1 1 0 0 0 15 15 z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="chakra-stack css-mw8ufx"
+              >
+                <p
+                  class="chakra-text css-1xyvcnp"
+                >
+                  AirDrop
+                </p>
+                <p
+                  class="chakra-text css-1w9afu7"
+                >
+                  Off
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-1pyx7hi"
+          >
+            <div
+              class="css-1e31xnv"
+            >
+              <div
+                class="chakra-stack css-j1sent"
+              >
+                <div
+                  class="css-4sb5iw"
+                />
+                <div
+                  class="chakra-stack css-mw8ufx"
+                >
+                  <p
+                    class="chakra-text css-1xyvcnp"
+                  >
+                    Not Playing
+                  </p>
+                </div>
+              </div>
+              <div
+                class="chakra-stack css-1y5vhtx"
+              >
+                <div
+                  class="css-931twc"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    width="12"
+                  >
+                    <path
+                      d="M6 19h2V5H6v14zm3.5-7L19 19V5l-9.5 7z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-931twc"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    width="14"
+                  >
+                    <path
+                      d="M8 5v14l11-7z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-931twc"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    width="12"
+                  >
+                    <path
+                      d="M16 5v14h2V5h-2zm-12.5 14L13 12 3.5 5v14z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="chakra-stack css-oqe9em"
+            >
+              <div
+                class="css-km6skl"
+              >
+                <svg
+                  fill="none"
+                  height="1.2em"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  viewBox="0 0 24 24"
+                  width="1.2em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="4"
+                    rx="1"
+                    width="3"
+                    x="3"
+                    y="4"
+                  />
+                  <rect
+                    height="4"
+                    rx="1"
+                    width="3"
+                    x="3"
+                    y="10"
+                  />
+                  <rect
+                    height="4"
+                    rx="1"
+                    width="3"
+                    x="3"
+                    y="16"
+                  />
+                  <rect
+                    height="16"
+                    rx="2"
+                    width="13"
+                    x="8"
+                    y="4"
+                  />
+                </svg>
+              </div>
+              <div
+                class="css-epago5"
+              >
+                <svg
+                  fill="none"
+                  height="1.2em"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2.5"
+                  viewBox="0 0 24 24"
+                  width="1.2em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    height="10"
+                    rx="1.5"
+                    width="13"
+                    x="2"
+                    y="6"
+                  />
+                  <rect
+                    height="10"
+                    rx="1.5"
+                    width="13"
+                    x="9"
+                    y="9"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="chakra-stack css-1a7x1tw"
+        >
+          <div
+            class="css-1n87ddc"
+          >
+            <svg
+              fill="none"
+              height="16px"
+              viewBox="0 0 24 24"
+              width="16px"
+            >
+              <path
+                d="M12 16a4 4 0 000-8v8z"
+                fill="currentColor"
+              />
+              <path
+                clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2v4a4 4 0 100 8v4a8 8 0 100-16z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div
+            class="css-180p601"
+          >
+            <svg
+              fill="none"
+              height="1.2em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2.5"
+              viewBox="0 0 24 24"
+              width="1.2em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"
+              />
+              <circle
+                cx="12"
+                cy="13"
+                r="4"
+              />
+            </svg>
+          </div>
+          <div
+            class="chakra-stack css-195x584"
+          >
+            <svg
+              fill="currentColor"
+              height="14px"
+              viewBox="0 0 512 512"
+              width="14px"
+            >
+              <path
+                d="M264 480A232 232 0 0132 248c0-94 54-178.28 137.61-214.67a16 16 0 0121.06 21.06C181.07 76.43 176 104.66 176 136c0 110.28 89.72 200 200 200 31.34 0 59.57-5.07 81.61-14.67a16 16 0 0121.06 21.06C442.28 426 358 480 264 480z"
+              />
+            </svg>
+            <p
+              class="chakra-text css-1rf69w1"
+            >
+              Focus
+            </p>
+          </div>
+        </div>
+        <div
+          class="css-1x3q0mb"
+        >
+          <p
+            class="chakra-text css-qeetxa"
+          >
+            Display
+          </p>
+          <div
+            class="chakra-slider css-0"
+            style="position: relative; user-select: none; outline: 0;"
+            tabindex="-1"
+          >
+            <div
+              class="chakra-slider__track css-dwe5oj"
+              id="slider-track-:r2:"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+            >
+              <div
+                class="chakra-slider__filled-track css-vlvtzn"
+                style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%; left: 0%;"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="12"
+                  viewBox="0 0 16 16"
+                  width="12"
+                >
+                  <path
+                    d="M12 8a4 4 0 11-8 0 4 4 0 018 0zM8 0a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 0zm0 13a.5.5 0 01.5.5v2a.5.5 0 01-1 0v-2A.5.5 0 018 13zm8-5a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2a.5.5 0 01.5.5zM3 8a.5.5 0 01-.5.5h-2a.5.5 0 010-1h2A.5.5 0 013 8zm10.657-5.657a.5.5 0 010 .707l-1.414 1.415a.5.5 0 11-.707-.708l1.414-1.414a.5.5 0 01.707 0zm-9.193 9.193a.5.5 0 010 .707L3.05 13.657a.5.5 0 01-.707-.707l1.414-1.414a.5.5 0 01.707 0zm9.193 2.121a.5.5 0 01-.707 0l-1.414-1.414a.5.5 0 01.707-.707l1.414 1.414a.5.5 0 010 .707zM4.464 4.465a.5.5 0 01-.707 0L2.343 3.05a.5.5 0 11.707-.707l1.414 1.414a.5.5 0 010 .708z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              aria-label="display-brightness"
+              aria-orientation="horizontal"
+              aria-valuemax="100"
+              aria-valuemin="10"
+              aria-valuenow="100"
+              class="chakra-slider__thumb css-1om1vhp"
+              id="slider-thumb-:r2:"
+              role="slider"
+              style="position: absolute; user-select: none; left: 100%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
+              tabindex="0"
+            />
+            <input
+              type="hidden"
+              value="100"
             />
           </div>
+        </div>
+        <div
+          class="css-4c3bp4"
+        >
+          <p
+            class="chakra-text css-qeetxa"
+          >
+            Sound
+          </p>
+          <div
+            class="chakra-slider css-0"
+            style="position: relative; user-select: none; outline: 0;"
+            tabindex="-1"
+          >
+            <div
+              class="chakra-slider__track css-dwe5oj"
+              id="slider-track-:r3:"
+              style="position: absolute; top: 50%; transform: translateY(-50%); width: 100%;"
+            >
+              <div
+                class="chakra-slider__filled-track css-vlvtzn"
+                style="position: absolute; top: 50%; transform: translateY(-50%); width: 75%; left: 0%;"
+              >
+                <svg
+                  color="white"
+                  fill="currentColor"
+                  height="12"
+                  viewBox="0 0 512 512"
+                  width="12"
+                >
+                  <path
+                    d="M232 416a23.88 23.88 0 01-14.2-4.68 8.27 8.27 0 01-.66-.51L125.76 336H56a24 24 0 01-24-24V200a24 24 0 0124-24h69.75l91.37-74.81a8.27 8.27 0 01.66-.51A24 24 0 01256 120v272a24 24 0 01-24 24zm-106.18-80zm-.27-159.86zM320 336a16 16 0 01-14.29-23.19c9.49-18.87 14.3-38 14.3-56.81 0-19.38-4.66-37.94-14.25-56.73a16 16 0 0128.5-14.54C346.19 208.12 352 231.44 352 256c0 23.86-6 47.81-17.7 71.19A16 16 0 01320 336z"
+                  />
+                  <path
+                    d="M368 384a16 16 0 01-13.86-24C373.05 327.09 384 299.51 384 256c0-44.17-10.93-71.56-29.82-103.94a16 16 0 0127.64-16.12C402.92 172.11 416 204.81 416 256c0 50.43-13.06 83.29-34.13 120a16 16 0 01-13.87 8z"
+                  />
+                  <path
+                    d="M416 432a16 16 0 01-13.39-24.74C429.85 365.47 448 323.76 448 256c0-66.5-18.18-108.62-45.49-151.39a16 16 0 1127-17.22C459.81 134.89 480 181.74 480 256c0 64.75-14.66 113.63-50.6 168.74A16 16 0 01416 432z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              aria-label="sound-volume"
+              aria-orientation="horizontal"
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="75"
+              class="chakra-slider__thumb css-1om1vhp"
+              id="slider-thumb-:r3:"
+              role="slider"
+              style="position: absolute; user-select: none; left: 75%; transform: translate(-50%, -50%) scale(var(--slider-thumb-scale, 1));"
+              tabindex="0"
+            />
+            <input
+              type="hidden"
+              value="75"
+            />
+          </div>
+        </div>
+        <div
+          class="css-ldo4d5"
+        >
+          <button
+            class="chakra-button css-h1eou"
+            type="button"
+          >
+            Edit Controls
+          </button>
         </div>
       </div>
     </div>

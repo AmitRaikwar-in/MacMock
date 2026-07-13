@@ -6,6 +6,9 @@ describe('Battery selector', () => {
   it('should return default Battery state', () => {
     const { result } = renderHook(() => settingsStore(batterySelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current).toEqual({
+      lowPowerMode: false,
+      setLowPowerMode: expect.any(Function),
+    });
   });
 });

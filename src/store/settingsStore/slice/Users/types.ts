@@ -11,6 +11,8 @@ export type UserData = {
 
 export type UsersState = Record<string, UserData>;
 
-export interface UsersAppAction {}
+export interface UsersAppAction {
+  updatePassword: (userId: string, newPassword: string) => void;
+}
 
 export type UsersStateSlice = UsersState & UsersAppAction;

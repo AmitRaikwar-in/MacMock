@@ -24,6 +24,9 @@ exports[`LazyPowerComponent should render correctly to match snapshot 1`] = `
     </svg>
   </button>
   <div
+    class="css-19zpu9h"
+  />
+  <div
     aria-label="power-screen"
     class="css-1calmjw"
   >

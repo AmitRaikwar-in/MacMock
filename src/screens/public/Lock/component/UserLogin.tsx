@@ -1,6 +1,7 @@
 import { ArrowRightCircleIcon } from '@assets';
 import {
   Box,
+  HStack,
   Image,
   Input,
   InputGroup,
@@ -174,8 +175,8 @@ const HintPopover = ({ label, hint }: HintPopoverProps) => (
         justifyContent="center"
         boxSize="18px"
         borderRadius="full"
-        border="1.5px solid rgba(255,255,255,0.45)"
-        color="rgba(255,255,255,0.55)"
+        border="1px solid rgba(255,255,255,0.8)"
+        color="white"
         fontSize="11px"
         fontWeight={600}
         cursor="pointer"
@@ -288,11 +289,12 @@ const UserLoginComponent = () => {
           onClick={togglePasswordVisibility.toggle}
         />
 
-        <Box
+        <HStack
           display={isPasswordVisible ? 'flex' : 'none'}
           transition="all 0.5s"
           alignItems="center"
-          position="relative"
+          justifyContent="center"
+          gap={4}
         >
           <PasswordInput
             value={password}
@@ -302,19 +304,11 @@ const UserLoginComponent = () => {
             onSubmit={handleLogin}
           />
           {/* Password hint trigger — positioned to the right of the input */}
-          <Box
-            position="absolute"
-            right="-28px"
-            opacity={isPasswordVisible ? 1 : 0}
-            pointerEvents={isPasswordVisible ? 'auto' : 'none'}
-            transition="opacity 0.4s ease"
-          >
-            <HintPopover
-              label={t('LockScreen.passwordHintLabel')}
-              hint={t('LockScreen.passwordHint')}
-            />
-          </Box>
-        </Box>
+          <HintPopover
+            label={t('LockScreen.passwordHintLabel')}
+            hint={t('LockScreen.passwordHint')}
+          />
+        </HStack>
 
         <Text
           align="center"

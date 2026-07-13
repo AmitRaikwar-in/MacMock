@@ -11,7 +11,7 @@ exports[`SearchModal should not render component if isOpen is false 1`] = `
       data-group="true"
     >
       <div
-        class="chakra-input__left-element css-1d6efr4"
+        class="chakra-input__left-element css-9973wx"
       >
         <svg
           color="gray"
@@ -123,7 +123,7 @@ exports[`SearchModal should render correctly 1`] = `
       data-group="true"
     >
       <div
-        class="chakra-input__left-element css-1d6efr4"
+        class="chakra-input__left-element css-9973wx"
       >
         <svg
           color="gray"

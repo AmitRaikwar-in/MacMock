@@ -6,6 +6,9 @@ describe('Wifi selector', () => {
   it('should return default Wifi state', () => {
     const { result } = renderHook(() => settingsStore(wifiSelector));
 
-    expect(result.current).toEqual({});
+    expect(result.current).toEqual({
+      wifiEnabled: true,
+      setWifiEnabled: expect.any(Function),
+    });
   });
 });

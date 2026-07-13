@@ -5,12 +5,19 @@ import {
   MenuListComponent,
   TopBarButton,
 } from '@components';
-import { loginSelector, powerSelector, processStore } from '@processStore';
+import {
+  activeAppActionsSelector,
+  loginSelector,
+  powerSelector,
+  processStore,
+  ProgramType,
+} from '@processStore';
 import {
   darkModeColorSelector,
   settingsStore,
   useShallow,
   usersSelector,
+  generalSelector,
 } from '@settingsStore';
 import { useTranslation } from 'react-i18next';
 
@@ -23,6 +30,12 @@ const Apple = () => {
       ...loginSelector(state),
       ...powerSelector(state),
     }),
+  );
+  const { addApp } = processStore(
+    useShallow(activeAppActionsSelector),
+  );
+  const { setSelectedTab, setSubPage } = settingsStore(
+    useShallow(generalSelector),
   );
 
   return (
@@ -37,14 +50,22 @@ const Apple = () => {
         <MenuItemComponent
           text={t('TopAppBar.apple.aboutThisMac')}
           ariaLabel="about-this-mac"
-          onClick={() => {}}
+          onClick={() => {
+            setSelectedTab('general');
+            setSubPage('about');
+            addApp(ProgramType.SETTINGS);
+          }}
           side="left"
         />
         <MenuDivider p={0} m={0.5} />
         <MenuItemComponent
           text={t('TopAppBar.apple.systemSettings')}
           ariaLabel="system-settings"
-          onClick={() => {}}
+          onClick={() => {
+            setSelectedTab('general');
+            setSubPage(null);
+            addApp(ProgramType.SETTINGS);
+          }}
           side="left"
         />
         <MenuItemComponent
