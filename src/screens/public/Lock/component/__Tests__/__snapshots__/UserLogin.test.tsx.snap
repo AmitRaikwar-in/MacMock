@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserLogin should be able to enter password on password field 1`] = `
+exports[`UserLogin should log in when correct password is entered 1`] = `
 <div>
   <div
     aria-hidden="true"
@@ -44,110 +44,7 @@ exports[`UserLogin should be able to enter password on password field 1`] = `
           maxlength="20"
           placeholder="Enter Password"
           type="password"
-          value="password-test-text"
-        />
-        <div
-          class="chakra-input__right-element css-1dn8c1k"
-        >
-          <button
-            aria-label="login-button"
-            class="css-df5inp"
-          >
-            <svg
-              fill="currentColor"
-              height="18px"
-              viewBox="0 0 16 16"
-              width="18px"
-            >
-              <path
-                d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
-                fill-rule="evenodd"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div
-        class="css-6xeous"
-      >
-        <button
-          aria-controls="popover-content-:r7:"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          aria-label="password-hint-button"
-          class="css-1w9lxxx"
-          id="popover-trigger-:r7:"
-        >
-          ?
-        </button>
-        <div
-          class="chakra-popover__popper css-0"
-          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
-        >
-          <section
-            class="chakra-popover__content css-vqsmka"
-            id="popover-content-:r7:"
-            role="dialog"
-            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
-            tabindex="-1"
-          />
-        </div>
-      </div>
-    </div>
-    <p
-      class="chakra-text css-13onz60"
-    >
-      Your password is required to enable Touch ID
-    </p>
-  </div>
-</div>
-`;
-
-exports[`UserLogin should be able to enter password on password field 2`] = `
-<div>
-  <div
-    aria-hidden="true"
-    class="css-hiebdk"
-  />
-  <div
-    aria-label="user-login-component"
-    class="css-x01k5a"
-  >
-    <div
-      aria-label="user-button"
-      class="css-19huoph"
-      role="button"
-      tabindex="0"
-    >
-      <div
-        class="avatar-ring css-feb6y1"
-      >
-        <img
-          alt="Profile"
-          class="chakra-image css-uq6vjf"
-          src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
-        />
-      </div>
-      <p
-        class="chakra-text avatar-name css-y52plh"
-      >
-        Amit Raikwar
-      </p>
-    </div>
-    <div
-      class="css-xl42ag"
-    >
-      <div
-        class="chakra-input__group css-5l6ydk"
-        data-group="true"
-      >
-        <input
-          aria-label="password-text-input"
-          class="chakra-input css-1362yyb"
-          maxlength="20"
-          placeholder="Enter Password"
-          type="password"
-          value="Amit"
+          value="1234"
         />
         <div
           class="chakra-input__right-element css-1dn8c1k"
@@ -406,7 +303,7 @@ exports[`UserLogin should show spinner on click on login button 1`] = `
 </div>
 `;
 
-exports[`UserLogin should show spinner on click on login button 2`] = `
+exports[`UserLogin should toggle password visibility on click on user button 1`] = `
 <div>
   <div
     aria-hidden="true"
@@ -502,6 +399,109 @@ exports[`UserLogin should show spinner on click on login button 2`] = `
     </div>
     <p
       class="chakra-text css-1temsah"
+    >
+      Your password is required to enable Touch ID
+    </p>
+  </div>
+</div>
+`;
+
+exports[`UserLogin should update password input field on change event 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class="css-hiebdk"
+  />
+  <div
+    aria-label="user-login-component"
+    class="css-x01k5a"
+  >
+    <div
+      aria-label="user-button"
+      class="css-19huoph"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="avatar-ring css-feb6y1"
+      >
+        <img
+          alt="Profile"
+          class="chakra-image css-uq6vjf"
+          src="https://avatars.githubusercontent.com/u/104697219?s=400&u=7ecc539c268755cfe0409ca5863773bb726387ba&v=4"
+        />
+      </div>
+      <p
+        class="chakra-text avatar-name css-y52plh"
+      >
+        Amit Raikwar
+      </p>
+    </div>
+    <div
+      class="css-xl42ag"
+    >
+      <div
+        class="chakra-input__group css-5l6ydk"
+        data-group="true"
+      >
+        <input
+          aria-label="password-text-input"
+          class="chakra-input css-1362yyb"
+          maxlength="20"
+          placeholder="Enter Password"
+          type="password"
+          value="password-test-text"
+        />
+        <div
+          class="chakra-input__right-element css-1dn8c1k"
+        >
+          <button
+            aria-label="login-button"
+            class="css-df5inp"
+          >
+            <svg
+              fill="currentColor"
+              height="18px"
+              viewBox="0 0 16 16"
+              width="18px"
+            >
+              <path
+                d="M1 8a7 7 0 1014 0A7 7 0 001 8zm15 0A8 8 0 110 8a8 8 0 0116 0zM4.5 7.5a.5.5 0 000 1h5.793l-2.147 2.146a.5.5 0 00.708.708l3-3a.5.5 0 000-.708l-3-3a.5.5 0 10-.708.708L10.293 7.5H4.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="css-6xeous"
+      >
+        <button
+          aria-controls="popover-content-:r7:"
+          aria-expanded="false"
+          aria-haspopup="dialog"
+          aria-label="password-hint-button"
+          class="css-1w9lxxx"
+          id="popover-trigger-:r7:"
+        >
+          ?
+        </button>
+        <div
+          class="chakra-popover__popper css-0"
+          style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+        >
+          <section
+            class="chakra-popover__content css-vqsmka"
+            id="popover-content-:r7:"
+            role="dialog"
+            style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95);"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+    <p
+      class="chakra-text css-13onz60"
     >
       Your password is required to enable Touch ID
     </p>

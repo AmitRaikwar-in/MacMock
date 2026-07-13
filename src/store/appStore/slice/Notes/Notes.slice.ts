@@ -19,6 +19,12 @@ const createNotesSlice: AppStoreSlice<NotesStateSlice> = (set) => ({
     set((state) => {
       state.Notes.notes[newNote.id] = newNote;
     }),
+  pinNote: (id) =>
+    set((state) => {
+      if (state.Notes.notes[id]) {
+        state.Notes.notes[id].pinned = !state.Notes.notes[id].pinned;
+      }
+    }),
 });
 
 export default createNotesSlice;

@@ -3,125 +3,186 @@
 exports[`Windows should render for default values 1`] = `
 <div>
   <div
-    class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
+    data-testid="draggable-provider"
   >
     <div
-      class="css-fjdgft"
+      data-testid="resizable-box"
     >
       <div
-        class="handle css-1q7gku6"
+        class="css-fjdgft"
       >
         <div
-          aria-label="close"
-          class="css-apaxy7"
+          class="handle css-1q7gku6"
         >
-          <p
-            class="chakra-text css-1r0gc73"
+          <div
+            aria-label="close"
+            class="css-apaxy7"
           >
-            x
-          </p>
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              x
+            </p>
+          </div>
+          <div
+            aria-label="minimize"
+            class="css-1oliyf7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              -
+            </p>
+          </div>
+          <div
+            aria-label="maximize"
+            class="css-18q4sxm"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              o
+            </p>
+          </div>
+          <div
+            class="css-1bc9bee"
+          >
+            <div>
+              Top bar
+            </div>
+          </div>
         </div>
         <div
-          aria-label="minimize"
-          class="css-1oliyf7"
+          class="css-1qx9vnh"
         >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            -
-          </p>
-        </div>
-        <div
-          aria-label="maximize"
-          class="css-18q4sxm"
-        >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            o
-          </p>
-        </div>
-        <div
-          class="css-1bc9bee"
-        />
-      </div>
-      <div
-        class="css-1qx9vnh"
-      >
-        <div>
-          Test
+          <div>
+            Test
+          </div>
         </div>
       </div>
     </div>
-    <span
-      class="react-resizable-handle react-resizable-handle-se"
-    />
   </div>
 </div>
 `;
 
-exports[`Windows should render with top bar component values 1`] = `
+exports[`Windows should render maximized window 1`] = `
 <div>
   <div
-    class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
+    data-testid="draggable-provider"
   >
     <div
-      class="css-fjdgft"
+      data-testid="resizable-box"
     >
       <div
-        class="handle css-1q7gku6"
+        class="css-fjdgft"
       >
         <div
-          aria-label="close"
-          class="css-apaxy7"
+          class="css-1q7gku6"
         >
-          <p
-            class="chakra-text css-1r0gc73"
+          <div
+            aria-label="close"
+            class="css-apaxy7"
           >
-            x
-          </p>
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              x
+            </p>
+          </div>
+          <div
+            aria-label="minimize"
+            class="css-1oliyf7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              -
+            </p>
+          </div>
+          <div
+            aria-label="maximize"
+            class="css-18q4sxm"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              o
+            </p>
+          </div>
+          <div
+            class="css-1bc9bee"
+          />
         </div>
         <div
-          aria-label="minimize"
-          class="css-1oliyf7"
-        >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            -
-          </p>
-        </div>
-        <div
-          aria-label="maximize"
-          class="css-18q4sxm"
-        >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            o
-          </p>
-        </div>
-        <div
-          class="css-1bc9bee"
+          class="css-1qx9vnh"
         >
           <div>
-            Top bar
+            Test
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Windows should toggle maximize on double click on title bar 1`] = `
+<div>
+  <div
+    data-testid="draggable-provider"
+  >
+    <div
+      data-testid="resizable-box"
+    >
       <div
-        class="css-1qx9vnh"
+        class="css-fjdgft"
       >
-        <div>
-          Test
+        <div
+          class="css-1q7gku6"
+        >
+          <div
+            aria-label="close"
+            class="css-apaxy7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              x
+            </p>
+          </div>
+          <div
+            aria-label="minimize"
+            class="css-1oliyf7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              -
+            </p>
+          </div>
+          <div
+            aria-label="maximize"
+            class="css-18q4sxm"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              o
+            </p>
+          </div>
+          <div
+            class="css-1bc9bee"
+          />
+        </div>
+        <div
+          class="css-1qx9vnh"
+        >
+          <div>
+            Test
+          </div>
         </div>
       </div>
     </div>
-    <span
-      class="react-resizable-handle react-resizable-handle-se"
-    />
   </div>
 </div>
 `;
@@ -129,60 +190,60 @@ exports[`Windows should render with top bar component values 1`] = `
 exports[`Windows should trigger close on close button press 1`] = `
 <div>
   <div
-    class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
+    data-testid="draggable-provider"
   >
     <div
-      class="css-fjdgft"
+      data-testid="resizable-box"
     >
       <div
-        class="handle css-1q7gku6"
+        class="css-fjdgft"
       >
         <div
-          aria-label="close"
-          class="css-apaxy7"
+          class="handle css-1q7gku6"
         >
-          <p
-            class="chakra-text css-1r0gc73"
+          <div
+            aria-label="close"
+            class="css-apaxy7"
           >
-            x
-          </p>
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              x
+            </p>
+          </div>
+          <div
+            aria-label="minimize"
+            class="css-1oliyf7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              -
+            </p>
+          </div>
+          <div
+            aria-label="maximize"
+            class="css-18q4sxm"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              o
+            </p>
+          </div>
+          <div
+            class="css-1bc9bee"
+          />
         </div>
         <div
-          aria-label="minimize"
-          class="css-1oliyf7"
+          class="css-1qx9vnh"
         >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            -
-          </p>
-        </div>
-        <div
-          aria-label="maximize"
-          class="css-18q4sxm"
-        >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            o
-          </p>
-        </div>
-        <div
-          class="css-1bc9bee"
-        />
-      </div>
-      <div
-        class="css-1qx9vnh"
-      >
-        <div>
-          Test
+          <div>
+            Test
+          </div>
         </div>
       </div>
     </div>
-    <span
-      class="react-resizable-handle react-resizable-handle-se"
-    />
   </div>
 </div>
 `;
@@ -190,60 +251,60 @@ exports[`Windows should trigger close on close button press 1`] = `
 exports[`Windows should trigger maximize on maximize button press 1`] = `
 <div>
   <div
-    class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
+    data-testid="draggable-provider"
   >
     <div
-      class="css-fjdgft"
+      data-testid="resizable-box"
     >
       <div
-        class="handle css-1q7gku6"
+        class="css-fjdgft"
       >
         <div
-          aria-label="close"
-          class="css-apaxy7"
+          class="css-1q7gku6"
         >
-          <p
-            class="chakra-text css-1r0gc73"
+          <div
+            aria-label="close"
+            class="css-apaxy7"
           >
-            x
-          </p>
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              x
+            </p>
+          </div>
+          <div
+            aria-label="minimize"
+            class="css-1oliyf7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              -
+            </p>
+          </div>
+          <div
+            aria-label="maximize"
+            class="css-18q4sxm"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              o
+            </p>
+          </div>
+          <div
+            class="css-1bc9bee"
+          />
         </div>
         <div
-          aria-label="minimize"
-          class="css-1oliyf7"
+          class="css-1qx9vnh"
         >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            -
-          </p>
-        </div>
-        <div
-          aria-label="maximize"
-          class="css-18q4sxm"
-        >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            o
-          </p>
-        </div>
-        <div
-          class="css-1bc9bee"
-        />
-      </div>
-      <div
-        class="css-1qx9vnh"
-      >
-        <div>
-          Test
+          <div>
+            Test
+          </div>
         </div>
       </div>
     </div>
-    <span
-      class="react-resizable-handle react-resizable-handle-se"
-    />
   </div>
 </div>
 `;
@@ -251,60 +312,60 @@ exports[`Windows should trigger maximize on maximize button press 1`] = `
 exports[`Windows should trigger minimize on minimize button press 1`] = `
 <div>
   <div
-    class="react-draggable react-resizable"
-    style="transition: all 0s; transform: translate(0px, 28px)translate(0px,0px); width: 700px; height: 500px;"
+    data-testid="draggable-provider"
   >
     <div
-      class="css-fjdgft"
+      data-testid="resizable-box"
     >
       <div
-        class="handle css-1q7gku6"
+        class="css-fjdgft"
       >
         <div
-          aria-label="close"
-          class="css-apaxy7"
+          class="handle css-1q7gku6"
         >
-          <p
-            class="chakra-text css-1r0gc73"
+          <div
+            aria-label="close"
+            class="css-apaxy7"
           >
-            x
-          </p>
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              x
+            </p>
+          </div>
+          <div
+            aria-label="minimize"
+            class="css-1oliyf7"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              -
+            </p>
+          </div>
+          <div
+            aria-label="maximize"
+            class="css-18q4sxm"
+          >
+            <p
+              class="chakra-text css-1r0gc73"
+            >
+              o
+            </p>
+          </div>
+          <div
+            class="css-1bc9bee"
+          />
         </div>
         <div
-          aria-label="minimize"
-          class="css-1oliyf7"
+          class="css-1qx9vnh"
         >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            -
-          </p>
-        </div>
-        <div
-          aria-label="maximize"
-          class="css-18q4sxm"
-        >
-          <p
-            class="chakra-text css-1r0gc73"
-          >
-            o
-          </p>
-        </div>
-        <div
-          class="css-1bc9bee"
-        />
-      </div>
-      <div
-        class="css-1qx9vnh"
-      >
-        <div>
-          Test
+          <div>
+            Test
+          </div>
         </div>
       </div>
     </div>
-    <span
-      class="react-resizable-handle react-resizable-handle-se"
-    />
   </div>
 </div>
 `;

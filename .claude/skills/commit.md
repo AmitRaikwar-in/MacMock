@@ -20,6 +20,7 @@ When using Claude Code to commit changes:
 ## Examples
 
 ### Initial Commit
+
 ```bash
 git add src/components/NewFeature.tsx
 make commit
@@ -29,6 +30,7 @@ make commit
 ```
 
 ### Amend Commit
+
 ```bash
 git commit --amend
 # Edit the commit message to add:

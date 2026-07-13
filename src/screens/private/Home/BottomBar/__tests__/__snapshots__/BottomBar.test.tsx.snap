@@ -77,232 +77,128 @@ exports[`BottomBar should render correctly to match snapshot 1`] = `
     class="css-9xph1p"
   >
     <div
-      class="css-1l6f575"
-      data-rbd-droppable-context-id="0"
-      data-rbd-droppable-id="droppable-list"
+      data-testid="drag-drop-context"
     >
       <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-launchPad"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Launchpad"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Launchpad"
-        draggable="false"
-        role="button"
-        tabindex="0"
+        class="css-1l6f575"
       >
-        <img
-          alt="Launchpad"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
+        <div
+          aria-label="program-button-launchPad"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Launchpad"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-finder"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Finder"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-notes"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Notes"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-chrome"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Chrome"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-vscode"
+          class="css-16co9uo"
+        >
+          <img
+            alt="VsCode"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-terminal"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Terminal"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-spotify"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Spotify"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-github"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Github"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          aria-label="program-button-settings"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Settings"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
+        <div
+          data-testid="placeholder"
         />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-finder"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Finder"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Finder"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Finder"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
+        <hr
+          aria-orientation="vertical"
+          class="chakra-divider css-kkwhzg"
         />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-notes"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Notes"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Notes"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Notes"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-chrome"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Chrome"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Chrome"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Chrome"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-vscode"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="VsCode"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="VsCode"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="VsCode"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-terminal"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Terminal"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Terminal"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Terminal"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-spotify"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Spotify"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Spotify"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Spotify"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-github"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Github"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Github"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Github"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-describedby="rbd-hidden-text-0-hidden-text-0"
-        aria-label="program-button-settings"
-        class="css-16co9uo"
-        data-rbd-drag-handle-context-id="0"
-        data-rbd-drag-handle-draggable-id="Settings"
-        data-rbd-draggable-context-id="0"
-        data-rbd-draggable-id="Settings"
-        draggable="false"
-        role="button"
-        tabindex="0"
-      >
-        <img
-          alt="Settings"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <hr
-        aria-orientation="vertical"
-        class="chakra-divider css-kkwhzg"
-      />
-      <div
-        aria-label="program-button-numbers"
-        class="css-16co9uo"
-      >
-        <img
-          alt="numbers"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-label="program-button-pages"
-        class="css-16co9uo"
-      >
-        <img
-          alt="pages"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <div
-        aria-label="program-button-xcode"
-        class="css-16co9uo"
-      >
-        <img
-          alt="xcode"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
-      </div>
-      <hr
-        aria-orientation="vertical"
-        class="chakra-divider css-kkwhzg"
-      />
-      <div
-        aria-label="program-button-Bin"
-        class="css-16co9uo"
-      >
-        <img
-          alt="Bin"
-          class="chakra-image css-h67rfo"
-          loading="lazy"
-          src="[object Object]"
-        />
+        <div
+          aria-label="program-button-Bin"
+          class="css-16co9uo"
+        >
+          <img
+            alt="Bin"
+            class="chakra-image css-h67rfo"
+            loading="lazy"
+            src="[object Object]"
+          />
+        </div>
       </div>
     </div>
   </div>

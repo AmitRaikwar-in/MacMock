@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, render, screen, act } from '@testing-library/react';
 import UserLoginComponent from '../UserLogin';
 import { renderHook } from '@testing-library/react-hooks';
 import { loginSelector, processStore } from '@processStore';
@@ -20,12 +20,14 @@ describe('UserLogin', () => {
     expect(screen.getByLabelText('spinner')).toBeDefined();
   });
 
-  it('should show spinner on click on login button', async () => {
+  it('should toggle password visibility on click on user button', async () => {
     const { container } = render(<UserLoginComponent />);
 
     fireEvent.click(screen.getByLabelText('user-button'));
 
-    jest.advanceTimersByTimeAsync(1000);
+    await act(async () => {
+      await jest.advanceTimersByTimeAsync(1000);
+    });
 
     expect(
       screen.queryByText('Your password is required to enable Touch ID')?.style
@@ -34,7 +36,7 @@ describe('UserLogin', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('should be able to enter password on password field', () => {
+  it('should update password input field on change event', () => {
     const { container } = render(<UserLoginComponent />);
 
     fireEvent.change(screen.getByLabelText('password-text-input'), {
@@ -44,17 +46,19 @@ describe('UserLogin', () => {
     expect(container).toMatchSnapshot();
   });
 
-  it('should be able to enter password on password field', async () => {
+  it('should log in when correct password is entered', async () => {
     const { result } = renderHook(() => processStore(loginSelector));
     const { container } = render(<UserLoginComponent />);
 
     expect(result.current.isLoggedIn).toBeFalsy();
     fireEvent.change(screen.getByLabelText('password-text-input'), {
-      target: { value: 'Amit' },
+      target: { value: '1234' },
     });
     fireEvent.click(screen.getByLabelText('login-button'));
 
-    await jest.advanceTimersByTimeAsync(3000);
+    await act(async () => {
+      await jest.advanceTimersByTimeAsync(3000);
+    });
 
     expect(container).toMatchSnapshot();
     expect(result.current.isLoggedIn).toBeTruthy();
