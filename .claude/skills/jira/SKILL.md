@@ -29,13 +29,10 @@ This ruleset defines the standard patterns for interacting with Atlassian Jira. 
 
 ## 3. Active Epics (Project: MAC)
 
-> [!NOTE]
-> Ask the user to confirm or provide the current Epics if none are defined yet. The examples below are placeholders until real Epics are created.
-
 - **MAC-1**: `[Core] Infrastructure & Setup`
-- **MAC-2**: `[Mac] macOS Desktop Features`
-- **MAC-3**: `[Design] Visual Excellence & Theming`
-- **MAC-4**: `[i18n] Localization & Accessibility`
+- **MAC-3**: `[Mac] macOS Desktop Features`
+- **MAC-4**: `[Design] Visual Excellence & Theming`
+- **MAC-5**: `[i18n] Localization & Accessibility`
 
 ## 4. Issue Types & Templates
 
